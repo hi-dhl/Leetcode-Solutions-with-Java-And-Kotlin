@@ -4,6 +4,14 @@
 
 数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM等等，因此在工作的时候，无论在面试还是工作都带来很多帮助，去寻找最优解，Google这几年一直在强力推荐Kotlin，自从用了Kotlin了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择Java、Kotlin，题库会一点点去完善，我会根据算法的类型、题目的难易程度去排序，期待和大家一起成长
 
+## 2020 力扣杯！Code Your Future 春季全国编程大赛
+
+[个人赛排名：https://leetcode-cn.com/contest...](https://leetcode-cn.com/contest/season/2020-spring/ranking/solo/)
+
+| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| :-: | :-: | :-: | :-: | :-: |
+| 01 | [拿硬币]()|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
+
 ## 排序（未编辑）
 
 排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序
