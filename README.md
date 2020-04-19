@@ -10,7 +10,7 @@
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
-| 01 | [拿硬币]()|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
+| 01 | [拿硬币](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB01%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%912020%20%E5%8A%9B%E6%89%A3%E6%9D%AF%EF%BC%9A%E6%8B%BF%E7%A1%AC%E5%B8%81.md)|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
 
 ## 排序（未编辑）
 
@@ -28,6 +28,9 @@
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-:  |   :-:  |   :-:    |   :-:      |
+| 01 | [拿硬币](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB01%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%912020%20%E5%8A%9B%E6%89%A3%E6%9D%AF%EF%BC%9A%E6%8B%BF%E7%A1%AC%E5%B8%81.md)|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
+| 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%91%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
+
 
 ### 链表（未编辑）
 
@@ -50,7 +53,7 @@
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 
-## 二叉树
+# 二叉树
 
 **完全二叉树：** 若二叉树的高度是h，除第h层之外，其他（1~h-1）层的节点数都达到了最大个数，并且第h层的节点都连续的集中在最左边。想到点什么没？实际上，完全二叉树和堆联系比较紧密哈~~~
 
@@ -69,7 +72,7 @@
 
 **平衡二叉树：** 又称 AVL 树。平衡二叉树是二叉搜索树的进化版，所谓平衡二叉树指的是，左右两个子树的高度差的绝对值不超过 1。
 
-**红黑树：**红黑树是每个节点都带颜色的树，节点颜色或是红色或是黑色，红黑树是一种查找树。红黑树有一个重要的性质，从根节点到叶子节点的最长的路径不多于最短的路径的长度的两倍。对于红黑树，插入，删除，查找的复杂度都是O（log N）。
+**红黑树：** 红黑树是每个节点都带颜色的树，节点颜色或是红色或是黑色，红黑树是一种查找树。红黑树有一个重要的性质，从根节点到叶子节点的最长的路径不多于最短的路径的长度的两倍。对于红黑树，插入，删除，查找的复杂度都是O（log N）。
 
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
