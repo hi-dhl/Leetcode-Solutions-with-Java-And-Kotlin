@@ -1,12 +1,10 @@
 # 0xB02【LeetCode-数组】两数之和2 - 输入数组有序
 
-> 访问英文地址需要科学上网
-
 题目来源于 LeetCode 上第 167号（Two Sum II - Input array is sorted）问题：两数之和2 - 输入数组有序。题目难度为 Easy。
 
 * [英文地址：https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
-* [中文地址：https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+* [中文地址：https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 
 ## 题目描述
  
@@ -38,22 +36,20 @@ Explanation: 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2
 ### Java实现
 
 ```
-public class Solution {
-    public int[] twoSum(int[] numbers, int target) {
-        int low = 0;
-        int height = numbers.length-1;
-        while (low< height){
-            int sum = numbers[low]+numbers[height];
-            if(sum == target){
-                return new int[]{low+1,height+1};
-            }else if(sum<target){
-                low++;
-            }else{
-                height--;
-            }
+public int[] twoSum(int[] numbers, int target) {
+    int low = 0;
+    int height = numbers.length - 1;
+    while (low < height) {
+        int sum = numbers[low] + numbers[height];
+        if (sum == target) {
+            return new int[]{low + 1, height + 1};
+        } else if (sum < target) {
+            low++;
+        } else {
+            height--;
         }
-        return new int[2];
     }
+    return new int[2];
 }
 ```
 
@@ -66,15 +62,12 @@ class Solution {
         var low = 0;
         while (low < height) {
             val sum = numbers[low] + numbers[height]
-            if (sum == target) {
-                return intArrayOf(low + 1, height + 1)
-            } else if (sum < target) {
-                low++
-            } else {
-                height--
+            when {
+                sum == target -> return intArrayOf(low + 1, height + 1)
+                sum < target -> low++
+                else -> height--
             }
         }
-
         return intArrayOf()
     }
 }
@@ -110,6 +103,38 @@ public int[] twoSum(int[] numbers, int target) {
         }
         return -1;
     }
+```
+
+### kotlin 实现
+
+```
+class Solution {
+    fun twoSum(numbers: IntArray, target: Int): IntArray {
+
+        numbers.forEachIndexed { i, value ->
+            val index = binarySearch(numbers, i + 1, target - value)
+            if (index != -1) {
+                return intArrayOf(i + 1, index + 1)
+            }
+        }
+
+        return intArrayOf()
+    }
+
+    fun binarySearch(numbers: IntArray, start: Int, target: Int): Int {
+        var low = start
+        var height = numbers.size - 1
+        while (low <= height) {
+            val mind = (low + height) ushr 1
+            when {
+                numbers[mind] == target -> return mind
+                numbers[mind] < target -> low = mind + 1
+                else -> height = mind - 1
+            }
+        }
+        return -1
+    }
+}
 ```
 
 ## 结语
