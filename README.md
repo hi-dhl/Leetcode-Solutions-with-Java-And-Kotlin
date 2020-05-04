@@ -1,5 +1,6 @@
 # Leetcode-Solutions-with-Java-And-Kotlin
 
+
 **仓库状态：持续更新中**
 
 数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM等等，因此在工作的时候，无论在面试还是工作都带来很多帮助，去寻找最优解，Google这几年一直在强力推荐Kotlin，自从用了Kotlin了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择Java、Kotlin，题库会一点点去完善，我会根据算法的类型、题目的难易程度去排序，期待和大家一起成长
@@ -16,9 +17,31 @@
 
 排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序
 
-## 查找（未编辑）
+## 查找（编辑中）
 
-查找：线性查找、树结构查找、散列表查找
+查找：二分查找、线性查找、树结构查找、散列表查找
+
+**二分查找：**
+
+a.假定样本数列中的所有元素都是从小到大排列的。
+b.使用目标元素与样本数列中的中间元素进行大小的比较。
+c.若目标元素等于中间元素，则表示查找成功。
+d.若目标元素小于中间元素，则去中间元素的左侧进行查找，重复步骤b。
+e.若目标元素大于中间元素，则去中间元素的右侧进行查找，重复步骤b。
+f.直到与所有该比较的元素比较完毕依然不相等，则表示查找失败。
+
+| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| :-: | :-:  |   :-:  |   :-:    |   :-:      |
+| 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%91%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
+| 367 | [Valid Perfect Square<br/>有效的完全平方数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC01%E3%80%90LeetCode-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%91%E6%9C%89%E6%95%88%E7%9A%84%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md)| [英文地址](https://leetcode.com/problems/valid-perfect-square/) / [中文地址](https://leetcode-cn.com/problems/valid-perfect-square/)| Java / Kotlin | Easy |
+
+**线性查找：** 
+
+从前往后依次对比需要查找的数据，如果找到对应的元素，则返回元素的位置。
+   a.使用目标元素与样本数列中的第一个元素起依次比较大小;
+   b.若找到与目标元素相等的元素，则表示查找成功；  
+   c.若目标元素与样本数列的所有元素比较完毕也没有找到相等的元素，则表示查找失败。
+
 
 ## 线性表
 
@@ -29,7 +52,7 @@
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-:  |   :-:  |   :-:    |   :-:      |
 | 01 | [拿硬币](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB01%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%912020%20%E5%8A%9B%E6%89%A3%E6%9D%AF%EF%BC%9A%E6%8B%BF%E7%A1%AC%E5%B8%81.md)|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
-| 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%91%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
+| 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%91%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
 
 
 ### 链表（未编辑）
@@ -88,5 +111,10 @@
 | 110 | [Balanced Binary Tree<br/>判断二叉树是不是平衡二叉树](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA08%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E5%88%A4%E6%96%AD%E4%BA%8C%E5%8F%89%E6%A0%91%E6%98%AF%E4%B8%8D%E6%98%AF%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md) | [英文地址](https://leetcode.com/problems/balanced-binary-tree/) / [中文地址](https://leetcode-cn.com/problems/balanced-binary-tree/) | Java / Kotlin | Easy |
 | 222 | [Count Complete Tree Nodes<br/>求二叉树中的节点个数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA10%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E6%B1%82%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0.md) | [英文地址](https://leetcode.com/problems/count-complete-tree-nodes/) / [中文地址](https://leetcode-cn.com/problems/count-complete-tree-nodes/) | Java / Kotlin | Medium |
 | 100 | [same-tree<br/>判断两棵二叉树是否结构相同](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA11%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E5%88%A4%E6%96%AD%E4%B8%A4%E6%A3%B5%E4%BA%8C%E5%8F%89%E6%A0%91%E6%98%AF%E5%90%A6%E7%BB%93%E6%9E%84%E7%9B%B8%E5%90%8C.md) | [英文地址](https://leetcode.com/problems/same-tree/) / [中文地址](https://leetcode-cn.com/problems/same-tree/) | Java / Kotlin | Easy |
+
+## 结语
+
+致力于分享一系列的Android系统源码、逆向分析、算法相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我，一起来学习，期待与你一起成长
+
 
 
