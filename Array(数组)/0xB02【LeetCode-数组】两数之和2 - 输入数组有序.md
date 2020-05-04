@@ -36,20 +36,22 @@ Explanation: 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2
 ### Java实现
 
 ```
-public int[] twoSum(int[] numbers, int target) {
-    int low = 0;
-    int height = numbers.length - 1;
-    while (low < height) {
-        int sum = numbers[low] + numbers[height];
-        if (sum == target) {
-            return new int[]{low + 1, height + 1};
-        } else if (sum < target) {
-            low++;
-        } else {
-            height--;
+public class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        int low = 0;
+        int height = numbers.length - 1;
+        while (low < height) {
+            int sum = numbers[low] + numbers[height];
+            if (sum == target) {
+                return new int[]{low + 1, height + 1};
+            } else if (sum < target) {
+                low++;
+            } else {
+                height--;
+            }
         }
+        return new int[2];
     }
-    return new int[2];
 }
 ```
 
@@ -84,10 +86,11 @@ class Solution {
 ### Java实现
 
 ```
-public int[] twoSum(int[] numbers, int target) {
-        for (int i = 0; i < numbers.length; i++) {
-            int index = binarySearch(numbers, i + 1, target - numbers[i]);
-            if (index != -1) return new int[]{i + 1, index + 1};
+public class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        for (int a = 0; a < numbers.length; a++) {
+            int index = binarySearch(numbers, a + 1, target - numbers[a]);
+            if (index != -1) return new int[]{a + 1, index + 1};
         }
         return new int[2];
     }
@@ -103,6 +106,8 @@ public int[] twoSum(int[] numbers, int target) {
         }
         return -1;
     }
+}
+    
 ```
 
 ### kotlin 实现
