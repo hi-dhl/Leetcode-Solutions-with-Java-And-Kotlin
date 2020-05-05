@@ -1,6 +1,5 @@
 # Leetcode-Solutions-with-Java-And-Kotlin
 
-
 **仓库状态：持续更新中**
 
 数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM等等，因此在工作的时候，无论在面试还是工作都带来很多帮助，去寻找最优解，Google这几年一直在强力推荐Kotlin，自从用了Kotlin了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择Java、Kotlin，题库会一点点去完善，我会根据算法的类型、题目的难易程度去排序，期待和大家一起成长
@@ -34,6 +33,7 @@ f.直到与所有该比较的元素比较完毕依然不相等，则表示查找
 | :-: | :-:  |   :-:  |   :-:    |   :-:      |
 | 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%E3%80%90LeetCode-%E6%95%B0%E7%BB%84%E3%80%91%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
 | 367 | [Valid Perfect Square<br/>有效的完全平方数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC01%E3%80%90LeetCode-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%91%E6%9C%89%E6%95%88%E7%9A%84%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md)| [英文地址](https://leetcode.com/problems/valid-perfect-square/) / [中文地址](https://leetcode-cn.com/problems/valid-perfect-square/)| Java / Kotlin | Easy |
+| 69 | [Sqrt(x)<br/>X的平方根](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC02%E3%80%90LeetCode-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%91X%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md)| [英文地址](https://leetcode.com/problems/sqrtx/) / [中文地址](https://leetcode-cn.com/problems/sqrtx/)| Java / Kotlin | Easy |
 
 **线性查找：** 
 
