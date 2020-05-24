@@ -1,4 +1,4 @@
-# 0xC01【LeetCode-二分查找】有效的完全平方数
+# 0xC01 LeetCode二分查找：有效的完全平方数
 
 题目来源于 LeetCode 上第 367 号（Valid Perfect Square）问题：有效的完全平方数。题目难度为 Easy。
 

@@ -1,4 +1,4 @@
-# 0xB02【LeetCode-数组】两数之和2 - 输入数组有序
+# 0xB02 LeetCode数组：两数之和2 - 输入数组有序
 
 题目来源于 LeetCode 上第 167号（Two Sum II - Input array is sorted）问题：两数之和2 - 输入数组有序。题目难度为 Easy。
 

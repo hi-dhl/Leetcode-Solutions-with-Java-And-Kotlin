@@ -1,4 +1,4 @@
-#【LeetCode-查找】寻找比目标字母大的最小字母
+# 0xC03 LeetCode二分查找：寻找比目标字母大的最小字母
 
 题目来源于 LeetCode 上第 744 号（Find Smallest Letter Greater Than Target）问题：寻找比目标字母大的最小字母。题目难度为 Easy。
 

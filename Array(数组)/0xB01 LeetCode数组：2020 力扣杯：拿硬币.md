@@ -1,4 +1,4 @@
-# 0xB01【LeetCode-数组】2020 力扣杯：拿硬币
+# 0xB01 LeetCode数组：2020 力扣杯：拿硬币
 
 题目来源于 2020 力扣杯！Code Your Future 春季全国编程大赛 01：拿硬币。题目难度为 Easy。
 

@@ -1,4 +1,4 @@
-# 0xC02【LeetCode-二分查找】X的平方根
+# 0xC02 LeetCode二分查找：X的平方根
 
 题目来源于 LeetCode 上第 69号（Sqrt(x)）问题：X的平方根。题目难度为 Easy。
 
