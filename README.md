@@ -131,7 +131,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 ## 结语
 
-致力于分享一系列的Android系统源码、逆向分析、算法相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我，一起来学习，期待与你一起成长
+致力于分享一系列的Android系统源码、逆向分析、算法相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长
 
 
 
