@@ -1,6 +1,4 @@
-# 0xA06 LeetCode二叉树：计算二叉树的最大深度 
-
-> 访问英文地址需要科学上网
+# LeetCode二叉树：计算二叉树的最大深度 
 
 题目来源于 LeetCode 上第 104 号（Maximum Depth of Binary Tree）问题：计算二叉树的最大深度。题目难度为 Easy。
 
@@ -64,6 +62,6 @@ tailrec fun maxDepth(root: TreeNode?): Int {
 
 ## 结语
 
-致力于分享一系列的Android系统源码、逆向分析、算法相关的文章，每篇文章都会反复推敲，如果你同我一样喜欢算法、LeetCode，一起来学习，期待与你一起成长
+致力于分享一系列 Android 系统源码、逆向分析、算法、翻译、Jetpack  源码相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长
 
 
