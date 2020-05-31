@@ -30,12 +30,12 @@ Explanation: The square root of 8 is 2.82842..., and since
 
 ## 思路：二分查找
 
-这道题的思路和 [0xC01【LeetCode-二分查找】有效的完全平方数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC01%E3%80%90LeetCode-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%91%E6%9C%89%E6%95%88%E7%9A%84%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md) 思路相同，大致以下几个步骤
+二分法的解题思路大致以下几个步骤：
 
 * 寻找平方根 x 的区间范围：[low, height]
 * 用二分法在区间 [low, height] 内寻找平方根
-    * 当 left <= right 时：
-    令 mind = (left + right) / 2，square = mind * mind 比较 square 与 x：
+    * 当 low <= height 时：
+    令 mind = (low + height) / 2，square = mind * mind 比较 square 与 x：
         * 如果 square > x，则 height = mind -1。
         * 如果 square < x，则 low = mind + 1。
         * 如果 square == x，即平方根为 mind，返回 mind。
@@ -97,4 +97,6 @@ class Solution {
 ## 结语
 
 致力于分享一系列的Android系统源码、逆向分析、算法相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我，一起来学习，期待与你一起成长
+
+
 
