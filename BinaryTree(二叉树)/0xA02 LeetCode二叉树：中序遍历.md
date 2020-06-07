@@ -1,4 +1,4 @@
-# 0xA02 LeetCode二叉树：中序遍历
+# LeetCode二叉树：中序遍历
 
 题目来源于 LeetCode 上第 94号（Binary Tree Inorder Traversal）问题：二叉树的中序遍历。题目难度为 Medium。
 

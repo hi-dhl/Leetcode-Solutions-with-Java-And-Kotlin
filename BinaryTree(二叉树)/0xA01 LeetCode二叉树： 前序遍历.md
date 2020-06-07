@@ -1,4 +1,4 @@
-# 0xA01 LeetCode二叉树： 前序遍历
+# LeetCode二叉树： 前序遍历
 
 题目来源于 LeetCode 上第 144号（Binary Tree Preorder Traversal）问题：二叉树的前序遍历，题目难度为 Medium。
 
