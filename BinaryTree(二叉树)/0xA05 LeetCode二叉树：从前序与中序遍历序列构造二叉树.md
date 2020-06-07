@@ -1,10 +1,10 @@
 # LeetCode二叉树：从前序与中序遍历序列构造二叉树
 
-题目来源于 LeetCode 上第 105号（Construct Binary Tree from Preorder and Inorder Traversal）问题：从前序与中序遍历序列构造二叉树。题目难度为 Medium。
+题目来源于 LeetCode 上第 105号（Construct Binary Tree from Preorder and Inorder Traversal）问题：从前序与中序遍历序列构造二叉树。题目难度为 Medium。这道题目和 [剑指offer： 07 重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) 一样
 
 * [英文地址：https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-
 * [中文地址：https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+* [剑指offer 07 重建二叉树：https://leetcode-cn.com/problems/zhong-jian......](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)
 
 ## 题目描述
 
@@ -63,47 +63,12 @@ Return the following binary tree:
 * 在由左子树中的元素组成的子数组上递归调用
 * 在由右子树中的元素组成的子数组上递归地调用
 
-### Java实现
+**复杂度分析：**
 
-```
-class Solution {
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-        if (preorder.length <= 0 || inorder.length <= 0) {
-            return null;
-        }
+* 时间复杂度：O(n), 遍历每一个节点，重建二叉树
+* 空间复杂度：O(n)，需要存储建立的二叉树
 
-        int key = preorder[0];
-        TreeNode root = new TreeNode(key);
-        if (preorder.length == 1) {
-            return root;
-        }
-
-        int index = getRootIndex(inorder, key);
-        if (index > 0 || index < preorder.length) {
-            int[] pre = Arrays.copyOfRange(preorder, 1, index + 1);
-            int[] inor = Arrays.copyOfRange(inorder, 0, index);
-            root.left = buildTree(pre, inor);
-            
-            pre = Arrays.copyOfRange(preorder, index + 1, preorder.length);
-            inor = Arrays.copyOfRange(inorder, index + 1, inorder.length);
-            root.right = buildTree(pre, inor);
-        }
-
-        return root;
-    }
-
-    private final int getRootIndex(int[] inorder, int key) {
-        for (int i = 0; i < preorder.length; i++) {
-            if (preorder[i] == key) {
-                return i;
-            }
-        }
-        return -1;
-    }
-}
-```
-
-### Kotlin尾递归实现
+### Kotlin 尾递归实现
 
 ```
 class Solution {
@@ -124,6 +89,7 @@ class Solution {
 
         val index = getRootIndex(inorder, key)
         if (index > 0 || index < preorder.size) {
+            // 计算左子树，所以根节点除外，从下标1开始
             var pre = Arrays.copyOfRange(preorder, 1, index + 1)
             var inor = Arrays.copyOfRange(inorder, 0, index)
             root.left = tailrecOrder(pre, inor)
@@ -136,13 +102,54 @@ class Solution {
         return root
     }
 
-    inline fun getRootIndex(inorder: IntArray, key: Int): Int {
+    fun getRootIndex(inorder: IntArray, key: Int): Int {
         inorder.forEachIndexed { index, item ->
             if (item == key) {
                 return index
             }
         }
         return -1
+    }
+}
+```
+
+### Java 实现
+
+```
+class Solution {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        if (preorder.length <= 0 || inorder.length <= 0) {
+            return null;
+        }
+
+        int key = preorder[0];
+        TreeNode root = new TreeNode(key);
+        if (preorder.length == 1) {
+            return root;
+        }
+
+        int index = getRootIndex(inorder, key);
+        if (index > 0 || index < preorder.length) {
+            // 计算左子树，所以根节点除外，从下标1开始
+            int[] pre = Arrays.copyOfRange(preorder, 1, index + 1);
+            int[] inor = Arrays.copyOfRange(inorder, 0, index);
+            root.left = buildTree(pre, inor);
+            
+            pre = Arrays.copyOfRange(preorder, index + 1, preorder.length);
+            inor = Arrays.copyOfRange(inorder, index + 1, inorder.length);
+            root.right = buildTree(pre, inor);
+        }
+
+        return root;
+    }
+
+    private final int getRootIndex(int[] inorder, int key) {
+        for (int i = 0; i < preorder.length; i++) {
+            if (preorder[i] == key) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
 ```
