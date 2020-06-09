@@ -1,11 +1,18 @@
-# Leetcode-Solutions-with-Java-And-Kotlin
+# <p align="center"> Leetcode-Solutions-with-Java-And-Kotlin </p>
+
+<p align="center"> 仓库状态：持续更新中 </p>
+
+<p align="center"> 题目进度：AC 70 题 </p>
+
+<p align="center"> 仓库题解进度：二叉树(11)、剑指offer(5)、二分查找(3)、线性查找(1)、数组(2)、链表(1) </p>
+
+
+
+<p align="center">
+<a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
+</p>
 
 ![](http://cdn.51git.cn/2020-05-31-15902373255635.jpg)
-
-**仓库状态：持续更新中**
-
-* 题目进度：AC 70 题
-* 仓库题解进度：二叉树(11)、剑指offer(5)、二分查找(3)、线性查找(1)、数组(2)、链表(1)
 
 数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM 等等，因此无论在面试还是工作都带来很多帮助
 
