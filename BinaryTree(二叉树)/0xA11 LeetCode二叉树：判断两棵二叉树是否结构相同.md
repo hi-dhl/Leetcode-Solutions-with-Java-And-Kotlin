@@ -54,7 +54,7 @@ if (p == null || q == null) {
     return false;
 }
 
-if (p != q) {
+if (p.val != q.val) {
     return false;
 }
 ```
