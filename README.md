@@ -2,11 +2,9 @@
 
 <p align="center"> 仓库状态：持续更新中 </p>
 
-<p align="center"> 题目进度：AC 70 题 </p>
+<p align="center"> 题目进度：AC 73 题 </p>
 
-<p align="center"> 仓库题解进度：二叉树(11)、剑指offer(5)、二分查找(3)、线性查找(1)、数组(2)、链表(1) </p>
-
-
+<p align="center"> 仓库题解进度：剑指offer(7)、二叉树(11)、二分查找(3)、线性查找(1)、数组(2)、链表(1) </p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -36,6 +34,8 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 05 | [替换空格](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF05%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md)| [中文地址](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)| Java / Kotlin | Easy |
 | 06 | [从尾到头打印链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF06%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md)| [中文地址](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)| Java / Kotlin | Easy |
 | 07 | [重建二叉树 ](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA05%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md)| [中文地址](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)| Java / Kotlin | Easy |
+| 09 | [用两个栈实现队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF09%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)| Java / Kotlin | Easy |
+| 10 | [斐波那契数列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)| Java / Kotlin | Easy |
 
 ## 排序（持续更新中）
 
@@ -119,6 +119,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | :-: | :-:  |   :-:  |   :-:    |   :-:      | 
 | 01 | [拿硬币](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB01%20LeetCode%E6%95%B0%E7%BB%84%EF%BC%9A2020%20%E5%8A%9B%E6%89%A3%E6%9D%AF%EF%BC%9A%E6%8B%BF%E7%A1%AC%E5%B8%81.md)|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
 | 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%20LeetCode%E6%95%B0%E7%BB%84%EF%BC%9A%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
+| 10 | [斐波那契数列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)| Java / Kotlin | Easy |
 
 ### 链表（持续更新中）
 
@@ -135,6 +136,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
+| 09 | [用两个栈实现队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF09%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)| Java / Kotlin | Easy |
 
 ### 队列（持续更新中）
 
@@ -145,7 +147,8 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 ## 结语
 
-致力于分享一系列的Android系统源码、逆向分析、算法相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长
+致力于分享一系列 Android 系统源码、逆向分析、算法、翻译、Jetpack  源码相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解 [Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin) 和  Android 10 源码分析 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)，一起来学习，期待与你一起成长
+
 
 
 
