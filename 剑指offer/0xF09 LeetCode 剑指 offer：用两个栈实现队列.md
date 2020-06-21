@@ -1,6 +1,6 @@
 # LeetCode 剑指 offer：用两个栈实现队列
 
-题目来源于 LeetCode 上第 09 号问题：用两个栈实现队列。题目难度为 Easy。和 主站 [509](https://leetcode-cn.com/problems/fibonacci-number/) 号问题相同。
+题目来源于 LeetCode 剑指 offer 上第 09 号问题：用两个栈实现队列。题目难度为 Easy。和 主站 [509](https://leetcode-cn.com/problems/fibonacci-number/) 号问题相同。
 
 * [中文地址：https://leetcode-cn.com/problems/yong......](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)。
 
@@ -50,6 +50,11 @@
 
  * Stack 1 元素 [1，2，3，4] pop 出来放到 Stack 2 中，Stack 2 中的元素为 [4，3，2，1]。
  * 栈是后进先出的结构，然后依次弹出 Stack 2 中的元素，即输出结果为：[1， 2，3，4]。
+
+**复杂度分析：**
+
+* 时间复杂度：O(N)，当有 N 个元素时插入元素和弹出元素时间都是线性的
+* 空间复杂度：O(N)，需要额外的空间存储已有元素 
 
 ### Koltin 实现
 

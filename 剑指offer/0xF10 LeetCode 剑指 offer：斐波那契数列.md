@@ -1,6 +1,6 @@
 # LeetCode 剑指 offer：斐波那契数列
 
-题目来源于 LeetCode 上第 10 号问题：斐波那契数列。题目难度为 Easy。
+题目来源于 LeetCode 剑指 offer 上第 10 号问题：斐波那契数列。题目难度为 Easy。
 
 * [中文地址：https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
 
@@ -47,6 +47,11 @@ F(N) = F(N - 1) + F(N - 2)
 ```
 
 PS: 需要注意的是，每次计算的结果需要取模
+
+**复杂度分析：**
+
+* 时间复杂度：O(N)，当 F(N) 时需要循环 N 次，即时间复杂度为 O(N)
+* 空间复杂度：O(N)，需要额外的空间存储已有元素
 
 ### Kotlin 实现
 
