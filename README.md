@@ -3,9 +3,9 @@
 
 <p align="center"> 仓库状态：持续更新中 </p>
 
-<p align="center"> 题目进度：AC 73 题 </p>
+<p align="center"> 做题进度：AC 80 题 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(7)、二叉树(11)、二分查找(3)、线性查找(1)、数组(2)、链表(1) </p>
+<p align="center"> 仓库题解进度：剑指offer(9)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1) </p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -37,6 +37,8 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 07 | [重建二叉树 ](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA05%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md)| [中文地址](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)| Java / Kotlin | Easy |
 | 09 | [用两个栈实现队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF09%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)| Java / Kotlin | Easy |
 | 10 | [斐波那契数列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)| Java / Kotlin | Easy |
+| 10.2 | [青蛙跳台阶问题](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10.2%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md)| [中文地址](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)| Java / Kotlin | Easy |
+| 11 | [旋转数组的最小数字](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF11%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)| [中文地址](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)| Java / Kotlin | Easy |
 
 ## 排序（持续更新中）
 
@@ -62,6 +64,8 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 367 | [Valid Perfect Square<br/>有效的完全平方数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC01%20LeetCode%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%EF%BC%9A%E6%9C%89%E6%95%88%E7%9A%84%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md)| [英文地址](https://leetcode.com/problems/valid-perfect-square/) / [中文地址](https://leetcode-cn.com/problems/valid-perfect-square/)| Java / Kotlin | Easy |
 | 69 | [Sqrt(x)<br/>X的平方根](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC02%20LeetCode%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%EF%BC%9AX%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md)| [英文地址](https://leetcode.com/problems/sqrtx/) / [中文地址](https://leetcode-cn.com/problems/sqrtx/)| Java / Kotlin | Easy |
 | 744 | [Find Smallest Letter Greater Than Target<br/>寻找比目标字母大的最小字母](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC03%20LeetCode%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%EF%BC%9A%E5%AF%BB%E6%89%BE%E6%AF%94%E7%9B%AE%E6%A0%87%E5%AD%97%E6%AF%8D%E5%A4%A7%E7%9A%84%E6%9C%80%E5%B0%8F%E5%AD%97%E6%AF%8D.md)| [英文地址](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) / [中文地址](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target/)| Java / Kotlin | Easy |
+| 11 | [旋转数组的最小数字](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF11%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)| [中文地址](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)| Java / Kotlin | Easy |
+
 
 ### 线性查找（持续更新中）
 
@@ -121,6 +125,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 01 | [拿硬币](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB01%20LeetCode%E6%95%B0%E7%BB%84%EF%BC%9A2020%20%E5%8A%9B%E6%89%A3%E6%9D%AF%EF%BC%9A%E6%8B%BF%E7%A1%AC%E5%B8%81.md)|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
 | 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%20LeetCode%E6%95%B0%E7%BB%84%EF%BC%9A%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
 | 10 | [斐波那契数列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)| Java / Kotlin | Easy |
+| 10.2 | [青蛙跳台阶问题](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10.2%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md)| [中文地址](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)| Java / Kotlin | Easy |
 
 ### 链表（持续更新中）
 
