@@ -1,7 +1,7 @@
 
 # <p align="center"> Leetcode-Solutions-with-Java-And-Kotlin </p>
 
-<p align="center"> 仓库状态：持续更新中 </p>
+<p align="center"> 仓库持续更新中，如果对你有帮助，请在右上角 star 一下</p>
 
 <p align="center"> 做题进度：AC 81 题 </p>
 
@@ -26,7 +26,9 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长。
 
-## LeetCode剑指offer（持续更新中）
+## 剑指 offer（持续更新中）
+
+剑指 offer 涵盖了以上所有分类的题目，是面试必刷题系列之一，笔者正努力刷完所有题目，然后对每题进行分类，希望可以帮助每个求职找工作的同学。
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: | 
