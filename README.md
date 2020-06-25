@@ -3,9 +3,9 @@
 
 <p align="center"> 仓库状态：持续更新中 </p>
 
-<p align="center"> 做题进度：AC 80 题 </p>
+<p align="center"> 做题进度：AC 81 题 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(9)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1) </p>
+<p align="center"> 仓库题解进度：剑指offer(10)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、动态规划(1)，每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度。 </p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -13,18 +13,18 @@
 
 ![](http://cdn.51git.cn/2020-05-31-15902373255635.jpg)
 
-数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM 等等，因此无论在面试还是工作都带来很多帮助
+数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM 等等，因此无论在面试还是工作都带来很多帮助。
 
-Google 这几年一直在强力推荐 Kotlin，自从用了 Kotlin 了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择 **Java、Kotlin**，目前已经 AC 了 70 题左右，题库会一点点去完善
+Google 这几年一直在强力推荐 Kotlin，自从用了 Kotlin 了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择 **Java、Kotlin**，目前已经 AC 了 70 题左右，题库会一点点去完善。
 
-LeetCode 我现在正式从国际版切换到国内版，因为国内版本现在越做越好了，题库也更加完善，除了基本的算法、数据库、Shell、多线程之外，还有程序员面试宝典、剑指 offer 系列题目，另外不仅可以看全球排名，还可以看国内排名
+LeetCode 我现在正式从国际版切换到国内版，因为国内版本现在越做越好了，题库也更加完善，除了基本的算法、数据库、Shell、多线程之外，还有程序员面试宝典、剑指 offer 系列题目，另外不仅可以看全球排名，还可以看国内排名。
 
-LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每个人的精力有限，不可能刷完所有题目，因此我会按照经典类型题目去分类、和题目的难易程度去排序
+LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每个人的精力有限，不可能刷完所有题目，因此我会按照经典类型题目去分类、和题目的难易程度去排序。
 
 * 数据结构： 数组、栈、队列、字符串、链表、树……
 * 算法： 查找算法、搜索算法、位运算、排序、数学、……
 
-每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长
+每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长。
 
 ## LeetCode剑指offer（持续更新中）
 
@@ -39,10 +39,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 10 | [斐波那契数列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)| Java / Kotlin | Easy |
 | 10.2 | [青蛙跳台阶问题](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10.2%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md)| [中文地址](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)| Java / Kotlin | Easy |
 | 11 | [旋转数组的最小数字](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF11%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)| [中文地址](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)| Java / Kotlin | Easy |
-
-## 排序（持续更新中）
-
-排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序
+| 12 | [矩阵中的路径](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF12%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md)| [中文地址](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)| Java / Kotlin | Medium |
 
 ## 查找
 
@@ -147,6 +144,20 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 ### 队列（持续更新中）
 
 队列：普通队列、双端队列、阻塞队列、并发队列、阻塞并发队列
+
+| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| :-: | :-: | :-: | :-: | :-: |
+
+### 动态规划（持续更新中）
+
+
+| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| :-: | :-: | :-: | :-: | :-: |
+| 12(offer) | [矩阵中的路径](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF12%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md)| [中文地址](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)| Java / Kotlin | Medium |
+
+## 排序（持续更新中）
+
+排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
