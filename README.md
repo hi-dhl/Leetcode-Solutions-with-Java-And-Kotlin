@@ -3,9 +3,9 @@
 
 <p align="center"> 仓库持续更新中，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 做题进度：AC 81 题 </p>
+<p align="center"> 做题进度：AC 82 题 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(10)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、动态规划(1)，每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度。 </p>
+<p align="center"> 仓库题解进度：剑指offer(11)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(1)，每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度。 </p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -28,7 +28,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 ## 剑指 offer（持续更新中）
 
-    剑指 offer 涵盖了以上所有分类的题目，是面试必刷题系列之一，笔者正努力刷完所有题目，然后对每题进行分类，希望可以帮助每个求职找工作的同学。
+剑指 offer 涵盖了以上所有分类的题目，是面试必刷题系列之一，笔者正努力刷完所有题目，然后对每题进行分类，希望可以帮助每个求职找工作的同学。
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: | 
@@ -42,6 +42,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 10.2 | [青蛙跳台阶问题](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF10.2%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md)| [中文地址](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)| Java / Kotlin | Easy |
 | 11 | [旋转数组的最小数字](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF11%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)| [中文地址](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)| Java / Kotlin | Easy |
 | 12 | [矩阵中的路径](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF12%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md)| [中文地址](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)| Java / Kotlin | Medium |
+| 13 | [机器人的运动范围](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF13%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md)| [中文地址](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)| Java / Kotlin | Medium |
 
 ## 查找
 
@@ -142,6 +143,15 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 09 | [用两个栈实现队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF09%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)| Java / Kotlin | Easy |
+
+## 搜索（持续更新中）
+
+搜索：深度优先搜索、广度优先搜索
+
+| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| :-: | :-: | :-: | :-: | :-: |
+| 13 | [机器人的运动范围](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF13%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md)| [中文地址](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)| Java / Kotlin | Medium |
+
 
 ### 队列（持续更新中）
 
