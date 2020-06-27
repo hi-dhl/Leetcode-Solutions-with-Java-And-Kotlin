@@ -28,7 +28,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 ## 剑指 offer（持续更新中）
 
-剑指 offer 涵盖了以上所有分类的题目，是面试必刷题系列之一，笔者正努力刷完所有题目，然后对每题进行分类，希望可以帮助每个求职找工作的同学。
+    剑指 offer 涵盖了以上所有分类的题目，是面试必刷题系列之一，笔者正努力刷完所有题目，然后对每题进行分类，希望可以帮助每个求职找工作的同学。
 
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: | 
@@ -168,6 +168,13 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 致力于分享一系列 Android 系统源码、逆向分析、算法、翻译、Jetpack  源码相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解 [Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin) 和  Android 10 源码分析 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)，一起来学习，期待与你一起成长
 
+### Android10-Source-Analysis
+
+正在写一系列的 Android 10 源码分析的文章，了解系统源码，不仅有助于分析问题，在面试过程中，对我们也是非常有帮助的，如果你同我一样喜欢研究 Android 源码，可以关注我 GitHub 上的 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)。
+
+### Technical-Article-Translation
+
+目前正在整理和翻译一系列精选国外的技术文章，不仅仅是翻译，很多优秀的英文技术文章提供了很好思路和方法，每篇文章都会有**译者思考**部分，对原文的更加深入的解读，可以关注我 GitHub 上的 [Technical-Article-Translation](https://github.com/hi-dhl/Technical-Article-Translation)。
 
 
 
