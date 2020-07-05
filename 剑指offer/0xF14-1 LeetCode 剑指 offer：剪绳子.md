@@ -1,8 +1,10 @@
 # 0xF14-1 LeetCode 剑指 offer：剪绳子
 
-题目来源于 `LeetCode` 剑指 `offer` 第 `14-1` 号问题：剪绳子。题目难度为 `Medium`。
+题目来源于 `LeetCode` 剑指 `offer` 第 `14-1` 号问题：剪绳子。题目难度为 `Medium`。和第 [343 号问题（整数拆分）](https://leetcode-cn.com/problems/integer-break/) 相同
 
 * [中文地址：https://leetcode-cn.com/problems/jian-sheng-zi-lcof](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)
+* [整数拆分-英文地址：https://leetcode.com/problems/integer-break/](https://leetcode.com/problems/integer-break/) 
+* [整数拆分-中文地址：https://leetcode-cn.com/problems/integer-break/](https://leetcode-cn.com/problems/integer-break/) 
 
 ## 题目描述
 
