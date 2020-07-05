@@ -3,9 +3,9 @@
 
 <p align="center"> 仓库持续更新中，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 做题进度：AC 82 题 </p>
+<p align="center"> 做题进度：AC 84 题 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(11)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(1)，每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度。 </p>
+<p align="center"> 仓库题解进度：剑指offer(12)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(3)，每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度。 </p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -43,6 +43,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 11 | [旋转数组的最小数字](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF11%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md)| [中文地址](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)| Java / Kotlin | Easy |
 | 12 | [矩阵中的路径](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF12%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md)| [中文地址](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)| Java / Kotlin | Medium |
 | 13 | [机器人的运动范围](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF13%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md)| [中文地址](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)| Java / Kotlin | Medium |
+| 14 | [剪绳子](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-1%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [中文地址](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)| Java / Kotlin | Medium |
 
 ## 查找
 
@@ -166,6 +167,8 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 12(offer) | [矩阵中的路径](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF12%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md)| [中文地址](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)| Java / Kotlin | Medium |
+| 14(offer) | [剪绳子](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-1%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [中文地址](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)| Java / Kotlin | Medium |
+| 343 | [整数拆分](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-1%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [英文地址](https://leetcode.com/problems/integer-break/) / [中文地址](https://leetcode-cn.com/problems/integer-break/)| Java / Kotlin | Medium |
 
 ## 排序（持续更新中）
 
