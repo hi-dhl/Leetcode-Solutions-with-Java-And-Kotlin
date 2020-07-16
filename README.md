@@ -11,7 +11,7 @@
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
 </p>
 
-![](http://cdn.51git.cn/2020-05-31-15902373255635.jpg)
+![kotlin-vs-java-leetcode](http://cdn.51git.cn/2020-07-16-kotlin-vs-java-leetcode.png)
 
 数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM 等等，因此无论在面试还是工作都带来很多帮助。
 
