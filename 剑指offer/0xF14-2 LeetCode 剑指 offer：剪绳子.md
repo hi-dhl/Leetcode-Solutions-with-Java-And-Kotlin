@@ -1,6 +1,6 @@
-# 0xF14-1 LeetCode 剑指 offer：剪绳子
+# 0xF14-2 LeetCode 剑指 offer：剪绳子
 
-题目来源于 `LeetCode` 剑指 `offer` 第 `14-1` 号问题：剪绳子。题目难度为 `Medium`。和第 [343 号问题（整数拆分）](https://leetcode-cn.com/problems/integer-break/) 相同
+题目来源于 `LeetCode` 剑指 `offer` 第 `14-2` 号问题：剪绳子。题目难度为 `Medium`。和第 [343 号问题（整数拆分）](https://leetcode-cn.com/problems/integer-break/) 相同
 
 * [中文地址：https://leetcode-cn.com/problems/jian-sheng-zi-lcof](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)
 * [整数拆分-英文地址：https://leetcode.com/problems/integer-break/](https://leetcode.com/problems/integer-break/) 
@@ -9,6 +9,8 @@
 ## 题目描述
 
 给你一根长度为 n 的绳子，请把绳子剪成整数长度的 m 段（m、n都是整数，n>1并且m>1），每段绳子的长度记为 `k[0],k[1]...k[m-1]` 。请问 `k[0] * k[1] * ... * k[m-1]` 可能的最大乘积是多少？例如，当绳子的长度是8时，我们把它剪成长度分别为2、3、3的三段，此时得到的最大乘积是18。
+
+答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
 
 **示例 1：**
 
@@ -28,9 +30,11 @@
 
 **提示：**
 
-* 2 <= n <= 58
+* 2 <= n <= 1000
 
 ## 思路：
+
+**注意：** 题目说了要做取模运算，凡是这种题，一定要注意精度问题。
 
 一绳子长度为 n，假设这条绳子被分为 2 段或者 3 段。按照经验切分成 3 段比切分成 2 段的乘积要大，但是也有少数情况切分成 2 段比 3 段乘积大。
 
@@ -48,21 +52,19 @@
 | 7 | 3 + 4 ------> 3 x dp[7-3] | dp[7] = 12 |
 | 8 | 3 + 5 ------> 3 x dp[8-3] | dp[8] = 18 |
 
-当 n >= 7 时可转化为多个短绳（长度 1~6）；其结果满足公式为 dp [n] = 3 * dp[n - 3]
+当 n >= 7 时可转化为多个短绳（长度 1~6）；其结果满足公式为 dp [n] = (dp[n - 3] * 3) % 1000000007
 
 **复杂度分析：**
 
 * 时间复杂度：`O(N)`，长度为 N 的绳子，需要计算 [1,n] 累计的最大值，故时间复杂度为 `O(N)`
 * 空间复杂度：`O(N)`，需要建立长度为 N 的数组，存储每次计算的值，所以空间复杂度为 `O(N)`
 
-
 ### Koltin 实现
 
 ```
 class Solution {
     fun cuttingRope(n: Int): Int {
-        val dp = IntArray(if (n < 7) 8 else n + 1)
-        dp[1] = 1
+        val dp = LongArray(if (n < 7) 8 else n + 1)
         dp[2] = 1
         dp[3] = 2
         dp[4] = 4
@@ -70,9 +72,9 @@ class Solution {
         dp[6] = 9
         dp[7] = 12
         for (i in 8..n) {
-            dp[i] = 3 * dp[i - 3]
+            dp[i] = (dp[i - 3] * 3) % 1000000007
         }
-        return dp[n]
+        return dp[n].toInt()
     }
 }
 ```
@@ -80,15 +82,12 @@ class Solution {
 ### Java 实现
 
 ```
-public class Solution {
-
+class Solution {
     public int cuttingRope(int n) {
         int m = n;
-        if (n < 7) {
-            n = 7;
-        }
-        int[] dp = new int[n + 1];
-        dp[1] = 1;
+        if (n < 7) n = 7;
+
+        long[] dp = new long[n + 1];
         dp[2] = 1;
         dp[3] = 2;
         dp[4] = 4;
@@ -96,9 +95,10 @@ public class Solution {
         dp[6] = 9;
         dp[7] = 12;
         for (int i = 8; i <= n; i++) {
-            dp[i] = 3 * dp[i - 3];
+            dp[i] = (dp[i - 3] * 3) % 1000000007;
+
         }
-        return dp[m];
+        return (int) dp[m];
     }
 }
 ```
