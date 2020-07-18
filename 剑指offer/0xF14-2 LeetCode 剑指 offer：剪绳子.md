@@ -2,7 +2,7 @@
 
 题目来源于 `LeetCode` 剑指 `offer` 第 `14-2` 号问题：剪绳子。题目难度为 `Medium`。和第 [343 号问题（整数拆分）](https://leetcode-cn.com/problems/integer-break/) 相同
 
-* [中文地址：https://leetcode-cn.com/problems/jian-sheng-zi-lcof](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)
+* [中文地址：https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)
 * [整数拆分-英文地址：https://leetcode.com/problems/integer-break/](https://leetcode.com/problems/integer-break/) 
 * [整数拆分-中文地址：https://leetcode-cn.com/problems/integer-break/](https://leetcode-cn.com/problems/integer-break/) 
 
