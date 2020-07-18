@@ -1,11 +1,13 @@
 
 # <p align="center"> Leetcode-Solutions-with-Java-And-Kotlin </p>
 
-<p align="center"> 仓库<b>每周末</b>持续更新，如果对你有帮助，请在右上角 star 一下</p>
+<p align="center"> 仓库 <b>每周末</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 做题进度：AC 84 题 </p>
+<p align="center"> 做题进度：AC 84 题，每道题目都会用 Java 和 kotlin 去实现</p>
 
-<p align="center"> 仓库题解进度：剑指offer(13)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)，每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度。 </p>
+<p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码，源代码在 <b> 00-code(源代码) </b> 目录下 </p>
+
+<p align="center"> 仓库题解进度：剑指offer(13)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)</p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
