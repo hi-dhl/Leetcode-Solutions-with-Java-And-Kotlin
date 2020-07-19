@@ -7,7 +7,7 @@
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码，源代码在 <b> 00-code(源代码) </b> 目录下 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(13)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)</p>
+<p align="center"> 仓库题解进度：剑指offer(13)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)、位运算(1)</p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
