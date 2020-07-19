@@ -2,7 +2,7 @@
 
 题目来源于 `LeetCode` 剑指 `offer` 第 `15` 号问题：二进制中 1 的个数。题目难度为 `Easy`。和第 [191 号问题（位1的个数）](https://leetcode-cn.com/problems/number-of-1-bits/) 相同
 
-* [中文地址：https://leetcode-cn.com/problems/jian-sheng-zi-lcof](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)
+* [中文地址：https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
 * [191 号问题-英文地址：https://leetcode.com/problems/number-of-1-bits/](https://leetcode.com/problems/number-of-1-bits/) 
 * [191 号问题-中文地址：https://leetcode-cn.com/problems/number-of-1-bits/](https://leetcode-cn.com/problems/number-of-1-bits/) 
 
