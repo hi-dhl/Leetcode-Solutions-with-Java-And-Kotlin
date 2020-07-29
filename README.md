@@ -3,11 +3,11 @@
 
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 做题进度：AC 86 题，每道题目都会用 Java 和 kotlin 去实现</p>
+<p align="center"> 做题进度：AC 87 题，每道题目都会用 Java 和 kotlin 去实现</p>
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码，源代码在 <b> 00-code(源代码) </b> 目录下 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(15)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)、位运算(2)</p>
+<p align="center"> 仓库题解进度：剑指offer(15)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)、位运算(2)、字符串(1)</p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -32,7 +32,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 剑指 offer 涵盖了以上所有分类的题目，是面试必刷题系列之一，笔者正努力刷完所有题目，然后对每题进行分类，希望可以帮助每个求职找工作的同学。
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: | 
 | 03 | [数组中重复的数字](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF01%20LeetCode%E5%89%91%E6%8C%87offer%EF%BC%9A%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md)|  [中文地址](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)| Java / Kotlin | Easy |
 | 04 | [二维数组中的查找](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF04%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md)| [中文地址](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)| Java / Kotlin | Easy |
@@ -65,7 +65,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 5. 若目标元素大于中间元素，则去中间元素的右侧进行查找，重复步骤 2。
 6. 直到与所有该比较的元素比较完毕依然不相等，则表示查找失败。
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-:  |   :-:  |   :-:    |   :-:      |
 | 367 | [Valid Perfect Square<br/>有效的完全平方数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC01%20LeetCode%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%EF%BC%9A%E6%9C%89%E6%95%88%E7%9A%84%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md)| [英文地址](https://leetcode.com/problems/valid-perfect-square/) / [中文地址](https://leetcode-cn.com/problems/valid-perfect-square/)| Java / Kotlin | Easy |
 | 69 | [Sqrt(x)<br/>X的平方根](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/binarySearch(%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)/0xC02%20LeetCode%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%EF%BC%9AX%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md)| [英文地址](https://leetcode.com/problems/sqrtx/) / [中文地址](https://leetcode-cn.com/problems/sqrtx/)| Java / Kotlin | Easy |
@@ -81,7 +81,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
    2. 若找到与目标元素相等的元素，则表示查找成功；  
    3. 若目标元素与样本数列的所有元素比较完毕也没有找到相等的元素，则表示查找失败。
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-:  |   :-:  |   :-:    |   :-:      |
 | 04(offer) | [二维数组中的查找](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF04%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md)| [中文地址](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)| Java / Kotlin | Easy |
 
@@ -106,7 +106,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 **红黑树：** 红黑树是每个节点都带颜色的树，节点颜色或是红色或是黑色，红黑树是一种查找树。红黑树有一个重要的性质，从根节点到叶子节点的最长的路径不多于最短的路径的长度的两倍。对于红黑树，插入，删除，查找的复杂度都是O（log N）。
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 144 | [Binary Tree Preorder Traversal<br/>二叉树前序遍历](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA01%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%20%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md)| [英文地址](https://leetcode.com/problems/binary-tree-preorder-traversal/) / [中文地址](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)| Java / Kotlin | Medium |
 | 94 | [Binary Tree Inorder Traversal<br/>二叉树中序遍历](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA02%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md) | [英文地址](https://leetcode.com/problems/binary-tree-inorder-traversal/) / [中文地址](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Java / Kotlin | Medium |
@@ -128,7 +128,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 ### 数组以及数字（持续更新中）
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-:  |   :-:  |   :-:    |   :-:      | 
 | 01 | [拿硬币](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB01%20LeetCode%E6%95%B0%E7%BB%84%EF%BC%9A2020%20%E5%8A%9B%E6%89%A3%E6%9D%AF%EF%BC%9A%E6%8B%BF%E7%A1%AC%E5%B8%81.md)|  [中文地址](https://leetcode-cn.com/contest/season/2020-spring/problems/na-ying-bi/)| Java / Kotlin | Easy |
 | 167 | [Two Sum II - Input array is sorted<br/>两数之和2 - 输入数组有序](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/Array(%E6%95%B0%E7%BB%84)/0xB02%20LeetCode%E6%95%B0%E7%BB%84%EF%BC%9A%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C2%20-%20%E8%BE%93%E5%85%A5%E6%95%B0%E7%BB%84%E6%9C%89%E5%BA%8F.md)| [英文地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) / [中文地址](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)| Java / Kotlin | Easy |
@@ -139,7 +139,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 链表：单链表、双向链表、循环链表、双向循环链表、静态链表
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 06(offer) | [从尾到头打印链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF06%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md)| [中文地址](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)| Java / Kotlin | Easy |
 
@@ -148,7 +148,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 栈：顺序栈、链式栈
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 09(offer) | [用两个栈实现队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF09%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)| Java / Kotlin | Easy |
 
@@ -156,7 +156,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 搜索：深度优先搜索、广度优先搜索
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 13(offer) | [机器人的运动范围](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF13%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md)| [中文地址](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)| Java / Kotlin | Medium |
 
@@ -165,34 +165,40 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 队列：普通队列、双端队列、阻塞队列、并发队列、阻塞并发队列
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 
 ### 动态规划（持续更新中）
 
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 12(offer) | [矩阵中的路径](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF12%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md)| [中文地址](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)| Java / Kotlin | Medium |
 | 14-1(offer) | [剪绳子](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-1%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [中文地址](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)| Java / Kotlin | Medium |
 | 343 | [整数拆分](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-1%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [英文地址](https://leetcode.com/problems/integer-break/) / [中文地址](https://leetcode-cn.com/problems/integer-break/)| Java / Kotlin | Medium |
 | 14-2(offer) | [剪绳子](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-2%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [中文地址](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)| Java / Kotlin | Medium |
 
-## 排序（持续更新中）
-
-排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序
-
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
-| :-: | :-: | :-: | :-: | :-: |
-
-
 ## 位运算（持续更新中）
 
-| 题号 | 题解 | 题目地址 | Lanuage | Difficulty |
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 15(offer) | [二进制中 1 的个数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF15%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0.md)| [中文地址](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)| Java / Kotlin | Easy |
 | 16(offer)  | [数值的整数次方](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF16%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)| [中文地址](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)| Java / Kotlin | Medium |
 | 50  | [Pow(x, n)](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF16%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)| [中文地址](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)| Java / Kotlin | Medium |
+
+## 字符串（持续更新中）
+
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
+| :-: | :-: | :-: | :-: | :-: |
+| 14  | [最长公共前缀](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/character(%E5%AD%97%E7%AC%A6%E4%B8%B2)/0xD01%20LeetCode%20%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%9A%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md)| [中文地址](https://leetcode-cn.com/problems/longest-common-prefix/) / [英文地址](https://leetcode.com/problems/longest-common-prefix/)  | Java / Kotlin | Easy |
+
+
+## 排序（持续更新中）
+
+排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序
+
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
+| :-: | :-: | :-: | :-: | :-: |
 
 ## 结语
 
