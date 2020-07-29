@@ -12,21 +12,42 @@ import java.util.List;
  */
 public class Solution {
 
+    // 方法一
     public String longestCommonPrefix(String[] strs) {
-        if (strs.length <= 0) return "";
-        if (strs.length == 1) return strs[0];
-        String src = strs[0];
-        for (int i = 1; i < strs.length; i++) {
-            src = findPrefixCommonStr(src, strs[i]);
+        if (strs == null || strs.length <= 0) {
+            return "";
         }
-        return src;
+        String str0 = strs[0];
+        int len = str0.length();
+        int count = strs.length;
+        for (int i = 0; i < len; i++) {
+            char c1 = str0.charAt(i);
+            for (int j = 1; j < count; j++) {
+                if (i == strs[j].length() || c1 != strs[j].charAt(i)) {
+                    return str0.substring(0, i);
+                }
+            }
+        }
+        return str0;
     }
 
-    public String findPrefixCommonStr(String src, String dest) {
-        if (src.isEmpty() || src.length() == 0) return "";
-        if (dest.indexOf(src) == 0) return src;
-        src = src.substring(0, src.length() - 1);
-        return findPrefixCommonStr(src, dest);
+    // 方法二
+    public String longestCommonPrefix2(String[] strs) {
+        if (strs == null || strs.length <= 0) {
+            return "";
+        }
+        int count = strs.length;
+        String str0 = strs[0];
+        for (int i = 0; i < count; i++) {
+            int j = 0;
+            for (; j < str0.length() && j < strs[i].length(); j++) {
+                if (str0.charAt(j) != strs[i].charAt(j)) {
+                    break;
+                }
+            }
+            str0 = str0.substring(0, j);
+        }
+        return str0;
     }
 
     public static void main(String... args) {
@@ -35,6 +56,7 @@ public class Solution {
         list.add(new String[]{"falower", "f", "fbight"});
         list.add(new String[]{"", "cba"});
         list.add(new String[]{"a"});
+        list.add(new String[]{"aa", "a"});
         Iterator it = list.iterator();
         while (it.hasNext()) {
             System.out.println(solution.longestCommonPrefix((String[]) it.next()));

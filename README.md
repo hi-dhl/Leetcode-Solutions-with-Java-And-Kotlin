@@ -192,7 +192,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | :-: | :-: | :-: | :-: | :-: |
 | 15(offer) | [二进制中 1 的个数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF15%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0.md)| [中文地址](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)| Java / Kotlin | Easy |
 | 16(offer)  | [数值的整数次方](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF16%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)| [中文地址](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)| Java / Kotlin | Medium |
-
+| 50  | [Pow(x, n)](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF16%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)| [中文地址](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)| Java / Kotlin | Medium |
 
 ## 结语
 
