@@ -3,11 +3,11 @@
 
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 做题进度：AC 87 题，每道题目都会用 Java 和 kotlin 去实现</p>
+<p align="center"> 做题进度：AC 88 题，每道题目都会用 Java 和 kotlin 去实现</p>
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码，源代码在 <b> 00-code(源代码) </b> 目录下 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(15)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)、位运算(2)、字符串(1)</p>
+<p align="center"> 仓库题解进度：剑指offer(15)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(1)、动态规划(4)、位运算(2)、字符串(2)</p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -191,7 +191,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 14  | [最长公共前缀](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/character(%E5%AD%97%E7%AC%A6%E4%B8%B2)/0xD01%20LeetCode%20%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%9A%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md)| [中文地址](https://leetcode-cn.com/problems/longest-common-prefix/) / [英文地址](https://leetcode.com/problems/longest-common-prefix/)  | Java / Kotlin | Easy |
-
+| 03  | [无重复字符的最长子串](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/character(%E5%AD%97%E7%AC%A6%E4%B8%B2)/0xD02%20LeetCode%20%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%9A%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md)| [中文地址](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  / [英文地址](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)   | Java / Kotlin | Medium |
 
 ## 排序（持续更新中）
 
