@@ -50,6 +50,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 15 | [二进制中 1 的个数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF15%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0.md)| [中文地址](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)| Java / Kotlin | Easy |
 | 16 | [数值的整数次方](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF16%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)| [中文地址](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)| Java / Kotlin | Medium |
 | 17 | ??? | [中文地址](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)| Java / Kotlin | Easy |
+| 18 | ??? | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
 
 ## 查找
 
@@ -143,6 +144,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 06(offer) | [从尾到头打印链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF06%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md)| [中文地址](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)| Java / Kotlin | Easy |
+| 18(offer) | ??? | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
 
 
 ### 栈（持续更新中）
@@ -195,6 +197,12 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | :-: | :-: | :-: | :-: | :-: |
 | 14  | [最长公共前缀](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/character(%E5%AD%97%E7%AC%A6%E4%B8%B2)/0xD01%20LeetCode%20%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%9A%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md)| [中文地址](https://leetcode-cn.com/problems/longest-common-prefix/) / [英文地址](https://leetcode.com/problems/longest-common-prefix/)  | Java / Kotlin | Easy |
 | 03  | [无重复字符的最长子串](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/character(%E5%AD%97%E7%AC%A6%E4%B8%B2)/0xD02%20LeetCode%20%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%9A%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md)| [中文地址](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  / [英文地址](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)   | Java / Kotlin | Medium |
+
+## 数学（持续更新中）
+
+| 题号 | 题解 | 题目地址 | Language | Difficulty |
+| :-: | :-: | :-: | :-: | :-: |
+| 17 | ??? | [中文地址](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)| Java / Kotlin | Easy |
 
 ## 排序（持续更新中）
 

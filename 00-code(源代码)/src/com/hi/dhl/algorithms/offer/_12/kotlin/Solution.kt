@@ -33,18 +33,16 @@ class Solution {
         if (k == words.size - 1) {
             return true
         }
+
         val tmp = board[i][j]
         board[i][j] = '/'
+
         val result =
-            dfs(board, words, i + 1, j, k + 1, row, colum) || dfs(board, words, i - 1, j, k + 1, row, colum) || dfs(
-                board,
-                words,
-                i,
-                j + 1,
-                k + 1,
-                row,
-                colum
-            ) || dfs(board, words, i, j - 1, k + 1, row, colum)
+                dfs(board, words, i + 1, j, k + 1, row, colum) ||
+                        dfs(board, words, i - 1, j, k + 1, row, colum) ||
+                        dfs(board, words, i, j + 1, k + 1, row, colum) ||
+                        dfs(board, words, i, j - 1, k + 1, row, colum)
+
         board[i][j] = tmp
         return result
     }
