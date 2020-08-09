@@ -56,12 +56,10 @@ class Solution {
 
 
     public static void main(String... args) {
-//        Solution solution = new Solution();
-//        System.out.println(solution.isMatch("aa","a*"));
-//        System.out.println(solution.isMatch("ab", ".*"));
-//        System.out.println(solution.isMatch("aab", "c*a*b"));
-//        System.out.println(solution.isMatch("mississippi", "mis*is*p*."));
-
-        System.out.println(false || true);
+        Solution solution = new Solution();
+        System.out.println(solution.isMatch("aa","a*"));
+        System.out.println(solution.isMatch("ab", ".*"));
+        System.out.println(solution.isMatch("aab", "c*a*b"));
+        System.out.println(solution.isMatch("mississippi", "mis*is*p*."));
     }
 }
