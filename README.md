@@ -7,7 +7,7 @@
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码，源代码在 <b> 00-code(源代码) </b> 目录下 </p>
 
-<p align="center"> 仓库题解进度：剑指offer(15)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(4)、动态规划(5)、位运算(2)、字符串(2)</p>
+<p align="center"> 仓库题解进度：剑指offer(15)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(4)、动态规划(5)、位运算(2)、字符串(2)、栈(2)、队列(1)</p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -155,6 +155,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 09(offer) | [用两个栈实现队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF09%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)| Java / Kotlin | Easy |
+| 155 | ???最小栈 | [中文地址](https://leetcode-cn.com/problems/min-stack/)  / [英文地址](https://leetcode.com/problems/min-stack)  | Java / Kotlin | Easy |
 
 ## 搜索（持续更新中）
 
@@ -173,6 +174,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
+| 622 | ???设计循环队列 | [中文地址](https://leetcode-cn.com/problems/design-circular-queue/) / [英文地址](https://leetcode.com/problems/design-circular-queue/)  | Java / Kotlin | Medium |
 
 ### 动态规划（持续更新中）
 
