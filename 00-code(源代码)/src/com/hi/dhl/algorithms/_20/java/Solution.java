@@ -1,10 +1,12 @@
 package com.hi.dhl.algorithms._20.java;
 
+import java.util.ArrayDeque;
 import java.util.Stack;
 
 /**
  * <pre>
  *     author: dhl
+ *     date  : 2019/5/14
  *     desc  : 20. Valid Parentheses
  *
  *     题目来源于 LeetCode 上第 20号（Valid Parentheses）问题：有效的括号。题目难度为 Easy。
@@ -51,39 +53,36 @@ import java.util.Stack;
  *
  *    题目解析:
  *
- *    遍历字符串
- *    遇到左括号，则将其压入栈中
- *    如果遇到右括号：
- *    当前栈为空，直接返回false;
- *    当前右括号对应的左括号，与栈顶元素不相等，直接返回false
- *    循环结束之后，判断栈是否为空，不为空返回false
+ *    1. 遍历字符串
+ *    2. 遇到左括号，则将其对应的右括号压入栈中
+ *    3. 如果遇到右括号，检查与栈顶元素不相等，不相等直接返回 false
+ *    4. 重复执行 步骤 2 和步骤 3
+ *    5. 循环结束之后，判断栈是否为空，不为空返回false
  *
  * </pre>
  */
-public class Solution {
+
+class Solution {
     public boolean isValid(String s) {
-        if (s == null) return false;
-        Stack<Character> stack = new Stack();
-        //遍历字符串
+        ArrayDeque<Character> stack = new ArrayDeque<Character>();
+        // 遍历字符串
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            //遇到左括号，则将其压入栈中
-            if (c == '(' || c == '{' || c == '[') {
-                stack.push(c);
+            // 遇到左括号，则将其对应的右括号压入栈中
+            if (c == '(') {
+                stack.push(')');
+            } else if (c == '[') {
+                stack.push(']');
+            } else if (c == '{') {
+                stack.push('}');
             } else {
-                //当前栈为空，直接返回false
-                if (stack.isEmpty()) return false;
-                char top = stack.pop();
-                char bracket = '0';
-                if (c == ')') {
-                    bracket = '(';
-                } else if (c == '}') {
-                    bracket = '{';
-                } else if (c == ']') {
-                    bracket = '[';
+                // 当前栈为空，直接返回 false
+                if (stack.isEmpty()) {
+                    return false;
                 }
-                //当前右括号对应的左括号，与栈顶元素不相等，直接返回false
-                if (top != bracket) {
+                // 当前右括号，与栈顶元素不相等，不相等直接返回 false
+                char tmp = stack.poll();
+                if (c != tmp) {
                     return false;
                 }
             }
