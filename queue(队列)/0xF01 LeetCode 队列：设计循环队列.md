@@ -1,6 +1,6 @@
 # 0xF01 LeetCode 队列：设计循环队列
 
-题目来源于 `LeetCode` 上 第 `622` 号问题：岛屿数量。题目难度为 `Medium`。
+题目来源于 `LeetCode` 上 第 `622` 号问题：设计循环队列。题目难度为 `Medium`。
 
 * [英文地址：https://leetcode.com/problems/design-circular-queue/](https://leetcode.com/problems/design-circular-queue/) 
 * [中文地址：https://leetcode-cn.com/problems/design-circular-queue/](https://leetcode-cn.com/problems/design-circular-queue/) 
