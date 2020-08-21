@@ -43,7 +43,7 @@
     
 **复杂度分析：**
 
-* 时间复杂度：O(log_2 N)，使用的二分查找算法，因此时间复杂度为 O(log_2 N)
+* 时间复杂度：O(log2^N)，使用的二分查找算法，因此时间复杂度为 O(log2^N)
 * 空间复杂度：O(1)，只是使用了几个标示变量作为额外空间，可以忽略不计，因此空间复杂度 O(1)
 
 ### Koltin 实现
@@ -74,16 +74,18 @@ class Solution {
 
         int left = 0;
         int right = numbers.length - 1;
+
         while (left < right) {
-            int mid = (left + right) >> 1;
-            if (numbers[mid] > numbers[right]) {
-                left = mid + 1;
-            } else if (numbers[mid] > numbers[right]) {
+            int mid = (left + right) >>> 2;
+            if (numbers[mid] < numbers[right]) {
                 right = mid;
+            } else if (numbers[mid] > numbers[right]) {
+                left = mid + 1;
             } else {
-                right--;
+                right = right - 1;
             }
         }
+
         return numbers[left];
     }
 }

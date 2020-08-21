@@ -94,6 +94,29 @@ public class Solution {
 }
 ```
 
+## 思路二：思路一的优化方案
+
+**复杂度分析：**
+
+* 时间复杂度：O(N)，当 F(N) 时需要循环 N 次，即时间复杂度为 O(N)
+* 空间复杂度：O(1)，占用常量大小的空间
+
+```
+    public int fib2(int n) {
+        if (n == 0) return 0;
+        if (n == 1) return 1;
+        int a = 0;
+        int b = 1;
+        int sum = 0;
+        for (int i = 2; i <= n; i++) {
+            sum = (a + b) % 1000000007;
+            a = b;
+            b = sum;
+        }
+        return sum;
+    }
+```
+
 ## 结语
 
 致力于分享一系列 Android 系统源码、逆向分析、算法、翻译、Jetpack  源码相关的文章，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解 [Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin) 和  Android 10 源码分析 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis) 一起来学习，期待与你一起成长

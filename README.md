@@ -147,6 +147,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 06(offer) | [从尾到头打印链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF06%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md)| [中文地址](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)| Java / Kotlin | Easy |
 | 18(offer) | ???删除链表的节点 | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
 | 707 | ???设计链表 | [英文地址](https://leetcode.com/problems/design-linked-list)  / [中文地址](https://leetcode-cn.com/problems/design-linked-list)| Java / Kotlin | Easy |
+| 141 | ???环形链表 | [英文地址](https://leetcode.com/problems/linked-list-cycle/)  / [中文地址](https://leetcode-cn.com/problems/linked-list-cycle/) | Java / Kotlin | Easy |
 
 ### 栈（持续更新中）
 

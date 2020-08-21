@@ -44,13 +44,13 @@ Return the following binary tree:
 
 根据前序遍历的规则，可知 preorder[0] 一定是整棵二叉树的根节点，如果根节点所在的下标为 index，根据中序遍历的规则，可知中序序列 inorder：
 
-* 区间 inorder[0, index - 1] 属于根节点的左子树
-* 区间 inorder[index + 1, n - 1] 属于根节点的右子树
+* 区间 inorder[0, index - 1] 属于根节点 preorder[0] 左子树
+* 区间 inorder[index + 1, n - 1] 属于根节点 preorder[0] 右子树
 
 根据前序遍历的规则一定是先遍历完左子树，然后才会遍历右子树，所以前序序列 preorder：
 
-* 区间 preorder[1, index] 在根节点的 preorder[0] 的左边
-* 区间 preorder[index+1, n] 在根节点的 preorder[0] 的右边
+* 区间 preorder[1, index] 属于根节点的 preorder[0] 左子树
+* 区间 preorder[index+1, n -1] 属于根节点的 preorder[0] 右子树
 
 所以算法思路如下：
 
@@ -58,8 +58,8 @@ Return the following binary tree:
 * 在Inorder数组中查找根的位置 index
 * 在Inorder数组中，根元素左边的元素是左子树，即区间 inorder[0, index - 1]
 * 在Inorder数组中，根元素右边的元素是右子树，即区间 inorder[index + 1, n - 1]
-* 在preorder数组中，区间 preorder[1, index] 在根节点的preorder[0] 的左边
-* 在preorder数组中，preorder[index+1, n] 在根节点的preorder[0] 的右边
+* 在preorder数组中，根元素左边的元素是左子树，即区间 preorder[1, index]
+* 在preorder数组中，根元素右边的元素是右子树，即 preorder[index+1, n - 1]
 * 在由左子树中的元素组成的子数组上递归调用
 * 在由右子树中的元素组成的子数组上递归地调用
 
@@ -90,6 +90,7 @@ class Solution {
         val index = getRootIndex(inorder, key)
         if (index > 0 || index < preorder.size) {
             // 计算左子树，所以根节点除外，从下标1开始
+            // 数组拷贝是左闭右开的区间
             var pre = Arrays.copyOfRange(preorder, 1, index + 1)
             var inor = Arrays.copyOfRange(inorder, 0, index)
             root.left = tailrecOrder(pre, inor)
@@ -131,6 +132,7 @@ class Solution {
         int index = getRootIndex(inorder, key);
         if (index > 0 || index < preorder.length) {
             // 计算左子树，所以根节点除外，从下标1开始
+            // 数组拷贝是左闭右开的区间
             int[] pre = Arrays.copyOfRange(preorder, 1, index + 1);
             int[] inor = Arrays.copyOfRange(inorder, 0, index);
             root.left = buildTree(pre, inor);

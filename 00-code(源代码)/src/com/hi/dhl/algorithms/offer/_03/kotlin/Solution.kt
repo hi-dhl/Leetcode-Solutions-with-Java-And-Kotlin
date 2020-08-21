@@ -15,7 +15,7 @@ class Solution {
                 return nums[index]
             }
             val temp = value
-            nums[value] = nums[temp]
+            nums[index] = nums[temp]
             nums[temp] = temp
         }
         return -1

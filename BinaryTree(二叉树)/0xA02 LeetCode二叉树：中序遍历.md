@@ -2,8 +2,8 @@
 
 题目来源于 LeetCode 上第 94号（Binary Tree Inorder Traversal）问题：二叉树的中序遍历。题目难度为 Medium。
 
-* [英文地址: https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-* [中文地址: https://leetcode-cn.com/problems/binary-tree-postorder-traversal/](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+* [英文地址: https://leetcode.com/problems/binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
+* [中文地址: https://leetcode.com/problems/binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
 
 ## 题目描述
  
@@ -32,6 +32,11 @@ Output: [1,3,2]
 1. 循环检测栈是否为空，或者根节点是否为空
 2. 循环检测左节点，保存在栈中
 3. 弹出栈顶元素，再将当前指针移到其右子节点上，若存在右子节点，在次执行步骤2
+
+**复杂度分析：**
+
+* 时间复杂度：O(n)，n 为节点的数量
+* 空间复杂度：O(n)，n 为节点的数量
 
 ### Java实现
 
@@ -92,6 +97,11 @@ class Solution {
 
 **1. 问题与子问题的递归关系，采用自上而下的思考方式**
 **2. 递归的终止条件是当结点为叶子结点时终止（因为叶子节点没有左右结点）**
+
+**复杂度分析：**
+
+* 时间复杂度：O(n)，n 为节点的数量
+* 空间复杂度：O(n)，n 为节点的数量，最坏情况下需要空间O(n)，平均情况为O(log2^n)
 
 ### java 实现
 

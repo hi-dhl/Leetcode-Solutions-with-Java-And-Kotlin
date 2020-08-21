@@ -41,6 +41,12 @@
 
 将 即 值 和 索引 一一对应
 
+**复杂性分析**
+
+* 时间复杂度 O(N)，N 为数组的长度
+* 空间复杂度 O(1), 占用额外常用空间大小
+
+
 ### Java实现
 
 ```
@@ -54,7 +60,7 @@ public class Solution {
                 return nums[i];
             }
             int temp = nums[i];
-            nums[nums[i]] = nums[temp];
+            nums[i] = nums[temp];
             nums[temp] = temp;
         }
         return -1;
@@ -73,7 +79,7 @@ class Solution {
                 return nums[index]
             }
             val temp = value
-            nums[value] = nums[temp]
+            nums[index] = nums[temp]
             nums[temp] = temp
         }
         return -1
@@ -84,6 +90,11 @@ class Solution {
 ## 思路二：哈希算法
 
 利用 Haset API 的特性，如果添加重复的元素会返回 false
+
+**复杂性分析**
+
+* 时间复杂度 O(N)，N 为数组的长度
+* 空间复杂度 O(N), 不重复的每个元素都可能存入集合，最坏的情况下，每个元素都不重复，所以空间复杂度为 O(N)
 
 ### Java 实现
 

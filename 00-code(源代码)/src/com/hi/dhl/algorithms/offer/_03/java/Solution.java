@@ -25,7 +25,7 @@ public class Solution {
                 return nums[i];
             }
             int temp = nums[i];
-            nums[nums[i]] = nums[temp];
+            nums[i] = nums[temp];
             nums[temp] = temp;
         }
         return -1;

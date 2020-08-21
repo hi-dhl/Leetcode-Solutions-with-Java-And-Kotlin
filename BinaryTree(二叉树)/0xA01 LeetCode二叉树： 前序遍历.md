@@ -35,6 +35,11 @@ Output: [1,2,3]
 2. 循环检测左节点，保存到栈中
 3. 当左节点遍历结束之后，取出栈顶的右节点，再次执行步骤2
 
+**复杂度分析：**
+
+* 时间复杂度：O(n)，n 为节点的数量
+* 空间复杂度：O(n)，n 为节点的数量
+
 ### Java实现
 
 ```
@@ -59,6 +64,22 @@ class Solution {
             }
         }
         return list;
+    }
+
+    public List<Integer> preorderTraversal2(TreeNode root) {
+        List<Integer> output = new LinkedList<>();
+        if (root == null) return output;
+
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            output.add(node.val);
+            if (node.right != null) stack.push(node.right);
+            if (node.left != null) stack.push(node.left);
+        }
+
+        return output;
     }
 }
 ```
@@ -107,7 +128,10 @@ preorder(root) = preorder(root->left) + preorder(root->right)
 
 **2. 递归的终止条件是当结点为叶子结点时终止（因为叶子节点没有左右子结点）**
 
-将上面思路用代码表示如下
+**复杂度分析：**
+
+* 时间复杂度：O(n)，n 为节点的数量
+* 空间复杂度：O(n)，n 为节点的数量，最坏情况下需要空间O(n)，平均情况为O(log2^n)
 
 ### Java实现
 

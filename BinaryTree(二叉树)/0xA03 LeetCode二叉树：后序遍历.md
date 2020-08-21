@@ -2,8 +2,8 @@
 
 题目来源于 LeetCode 上第 145号（Binary Tree Postorder Traversal）问题：二叉树的后序遍历。题目难度为 Medium。
 
-* [英文地址: https://leetcode.com/problems/binary-tree-postorder-traversal/](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-* [中文地址: https://leetcode-cn.com/problems/binary-tree-postorder-traversal/](https://leetcode.com-cn/problems/binary-tree-postorder-traversal/)
+* [英文地址: https://leetcode.com/problems/binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
+* [中文地址: https://leetcode-cn.com/problems/binary-tree-postorder-traversal](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)
  
 ## 题目描述
  
@@ -36,6 +36,11 @@ Output: [3,2,1]
 3. 取出栈顶元素，并添加到list集合（逆序添加）
 4. 如果左节点不为空，并将左节点入栈
 5. 如果右节点不为空，并将右节点入栈
+
+**复杂度分析：**
+
+* 时间复杂度：O(n)，n 为节点的数量
+* 空间复杂度：O(n)，n 为节点的数量
 
 ### Java实现
 
@@ -93,6 +98,11 @@ class Solution {
 
 **1. 问题与子问题的递归关系，采用自上而下的思考方式**
 **2. 递归的终止条件是当结点为叶子结点时终止（因为叶子节点没有左右结点）**
+
+**复杂度分析：**
+
+* 时间复杂度：O(n)，n 为节点的数量
+* 空间复杂度：O(n)，n 为节点的数量，最坏情况下需要空间O(n)，平均情况为O(log2^n)
 
 ### Java实现
 

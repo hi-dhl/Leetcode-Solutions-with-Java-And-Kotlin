@@ -37,6 +37,11 @@ return its depth = 3.
 
 maxDepth(root) = Math.max(maxDepth(root.left), maxDepth(root.right)) + 1
 
+**复杂度分析：**
+
+* 时间复杂度：O(n)，n 为节点的数量
+* 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
+
 ### Java实现
 
 ```
