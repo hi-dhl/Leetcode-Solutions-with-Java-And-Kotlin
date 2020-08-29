@@ -54,6 +54,8 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 19 | ???删正则表达式匹配 | [中文地址](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)| Java / Kotlin | Easy |
 | 21 | ???调整数组顺序使奇数位于偶数前面 | [中文地址](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)| Java / Kotlin | Easy |
 | 22 | ???链表中倒数第 k 个节点 | [中文地址](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)| Java / Kotlin | Easy |
+| 24 | ???反转链表 | [中文地址](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)| Java / Kotlin | Easy |
+| 25 | ???合并两个排序的链表 | [中文地址](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)| Java / Kotlin | Easy |
 
 ## 查找
 
@@ -150,6 +152,10 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 18(offer) | ???删除链表的节点 | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
 | 707 | ???设计链表 | [英文地址](https://leetcode.com/problems/design-linked-list)  / [中文地址](https://leetcode-cn.com/problems/design-linked-list)| Java / Kotlin | Easy |
 | 141 | ???环形链表 | [英文地址](https://leetcode.com/problems/linked-list-cycle/)  / [中文地址](https://leetcode-cn.com/problems/linked-list-cycle/) | Java / Kotlin | Easy |
+| 21(offer) | ???调整数组顺序使奇数位于偶数前面 | [中文地址](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)| Java / Kotlin | Easy |
+| 22(offer) | ???链表中倒数第 k 个节点 | [中文地址](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)| Java / Kotlin | Easy |
+| 24(offer) | ???反转链表 | [中文地址](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)| Java / Kotlin | Easy |
+| 25(offer) | ???合并两个排序的链表 | [中文地址](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)| Java / Kotlin | Easy |
 
 ### 栈（持续更新中）
 
