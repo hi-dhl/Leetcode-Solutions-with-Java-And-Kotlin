@@ -58,6 +58,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 25 | ???合并两个排序的链表 | [中文地址](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)| Java / Kotlin | Easy |
 | 26 | ???树的子结构 | [中文地址](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof)| Java / Kotlin | Easy |
 | 27 | ???二叉树的镜像 | [中文地址](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof)| Java / Kotlin | Easy |
+| 28 | ???对称的二叉树 | [中文地址](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof)| Java / Kotlin | Easy |
 
 ## 查找
 
