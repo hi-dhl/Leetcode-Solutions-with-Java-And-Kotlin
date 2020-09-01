@@ -2,6 +2,8 @@ package com.hi.dhl.algorithms.offer._25.java;
 
 import com.hi.dhl.algorithms.model.ListNode;
 
+import java.util.HashMap;
+
 /**
  * <pre>
  *     author: dhl
