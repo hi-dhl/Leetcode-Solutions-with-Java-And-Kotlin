@@ -49,16 +49,16 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 14-2 | [剪绳子](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-2%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [中文地址](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)| Java / Kotlin | Medium |
 | 15 | [二进制中 1 的个数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF15%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0.md)| [中文地址](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)| Java / Kotlin | Easy |
 | 16 | [数值的整数次方](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF16%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md)| [中文地址](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)| Java / Kotlin | Medium |
-| 17 | ??? | [中文地址](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)| Java / Kotlin | Easy |
-| 18 | ??? | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
-| 19 | ???删正则表达式匹配 | [中文地址](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)| Java / Kotlin | Easy |
-| 21 | ???调整数组顺序使奇数位于偶数前面 | [中文地址](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)| Java / Kotlin | Easy |
-| 22 | ???链表中倒数第 k 个节点 | [中文地址](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)| Java / Kotlin | Easy |
-| 24 | ???反转链表 | [中文地址](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)| Java / Kotlin | Easy |
-| 25 | ???合并两个排序的链表 | [中文地址](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)| Java / Kotlin | Easy |
-| 26 | ???树的子结构 | [中文地址](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof)| Java / Kotlin | Easy |
-| 27 | ???二叉树的镜像 | [中文地址](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof)| Java / Kotlin | Easy |
-| 28 | ???对称的二叉树 | [中文地址](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof)| Java / Kotlin | Easy |
+| 17 | [打印从1到最大的n位数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF17%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md) | [中文地址](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)| Java / Kotlin | Easy |
+| 18 | [删除链表的节点](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF18%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.md) | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
+| 19 | [正则表达式匹配](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF19%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%20%E5%88%A0%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md) | [中文地址](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)| Java / Kotlin | Easy |
+| 21 | [调整数组顺序使奇数位于偶数前面](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF21%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md) | [中文地址](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)| Java / Kotlin | Easy |
+| 22 | [链表中倒数第 k 个节点](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF22%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%AC%20k%20%E4%B8%AA%E8%8A%82%E7%82%B9.md) | [中文地址](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)| Java / Kotlin | Easy |
+| 24 | [反转链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF24%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | [中文地址](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)| Java / Kotlin | Easy |
+| 25 | [合并两个排序的链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF25%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.md) | [中文地址](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)| Java / Kotlin | Easy |
+| 26 | [树的子结构](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF26%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%A0%91%E7%9A%84%E5%AD%90%E7%BB%93%E6%9E%84.md) | [中文地址](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof)| Java / Kotlin | Easy |
+| 27 | [二叉树的镜像](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF27%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F.md) | [中文地址](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof)| Java / Kotlin | Easy |
+| 28 | [对称的二叉树](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF28%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91.md) | [中文地址](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof)| Java / Kotlin | Easy |
 
 ## 查找
 
@@ -152,13 +152,13 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 06(offer) | [从尾到头打印链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF06%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md)| [中文地址](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)| Java / Kotlin | Easy |
-| 18(offer) | ???删除链表的节点 | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
-| 707 | ???设计链表 | [英文地址](https://leetcode.com/problems/design-linked-list)  / [中文地址](https://leetcode-cn.com/problems/design-linked-list)| Java / Kotlin | Easy |
-| 141 | ???环形链表 | [英文地址](https://leetcode.com/problems/linked-list-cycle/)  / [中文地址](https://leetcode-cn.com/problems/linked-list-cycle/) | Java / Kotlin | Easy |
-| 21(offer) | ???调整数组顺序使奇数位于偶数前面 | [中文地址](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)| Java / Kotlin | Easy |
-| 22(offer) | ???链表中倒数第 k 个节点 | [中文地址](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)| Java / Kotlin | Easy |
-| 24(offer) | ???反转链表 | [中文地址](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)| Java / Kotlin | Easy |
-| 25(offer) | ???合并两个排序的链表 | [中文地址](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)| Java / Kotlin | Easy |
+| 18(offer) | [删除链表的节点](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF18%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E8%8A%82%E7%82%B9.md) | [中文地址](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)| Java / Kotlin | Easy |
+| 707 | [设计链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/LinkedList(%E9%93%BE%E8%A1%A8)/0xG01%20LeetCode%20%E9%93%BE%E8%A1%A8%EF%BC%9A%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8.md) | [英文地址](https://leetcode.com/problems/design-linked-list)  / [中文地址](https://leetcode-cn.com/problems/design-linked-list)| Java / Kotlin | Easy |
+| 141 | [环形链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/LinkedList(%E9%93%BE%E8%A1%A8)/0xG02%20LeetCode%20%E9%93%BE%E8%A1%A8%EF%BC%9A%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) | [英文地址](https://leetcode.com/problems/linked-list-cycle/)  / [中文地址](https://leetcode-cn.com/problems/linked-list-cycle/) | Java / Kotlin | Easy |
+| 21(offer) | [调整数组顺序使奇数位于偶数前面](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF21%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md) | [中文地址](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof)| Java / Kotlin | Easy |
+| 22(offer) | [链表中倒数第 k 个节点](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF22%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%AC%20k%20%E4%B8%AA%E8%8A%82%E7%82%B9.md) | [中文地址](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)| Java / Kotlin | Easy |
+| 24(offer) | [反转链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF24%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | [中文地址](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof)| Java / Kotlin | Easy |
+| 25(offer) | [合并两个排序的链表](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF25%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.md) | [中文地址](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof)| Java / Kotlin | Easy |
 
 ### 栈（持续更新中）
 
@@ -167,7 +167,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
 | 09(offer) | [用两个栈实现队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF09%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md)| [中文地址](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)| Java / Kotlin | Easy |
-| 155 | ???最小栈 | [中文地址](https://leetcode-cn.com/problems/min-stack/)  / [英文地址](https://leetcode.com/problems/min-stack)  | Java / Kotlin | Easy |
+| 155 | [最小栈](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/stack(%E6%A0%88)/0xF01%20LeetCode%20%E6%A0%88%EF%BC%9A%E6%9C%80%E5%B0%8F%E6%A0%88.md) | [中文地址](https://leetcode-cn.com/problems/min-stack/)  / [英文地址](https://leetcode.com/problems/min-stack)  | Java / Kotlin | Easy |
 
 ## 搜索（持续更新中）
 
@@ -177,7 +177,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | :-: | :-: | :-: | :-: | :-: |
 | 13(offer) | [机器人的运动范围](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF13%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md)| [中文地址](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)| Java / Kotlin | Medium |
 | 200 | [岛屿数量](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/search(%E6%90%9C%E7%B4%A2)/0xE01%20LeetCode%20%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md)| [中文地址](https://leetcode-cn.com/problems/number-of-islands/) / [英文地址](https://leetcode.com/problems/number-of-islands/) | Java / Kotlin | Medium |
-| 279 | ??? | [中文地址](https://leetcode-cn.com/problems/perfect-squares/) / [英文地址](https://leetcode.com/problems/perfect-squares/) | Java / Kotlin | Medium |
+| 279 | [完全平方数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/search(%E6%90%9C%E7%B4%A2)/0xE02%20LeetCode%20%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0.md) | [中文地址](https://leetcode-cn.com/problems/perfect-squares/) / [英文地址](https://leetcode.com/problems/perfect-squares/) | Java / Kotlin | Medium |
 
 
 ### 队列（持续更新中）
@@ -186,7 +186,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
-| 622 | ???设计循环队列 | [中文地址](https://leetcode-cn.com/problems/design-circular-queue/) / [英文地址](https://leetcode.com/problems/design-circular-queue/)  | Java / Kotlin | Medium |
+| 622 | [设计循环队列](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/queue(%E9%98%9F%E5%88%97)/0xF01%20LeetCode%20%E9%98%9F%E5%88%97%EF%BC%9A%E8%AE%BE%E8%AE%A1%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97.md) | [中文地址](https://leetcode-cn.com/problems/design-circular-queue/) / [英文地址](https://leetcode.com/problems/design-circular-queue/)  | Java / Kotlin | Medium |
 
 ### 动态规划（持续更新中）
 
@@ -197,7 +197,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 | 14-1(offer) | [剪绳子](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-1%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [中文地址](https://leetcode-cn.com/problems/jian-sheng-zi-lcof)| Java / Kotlin | Medium |
 | 343 | [整数拆分](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-1%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [英文地址](https://leetcode.com/problems/integer-break/) / [中文地址](https://leetcode-cn.com/problems/integer-break/)| Java / Kotlin | Medium |
 | 14-2(offer) | [剪绳子](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF14-2%20LeetCode%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%E5%89%AA%E7%BB%B3%E5%AD%90.md)| [中文地址](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)| Java / Kotlin | Medium |
-| 19(offer) | ???删正则表达式匹配 | [中文地址](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)| Java / Kotlin | Easy |
+| 19(offer) | [删正则表达式匹配](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF19%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%20%E5%88%A0%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md) | [中文地址](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)| Java / Kotlin | Easy |
 
 ## 位运算（持续更新中）
 
@@ -218,7 +218,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
 | :-: | :-: | :-: | :-: | :-: |
-| 17 | ??? | [中文地址](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)| Java / Kotlin | Easy |
+| 17 | [打印从1到最大的n位数](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/%E5%89%91%E6%8C%87offer/0xF17%20%E5%89%91%E6%8C%87%20offer%EF%BC%9A%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md) | [中文地址](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)| Java / Kotlin | Easy |
 
 ## 排序（持续更新中）
 

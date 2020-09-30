@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>剑指Offer题解</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -10,12 +10,79 @@
 </head>
 <body>
   <div id="app"></div>
+
+  <style type="text/css">
+
+    .sidebar p.active{
+        border-right: 2px solid;
+        color: var(--theme-color,#42b983);
+        font-weight: 600;
+    }
+
+</style>
+
+
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: '剑指Offer题解',
+      repo: 'https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin',
+      loadNavbar: true,
+      loadSidebar: true, // 侧边栏配置
+      
+      subMaxLevel: 3, // 侧边栏显示层级
+      coverpage: false, // 是否配置封面
+      auto2top: false, // 切换页面后是否自动跳转到页面顶部
+      autoHeader: true,
+      // markdown: {
+      //   highlight: 'pygmentize.js',
+      // },
+      // themeColor: '#FFA500',
+
+      // 更新日期
+      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
+
+      search: {
+          paths: [],
+          placeholder: '🔍 搜索 ',
+          noData: '哎呀，找不到结果！ ',
+          // Headline depth, 1 - 6
+          depth: 6
+      },
+      copyCode: {
+          buttonText : '复制',
+          errorText  : 'Error',
+          successText: 'OK!'
+      },
+      pagination: {
+          previousText: '上一题',
+          nextText: '下一题',
+      }
+
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+
+  <!--搜索插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- 图片缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <!--代码块复制插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+
+  <!--分页插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+
+  <!--语法高亮插件-->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
+
+  <!--统计访问量插件-->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 </body>
 </html>
