@@ -1,9 +1,10 @@
-* 简介
 
+* 简介
+    
     * [GitHub](https://github.com/hi-dhl)
     * [博客](https://hi-dhl.com/)
     * [掘金](https://juejin.im/user/2594503168898744)
-    * 微信
+    * [微信](README?id=联系我)
 
 * 开篇
 
@@ -38,4 +39,8 @@
     * [剑指 Offer 26：树的子结构](/algorithm/26-shu-de-zi-jie-gou.md)
     * [剑指 Offer 27：二叉树的镜像](/algorithm/27-er-cha-shu-de-jing-xiang.md)
     * [剑指 Offer 28：对称的二叉树](/algorithm/28-dui-cheng-de-er-cha-shu.md)
+
+* 常见面试题
+
+    * [反转栈](/other/01-reverse-stack.md)
 

@@ -7,7 +7,6 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css"> -->
 </head>
 <body>
   <div id="app">正在加载...</div>
@@ -33,7 +32,7 @@
       // subMaxLevel: 3, // 侧边栏显示层级
             // maxLevel: 4,
       subMaxLevel: 1,
-      coverpage: false, // 是否配置封面
+      coverpage: true, // 是否配置封面
       auto2top: true, // 切换页面后是否自动跳转到页面顶部
       autoHeader: true,
       markdown: {
@@ -45,11 +44,11 @@
       formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
 
       search: {
-          paths: [],
-          placeholder: '🔍 搜索 ',
+          paths: 'auto',
+          placeholder: '  🔍    搜索 ',
           noData: '哎呀，找不到结果！ ',
           // Headline depth, 1 - 6
-          depth: 3
+          depth: 6
       },
       copyCode: {
           buttonText : '复制',
@@ -75,22 +74,22 @@
         });
 
         hook.beforeEach(function(content) {
-            var url ='https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/tree/master/offer' + vm.route.file;
-            var editHtml1 = ' 🧐 如果发现错误，或者有更好的方案，期待你来一起完善？[点击这里前往 Github 编辑此页](' + url +')！\n'
-            var editHtml2 = ' 🧐 如果发现错误，或者有更好的方案，期待你来一起完善？[点击这里前往 Github 编辑此页](' + url +')！\n'
+            var url1 ='https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/tree/master/offer/' + vm.route.file;
+            var editHtml1 = '❤️ 如果发现错误，或者有更好的方案，期待你来一起完善？[前往 Github 编辑此页](' + url1 +')！\n'
+            var url2 ='https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/tree/master/00-code(%E6%BA%90%E4%BB%A3%E7%A0%81)/src/com/hi/dhl/algorithms';
+            var editHtml2 = ' <br/>👉 点击这里 [前往 Github 查看](' + url2 +') 文章源码\n'
             var head = ">"+editHtml1 + editHtml2
 
-            var footer = [
-              '----',
-              '> Last modified {docsify-updated}.',
-              '> [hi-dhl](https://hi-dhl.com) &copy;2020. powered by  [docsify](https://github.com/docsifyjs/docsify) .', 
-            ].join("\n");
+            // var footer = [
+            //   '----',
+            //   '> Last modified {docsify-updated}.',
+            //   '> [hi-dhl](https://hi-dhl.com) &copy;2020. powered by  [docsify](https://github.com/docsifyjs/docsify) .', 
+            // ].join("\n");
 
             return head
               + "\n----\n"
               + content 
               + "\n\n" 
-              + footer
         });
 
         hook.afterEach(function(html, next) {
@@ -145,8 +144,11 @@
   <!--统计访问量插件-->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-  <!-- <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script> -->
+  <!-- 文章目录 -->
   <script src="//unpkg.com/docsify-plugin-toc"></script>
+
+  <!-- 表情 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 
 </body>
 </html>
