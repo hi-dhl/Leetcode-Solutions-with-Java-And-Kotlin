@@ -1,10 +1,12 @@
-<h1 align="center">LeetCode 系列题解</h1>
+<h2 align="center">LeetCode 系列题解</h1>
 
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码，源代码在 <b> 00-code(源代码) </b> 目录下 </p>
+<p align="center"> LeetCode 的题解进度，目前已经 AC 了 122 题，题解 26 题 </p>
 
-<p align="center"> 仓库题解进度：二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(4)、动态规划(5)、位运算(2)、字符串(2)、栈(2)、队列(1)</p>
+<p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码</p>
+
+<!--<p align="center"> 仓库题解进度：二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(4)、动态规划(5)、位运算(2)、字符串(2)、栈(2)、队列(1)</p>-->
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -36,11 +38,14 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 最后推荐我一直在更新维护的项目和网站：
 
+* 计划建立一个最全、最新的 AndroidX Jetpack 相关组件的实战项目 以及 相关组件原理分析文章，正在逐渐增加 Jetpack 新成员，仓库持续更新，欢迎前去查看：[AndroidX-Jetpack-Practice](https://github.com/hi-dhl/AndroidX-Jetpack-Practice)
+
+* 最新 Android 10 源码分析系列文章，了解系统源码，不仅有助于分析问题，在面试过程中，对我们也是非常有帮助的，仓库持续更新，欢迎前去查看 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)
+
+* 整理和翻译一系列精选国外的技术文章，每篇文章都会有**译者思考**部分，对原文的更加深入的解读，仓库持续更新，欢迎前去查看 [Technical-Article-Translation](https://github.com/hi-dhl/Technical-Article-Translation)
+
+* LeetCode / 剑指 Offer / 国内外大厂面试题，涵盖： 数组、栈、队列、字符串、链表、树，查找算法、搜索算法、位运算、排序等等，每道题目都会用 Java 和 kotlin 去实现，仓库持续更新，欢迎前去查看 [Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)
+
 * 「为互联网人而设计，国内国外名站导航」涵括新闻、体育、生活、娱乐、设计、产品、运营、前端开发、Android 开发等等网址，[为互联网人而设计，国内国外名站导航](https://site.51git.cn)
-  
-* 计划建立一个最全、最新的 AndroidX Jetpack 相关组件的实战项目 以及 相关组件原理分析文章，正在逐渐增加 Jetpack 新成员，仓库持续更新，可以前去查看：[AndroidX-Jetpack-Practice](https://github.com/hi-dhl/AndroidX-Jetpack-Practice)
 
-* 最新 Android 10 源码分析系列文章，仓库持续更新，可以前去查看 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)
-
-* 整理和翻译一系列精选国外的技术文章，每篇文章都会有**译者思考**部分，对原文的更加深入的解读，仓库持续更新，可以前去查看 [Technical-Article-Translation](https://github.com/hi-dhl/Technical-Article-Translation)
 

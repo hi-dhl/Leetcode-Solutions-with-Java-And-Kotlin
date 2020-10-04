@@ -1,12 +1,3 @@
----
-title:  LeetCode 数组：2020 力扣杯：拿硬币
-categories: LeetCode
-tag: [LeetCode]
-excerpt: 题目来源于 2020 力扣杯！Code Your Future 春季全国编程大赛 01：拿硬币。题目难度为 Easy。
-toc: true
-keywords: Java,Kotlin,数组,算法,LeetCode,输入数组有序,拿硬币
----
-
 题目来源于 2020 力扣杯！Code Your Future 春季全国编程大赛 01：拿硬币。题目难度为 Easy。
 
 * [中文地址：https://leetcode-cn.com/problems/na-ying-bi/](https://leetcode-cn.com/problems/na-ying-bi/)

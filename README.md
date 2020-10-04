@@ -1,13 +1,10 @@
-
-# <p align="center"> Leetcode-Solutions-with-Java-And-Kotlin </p>
+## <p align="center"> Leetcode-Solutions-Java-And-Kotlin </p>
 
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 做题进度：AC 88 题，每道题目都会用 Java 和 kotlin 去实现</p>
+<p align="center"> 做题进度：AC 122 题，每道题目都会用 Java 和 kotlin 去实现</p>
 
-<p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码，源代码在 <b> 00-code(源代码) </b> 目录下 </p>
-
-<p align="center"> 仓库题解进度：剑指offer(15)、二叉树(12)、二分查找(3)、线性查找(1)、数组(2)、链表(1)、搜索算法(4)、动态规划(5)、位运算(2)、字符串(2)、栈(2)、队列(1)</p>
+<p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码</p>
 
 <p align="center">
 <a href="https://github.com/hi-dhl"><img src="https://img.shields.io/badge/GitHub-HiDhl-4BC51D.svg?style=flat"></a> <img src="https://img.shields.io/badge/language-Java | Kotlin-orange.svg"/> <img src="https://img.shields.io/badge/platform-android-lightgrey.svg"/>
@@ -19,15 +16,49 @@
 
 Google 这几年一直在强力推荐 Kotlin，自从用了 Kotlin 了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择 **Java、Kotlin**，目前已经 AC 了 70 题左右，题库会一点点去完善。
 
-LeetCode 我现在正式从国际版切换到国内版，因为国内版本现在越做越好了，题库也更加完善，除了基本的算法、数据库、Shell、多线程之外，还有程序员面试宝典、剑指 offer 系列题目，另外不仅可以看全球排名，还可以看国内排名。
+LeetCode 我现在正式从国际版切换到国内版，因为国内版本现在越做越好了，题库也更加完善，除了基本的算法、数据库、Shell、多线程之外，还有程序员面试宝典、剑指 offer 系列题目。
 
 LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每个人的精力有限，不可能刷完所有题目，因此我会按照经典类型题目去分类、和题目的难易程度去排序。
 
 * 数据结构： 数组、栈、队列、字符串、链表、树……
 * 算法： 查找算法、搜索算法、位运算、排序、数学、……
 
-每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)，一起来学习，期待与你一起成长。
+每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)
 
+## 在线文档
+
+* LeetCode 系列题解：[在线阅读](https://leetcode.hi-dhl.com)
+* 剑指 offer 及国内外大厂题解：[在线阅读](https://offer.hi-dhl.com)
+
+## 工程目录结构介绍
+
+```
+Leetcode-Solutions-with-Java-And-Kotlin
+├── 00-code(源代码)    // 存放 Java 和 kotlin 的源码(LeetCode、剑指 offer、国内外大厂面试题)
+├── leetcode          // 存放 LeetCode 的题解( MD 文件)
+├── offer             // 存放剑指 offer 的题解( MD 文件)
+```
+
+## 核心内容
+
+![](media/16017884626310.jpg)
+
+---
+
+最后推荐我一直在更新维护的项目和网站：
+
+* 计划建立一个最全、最新的 AndroidX Jetpack 相关组件的实战项目 以及 相关组件原理分析文章，正在逐渐增加 Jetpack 新成员，仓库持续更新，欢迎前去查看：[AndroidX-Jetpack-Practice](https://github.com/hi-dhl/AndroidX-Jetpack-Practice)
+
+* 最新 Android 10 源码分析系列文章，了解系统源码，不仅有助于分析问题，在面试过程中，对我们也是非常有帮助的，仓库持续更新，欢迎前去查看 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)
+
+* 整理和翻译一系列精选国外的技术文章，每篇文章都会有**译者思考**部分，对原文的更加深入的解读，仓库持续更新，欢迎前去查看 [Technical-Article-Translation](https://github.com/hi-dhl/Technical-Article-Translation)
+
+* LeetCode / 剑指 Offer / 国内外大厂面试题，涵盖： 数组、栈、队列、字符串、链表、树，查找算法、搜索算法、位运算、排序等等，每道题目都会用 Java 和 kotlin 去实现，仓库持续更新，欢迎前去查看 [Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)
+
+* 「为互联网人而设计，国内国外名站导航」涵括新闻、体育、生活、娱乐、设计、产品、运营、前端开发、Android 开发等等网址，[为互联网人而设计，国内国外名站导航](https://site.51git.cn)
+  
+  
+<!--
 ## 剑指 offer（持续更新中）
 
 剑指 offer 涵盖了以上所有分类的题目，是面试必刷题系列之一，笔者正努力刷完所有题目，然后对每题进行分类，希望可以帮助每个求职找工作的同学。
@@ -225,30 +256,5 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 排序：冒泡排序、插入排序、选择排序、希尔排序、归并排序、快速排序、堆排序
 
 | 题号 | 题解 | 题目地址 | Language | Difficulty |
-| :-: | :-: | :-: | :-: | :-: |
-
-## 结语
-
-致力于分享一系列 Android 系统源码、逆向分析、算法、翻译、Jetpack 源码相关的文章，正在努力写出更好的文章，如果这篇文章对你有帮助给个 star，文章中有什么没有写明白的地方，或者有什么更好的建议欢迎留言，欢迎一起来学习，在技术的道路上一起前进。
-
-> 计划建立一个最全、最新的 AndroidX Jetpack 相关组件的实战项目 以及 相关组件原理分析文章，正在逐渐增加 Jetpack 新成员，仓库持续更新，可以前去查看：[AndroidX-Jetpack-Practice](https://github.com/hi-dhl/AndroidX-Jetpack-Practice), 如果这个仓库对你有帮助，请帮我点个赞，我会陆续完成更多 Jetpack 新成员的项目实践。
-
-### Android10 源码分析
-
-正在写一系列的 Android 10 源码分析的文章，了解系统源码，不仅有助于分析问题，在面试过程中，对我们也是非常有帮助的，如果你同我一样喜欢研究 Android 源码，可以关注我 GitHub 上的 [Android10-Source-Analysis](https://github.com/hi-dhl/Android10-Source-Analysis)。
-
-### 算法题库的归纳和总结
-
-由于 LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每个人的精力有限，不可能刷完所有题目，因此我按照经典类型题目去分类、和题目的难易程度去排序。
-
-* 数据结构： 数组、栈、队列、字符串、链表、树……
-* 算法： 查找算法、搜索算法、位运算、排序、数学、……
-
-每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路，如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解：[Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)。
-
-### 精选国外的技术文章
-
-目前正在整理和翻译一系列精选国外的技术文章，不仅仅是翻译，很多优秀的英文技术文章提供了很好思路和方法，每篇文章都会有**译者思考**部分，对原文的更加深入的解读，可以关注我 GitHub 上的 [Technical-Article-Translation](https://github.com/hi-dhl/Technical-Article-Translation)。
-
-
+| :-: | :-: | :-: | :-: | :-: |-->
 
