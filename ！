@@ -1,0 +1,17 @@
+doc: delete not use
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sun Oct 4 13:43:44 2020 +0800
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	deleted:    .MWebMetaData/ImgUpload-097CC969214D48B9695B945403625361.data
+#	deleted:    .MWebMetaData/ImgUpload-2ABDBCF110453AC4E20924E8E7184406.data
+#	deleted:    .MWebMetaData/ImgUpload-E499B330B0AAF4370EDC1E5A277FAF36.data
+#	modified:   .gitignore
+#

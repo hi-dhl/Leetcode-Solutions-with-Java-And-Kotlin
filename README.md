@@ -41,7 +41,7 @@ Leetcode-Solutions-with-Java-And-Kotlin
 
 ## 核心内容
 
-![](media/16017884626310.jpg)
+![](http://cdn.51git.cn/2020-10-04-16017884626310.jpg)
 
 ---
 
