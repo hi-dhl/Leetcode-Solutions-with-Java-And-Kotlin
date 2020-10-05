@@ -12,6 +12,10 @@
     * [常用算法](/base/02-algorithm.md)
     * [常用模板](/base/03-template.md)-->
 
+* 多线程
+    
+    * [线程交替打印数字](/multi-thread/printThread.md)
+    
 * 剑指 Offer 题解
      
     * 查找

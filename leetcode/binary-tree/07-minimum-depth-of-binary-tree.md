@@ -1,12 +1,3 @@
----
-title:  LeetCode 二叉树：计算二叉树的最小深度 
-categories: LeetCode
-tag: [LeetCode,二叉树]
-excerpt: 题目来源于 LeetCode 上第 111 号（Minimum Depth of Binary Tree）问题：计算二叉树的最小深度。题目难度为 Easy。
-toc: true
-keywords: Java,Kotlin,数组,算法,LeetCode,二分查找,二叉树,二叉搜索树,前序遍历,中序遍历,后序遍历,层次遍历,构造二叉树,计算二叉树的最大深度
----
-
 题目来源于 LeetCode 上第 111 号（Minimum Depth of Binary Tree）问题：计算二叉树的最小深度。题目难度为 Easy。
 
 * [英文地址：https://leetcode.com/problems/minimum-depth-of-binary-tree/](https://leetcode.com/problems/minimum-depth-of-binary-tree/)

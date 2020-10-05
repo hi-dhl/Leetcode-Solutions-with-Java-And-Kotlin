@@ -10,11 +10,9 @@
 
 每道题目都会用 Java 和 kotlin 去实现，并且每道题目都有解题思路、时间复杂度和空间复杂度
 
- 如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解
+如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解
 
-
-
-[开始阅读](README)
+[开始阅读](menu?id=目录)
 [GitHub](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)
 
 <!--[Blog](https://hi-dhl.com)

@@ -30,7 +30,7 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 ![](http://cdn.51git.cn/2020-10-04-16017884626310.jpg)
 
 * LeetCode 系列题解：[在线阅读](https://leetcode.hi-dhl.com)
-* 剑指 offer 及国内外大厂题解：[在线阅读](https://offer.hi-dhl.com)
+* 剑指 offer 及国内外大厂面试题解：[在线阅读](https://offer.hi-dhl.com)
 
 ## 工程目录结构介绍
 
@@ -51,7 +51,7 @@ Leetcode-Solutions-with-Java-And-Kotlin
 
 * 整理和翻译一系列精选国外的技术文章，每篇文章都会有**译者思考**部分，对原文的更加深入的解读，仓库持续更新，欢迎前去查看 [Technical-Article-Translation](https://github.com/hi-dhl/Technical-Article-Translation)
 
-* LeetCode / 剑指 Offer / 国内外大厂面试题，涵盖： 数组、栈、队列、字符串、链表、树，查找算法、搜索算法、位运算、排序等等，每道题目都会用 Java 和 kotlin 去实现，仓库持续更新，欢迎前去查看 [Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)
+* LeetCode / 剑指 Offer / 国内外大厂面试题，涵盖： 多线程、数组、栈、队列、字符串、链表、树，查找算法、搜索算法、位运算、排序等等，每道题目都会用 Java 和 kotlin 去实现，仓库持续更新，欢迎前去查看 [Leetcode-Solutions-with-Java-And-Kotlin](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)
 
 * 「为互联网人而设计，国内国外名站导航」涵括新闻、体育、生活、娱乐、设计、产品、运营、前端开发、Android 开发等等网址，[为互联网人而设计，国内国外名站导航](https://site.51git.cn)
   
