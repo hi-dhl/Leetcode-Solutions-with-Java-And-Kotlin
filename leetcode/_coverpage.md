@@ -16,7 +16,7 @@ LeetCode 的题解进度，目前已经 AC 了 122 题，题解 26 题
 
 如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解
 
-[开始阅读](menu?id=目录)
+[开始阅读](menu?id=目录) 
 [GitHub](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin)
 
 <!--[Blog](https://hi-dhl.com)

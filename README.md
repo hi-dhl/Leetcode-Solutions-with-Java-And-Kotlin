@@ -2,7 +2,11 @@
 
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 做题进度：AC 122 题，每道题目都会用 Java 和 kotlin 去实现</p>
+<p align="center">
+LeetCode 系列题解：<a href ="https://leetcode.hi-dhl.com">在线阅读</a> ，剑指 offer 及大厂面试题解：<a href ="https://offer.hi-dhl.com">在线阅读</a>
+</p>
+
+<p align="center"> 做题进度：AC 123 题，每道题目都会用 Java 和 kotlin 去实现</p>
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码</p>
 

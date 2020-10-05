@@ -4,7 +4,7 @@
     * [GitHub](https://github.com/hi-dhl)
     * [博客](https://hi-dhl.com/)
     * [掘金](https://juejin.im/user/2594503168898744)
-    * [微信](README?id=联系我)
+    * [微信](menu?id=联系我) 
 
 <!--* 开篇
 
