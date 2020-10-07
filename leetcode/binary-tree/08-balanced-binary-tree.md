@@ -6,16 +6,15 @@
 
 ## 题目描述
 
-GGiven a binary tree, determine if it is height-balanced.
+给定一个二叉树，判断它是否是高度平衡的二叉树。
 
-For this problem, a height-balanced binary tree is defined as:
+本题中，一棵高度平衡二叉树定义为：
 
->a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
->一个二叉树其中每个节点的两个子树的深度差不相差超过1
+> 一个二叉树每个节点 的左右两个子树的高度差的绝对值不超过1。
 
-**Example 1:**
+**示例 1:**
 
-Given the following tree [3,9,20,null,null,15,7]:
+给定二叉树 [3,9,20,null,null,15,7]
 
 ```
     3
@@ -25,11 +24,11 @@ Given the following tree [3,9,20,null,null,15,7]:
    15   7
 ```
 
-Return true.
+返回 true 。
 
-**Example 1:**
+**示例 2:**
 
-Given the following tree [1,2,2,3,3,null,null,4,4]:
+给定二叉树 [1,2,2,3,3,null,null,4,4]
 
 ```
        1
@@ -41,7 +40,7 @@ Given the following tree [1,2,2,3,3,null,null,4,4]:
  4   4
 ```
 
-Return false.
+返回 false 。
 
 ## 思路:
 
@@ -54,7 +53,7 @@ Return false.
 * 时间复杂度：O(n)，n 是二叉树中的节点个数，使用自底向上的递归，每个节点的计算高度和判断是否平衡都只需要处理一次。
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Java实现
+### Java 实现
 
 ```
 public boolean isBalanced(TreeNode root) {
@@ -77,7 +76,7 @@ public int maxDepth(TreeNode root) {
 }
 ```
 
-### Koltin尾递归实现
+### Koltin 实现
 
 ```
 fun isBalanced(root: TreeNode?): Boolean {

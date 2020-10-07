@@ -1,11 +1,3 @@
-* 简介
-    
-    * [LeetCode 系列题解](https://leetcode.hi-dhl.com/)
-    * [GitHub](https://github.com/hi-dhl)
-    * [博客](https://hi-dhl.com/)
-    * [掘金](https://juejin.im/user/2594503168898744)
-    * [微信](README?id=联系我)
-
 <!--* 开篇
 
     * [数据结构](/base/01-data_structure.md)

@@ -5,19 +5,19 @@
  
 ## 题目描述
  
-Given a binary tree, return the postorder traversal of its nodes' values.
+给定一个二叉树，返回它的 后序 遍历。
 
-**Example:**
+**示例:**
 
 ```
-Input: [1,null,2,3]
+输入: [1,null,2,3]  
    1
     \
      2
     /
-   3
+   3 
 
-Output: [3,2,1]
+输出: [3,2,1]
 ```
 
 **二叉树的后序遍历过程: 左节点 -> 右节点 -> 根节点，如下图所示：**
@@ -40,7 +40,7 @@ Output: [3,2,1]
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -67,7 +67,7 @@ class Solution {
 }
 ```
 
-### Kotlin实现
+### Kotlin 实现
 
 ```
 class Solution {
@@ -102,7 +102,7 @@ class Solution {
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量，最坏情况下需要空间O(n)，平均情况为O(log2^n)
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -118,7 +118,7 @@ class Solution {
 }
 ```
 
-### Kotlin 尾递归实现
+### Kotlin 实现
 
 ```
 class Solution {

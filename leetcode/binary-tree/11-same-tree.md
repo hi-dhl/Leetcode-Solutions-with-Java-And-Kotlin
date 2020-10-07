@@ -6,32 +6,44 @@
 
 ## 题目描述
 
-Given two binary trees, write a function to check if they are the same or not.
+给定两个二叉树，编写一个函数来检验它们是否相同。
 
-Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
 
-**Example 1:**
+**示例 1:**
 
 ```
-Input:     1         1
+输入:       1         1
           / \       / \
          2   3     2   3
 
         [1,2,3],   [1,2,3]
 
-Output: true
+输出: true
 ```
 
-**Example 2:**
+**示例 2:**
 
 ```
-Input:     1         1
+输入:      1          1
           /           \
          2             2
 
         [1,2],     [1,null,2]
 
-Output: false
+输出: false
+```
+
+**示例 3:**
+
+```
+输入:       1         1
+          / \       / \
+         2   1     1   2
+
+        [1,2,1],   [1,1,2]
+
+输出: false
 ```
 
 ## 思路一：非递归
@@ -62,7 +74,7 @@ if (p.val != q.val) {
 * 时间复杂度：O(min(m,n))，m 和 n 分别为两颗二叉树中的节点个数，对两个二叉树同时进行深度优先搜索，只要有一颗二叉树的节点为空，即停止循环，因此被访问到的节点数不会超过较小的二叉树的节点数
 * 空间复杂度：O(min(m,n))，m 和 n 分别为两颗二叉树中的节点个数，循环从队列中取数据，当有一颗二叉树的节点为空，即停止循环。
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -106,7 +118,7 @@ class Solution {
 }
 ```
 
-### Koltin实现
+### Koltin 实现
 
 ```
 class Solution {
@@ -155,8 +167,8 @@ class Solution {
 
 * 时间复杂度：O(min(m,n))，m 和 n 分别为两颗二叉树中的节点个数，对两个二叉树同时进行深度优先搜索，只要有一颗二叉树的节点为空，即停止循环，因此被访问到的节点数不会超过较小的二叉树的节点数
 * 空间复杂度：O(min(m,n))，m 和 n 分别为两颗二叉树中的节点个数，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度，树的高度不会超过较小的二叉树的最大高度
-*
-### Java实现
+
+### Java 实现
 
 ```
 class Solution {
@@ -177,7 +189,7 @@ class Solution {
 }
 ```
 
-### Koltin实现
+### Koltin 实现
 
 ```
 class Solution {

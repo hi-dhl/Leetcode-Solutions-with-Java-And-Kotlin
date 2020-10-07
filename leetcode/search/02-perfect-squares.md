@@ -76,31 +76,32 @@ element 与 peek 方法用于在队列的头部查询元素，如果队列为空
 ```
 class Solution {
     fun numSquares(n: Int): Int {
-        val square = mutableListOf<Int>()
-        for (i in 1..n) {
+        val square = arrayListOf<Int>()
+        val sqrt = Math.sqrt(n.toDouble()).toInt()
+        for (i in 1..sqrt) {
             square.add(i * i)
         }
 
-        val set = hashSetOf<Int>()
+        var step = 0
+        val result = hashSetOf<Int>()
         val queue = LinkedList<Int>()
         queue.offer(n)
-        var step = 0
-        while (queue.size > 0) {
-            step = step + 1
+        while (!queue.isEmpty()) {
+            step += 1
             val count = queue.size
             for (i in 0 until count) {
-                val item = queue.poll()
-                loop@ for (j in square) {
+                val target = queue.poll();
+                loop@ for (item in square) {
                     when {
-                        item == j -> return step
-                        item < j -> break@loop
+                        target == item -> return step
+                        item > target -> break@loop;
                         else -> {
-                            val sub = item - j;
-                            if (set.add(sub)) {
-                                queue.offer(sub)
-                            }
+                            val sub = target - item
+                            if (result.add(sub)) queue.offer(sub)
+
                         }
                     }
+
                 }
             }
         }
@@ -115,26 +116,26 @@ class Solution {
 class Solution {
     public int numSquares(int n) {
         List<Integer> square = new ArrayList<>();
-        for (int i = 1; i < n; i++) {
+        int sqrt = (int) Math.sqrt(n);
+        for (int i = 1; i <= sqrt; i++) {
             square.add(i * i);
         }
-
         int step = 0;
-        Set<Integer> set = new HashSet<>();
         Queue<Integer> queue = new LinkedList<>();
-        queue.add(n);
-        while (queue.size() > 0) {
-            step = step + 1;
+        Set<Integer> set = new HashSet<>();
+        queue.offer(n);
+        while (!queue.isEmpty()) {
+            step += 1;
             int count = queue.size();
             for (int i = 0; i < count; i++) {
-                int item = queue.poll();
-                for (Integer subItem : square) {
-                    if (item == subItem) {
+                Integer target = queue.poll();
+                for (Integer value : square) {
+                    if (target.equals(value)) {
                         return step;
-                    } else if (item < subItem) {
+                    } else if (value > target) {
                         break;
                     } else {
-                        int sub = item - subItem;
+                        int sub = target - value;
                         if (set.add(sub)) {
                             queue.offer(sub);
                         }

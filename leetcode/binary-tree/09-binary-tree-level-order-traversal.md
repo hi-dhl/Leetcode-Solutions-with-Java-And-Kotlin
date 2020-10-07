@@ -6,11 +6,11 @@
 
 ## 题目描述
 
-Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
+给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
 
-**Example:**
+**例如:**
 
-Given binary tree [3,9,20,null,null,15,7],
+给定二叉树 [3,9,20,null,null,15,7],
 
 ```
     3
@@ -20,7 +20,7 @@ Given binary tree [3,9,20,null,null,15,7],
    15   7
 ```
 
-return its bottom-up level order traversal as:
+返回其自底向上的层次遍历为：
 
 ```
 [
@@ -77,7 +77,7 @@ element 与 peek 方法用于在队列的头部查询元素，如果队列为空
 * 时间复杂度：O(n)，n 是二叉树中的节点个数
 * 空间复杂度：O(n)，n 是二叉树中的节点个数，需要一个 list 存储访问的所有节点
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -110,7 +110,7 @@ class Solution {
 }
 ```
 
-### Koltin实现
+### Koltin 实现
 
 ```
 class Solution {
@@ -146,7 +146,7 @@ DFS: 深度优先搜索算法（Depth-First-Search），是搜索算法的一种
 * 时间复杂度：O(n)，n 是二叉树中的节点个数
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -172,7 +172,7 @@ class Solution {
 }
 ```
 
-### Koltin尾递归实现
+### Koltin 实现
 
 ```
 class Solution {

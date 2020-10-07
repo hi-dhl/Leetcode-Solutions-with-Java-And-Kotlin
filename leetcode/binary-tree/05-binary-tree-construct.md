@@ -6,19 +6,20 @@
 
 ## 题目描述
 
-Given preorder and inorder traversal of a tree, construct the binary tree.
+根据一棵树的前序遍历与中序遍历构造二叉树。
 
-**Note:**
-You may assume that duplicates do not exist in the tree.
+**注意:**
 
-For example, given
+你可以假设树中没有重复的元素。
+
+例如，给出
 
 ```
-preorder = [3,9,20,15,7]
-inorder = [9,3,15,20,7]
+前序遍历 preorder = [3,9,20,15,7]
+中序遍历 inorder = [9,3,15,20,7]
 ```
 
-Return the following binary tree:
+返回如下的二叉树：
 
 ```
     3
@@ -32,8 +33,8 @@ Return the following binary tree:
 
 如果还不了解前序遍历和中序遍历算法可以点击下方链接前往
 
-[前序遍历](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA01%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%20%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md)
-[中序遍历](https://github.com/hi-dhl/Leetcode-Solutions-with-Java-And-Kotlin/blob/master/BinaryTree(%E4%BA%8C%E5%8F%89%E6%A0%91)/0xA02%20LeetCode%E4%BA%8C%E5%8F%89%E6%A0%91%EF%BC%9A%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md)
+* [二叉树：前序遍历](/binary-tree/01-binary-tree-preorder.md)
+* [二叉树：中序遍历](/binary-tree/02-binary-tree-inorder.md)
 
 前序遍历和中序遍历过程如下：
 
@@ -66,7 +67,7 @@ Return the following binary tree:
 * 时间复杂度：O(n), 遍历每一个节点，重建二叉树
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Kotlin 尾递归实现
+### Kotlin 实现
 
 ```
 class Solution {
@@ -86,7 +87,7 @@ class Solution {
         }
 
         val index = getRootIndex(inorder, key)
-        if (index > 0 || index < preorder.size) {
+        if (index > 0 && index < preorder.size) {
             // 计算左子树，所以根节点除外，从下标1开始
             var pre = Arrays.copyOfRange(preorder, 1, index + 1)
             var inor = Arrays.copyOfRange(inorder, 0, index)
@@ -127,7 +128,7 @@ class Solution {
         }
 
         int index = getRootIndex(inorder, key);
-        if (index > 0 || index < preorder.length) {
+        if (index > 0 && index < preorder.length) {
             // 计算左子树，所以根节点除外，从下标1开始
             int[] pre = Arrays.copyOfRange(preorder, 1, index + 1);
             int[] inor = Arrays.copyOfRange(inorder, 0, index);

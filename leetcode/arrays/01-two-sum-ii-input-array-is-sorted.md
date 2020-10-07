@@ -6,24 +6,49 @@
 
 ## 题目描述
  
-Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
+给定一个已按照升序排列 的有序数组，找到两个数使得它们相加之和等于目标数。
 
-The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
+函数应该返回这两个下标值 index1 和 index2，其中 index1 必须小于 index2。
 
-**Note:**
+**说明:**
 
-* Your returned answers (both index1 and index2) are not zero-based.
-* You may assume that each input would have exactly one solution and you may not use the same element twice.
+* 返回的下标值（index1 和 index2）不是从零开始的。
+* 你可以假设每个输入只对应唯一的答案，而且你不可以重复使用相同的元素。
 
 **示例：**
 
 ```
-Input: numbers = [2,7,11,15], target = 9
-Output: [1,2]
-Explanation: 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2
+输入: numbers = [2, 7, 11, 15], target = 9
+输出: [1,2]
+解释: 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2 。
 ```
 
-## 思路一：左右指针法
+## 思路一：Hash 算法
+
+* 将数组元素存储在 Map 里
+* 循环遍历数组中的元素 `numbers[i]`，计算它与另外一个元素 `value` 之和等于 target，即 `int value = target - numbers[i]`
+* 检查 Map 中是否包含 ` value`，如果包含返回两个元素对应的下标
+
+```
+public int[] twoSum(int[] numbers, int target) {
+    Map<Integer, Integer> map = new HashMap<>();
+    for (int i = 0; i < numbers.length; i++) {
+        int value = target - numbers[i];
+        if (map.containsKey(value)) {
+            return new int[]{i + 1, map.get(value) + 1};
+        }
+        map.put(numbers[i], i);
+    }
+    return new int[2];
+}
+```
+
+**复杂度分析：**
+
+* 时间复杂度：0(n) ，n 是数组元素的个数
+* 空间复杂度：0(n)，n 是数组元素的个数，需要额外的空间存储数组中的元素
+
+## 思路二：左右指针法
 
 初始化左指针low指向数组起始位置，右指针height指向数组结束位置，时间复杂度o(n)
 
@@ -73,7 +98,7 @@ class Solution {
 }
 ```
 
-## 思路二：二分法查找
+## 思路三：二分法查找
 
 题目可知找两个数之和 a+b = taget，循环数组每一个元素a, 从剩余的元素里面用二分法查找另外一个元素 b= taget-a 即可，时间复杂度为o(nlogn)
 
@@ -98,9 +123,13 @@ public class Solution {
         int height = numbers.length - 1;
         while (low <= height) {
             int mind = (low + height) >>> 1;
-            if (numbers[mind] == target) return mind;
-            if (numbers[mind] < target) low = mind + 1;
-            if (numbers[mind] > target) height = mind - 1;
+            if (numbers[mind] == target) {
+                return mind;
+            } else if (numbers[mind] < target) {
+                low = mind + 1;
+            } else {
+                height = mind - 1;
+            }
         }
         return -1;
     }

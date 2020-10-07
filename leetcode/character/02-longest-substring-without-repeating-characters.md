@@ -1,7 +1,7 @@
 题目来源于 `LeetCode` 上 第 `3` 号问题：最长公共前缀。题目难度为 `Medium`。
 
 * [英文地址：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
-* [中文地址：https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/) 
+* [中文地址：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
 
 ## 题目描述
 
@@ -145,7 +145,7 @@ class Solution {
         }
         return count
     }
-
+    
     // 方法二：滑动窗口 hashMap
     fun lengthOfLongestSubstring2(s: String): Int {
         val len = s.length;
@@ -158,13 +158,14 @@ class Solution {
         val map = mutableMapOf<Char, Int>()
         for (i in 0 until len) {
             if (map.containsKey(s[i])) {
-                left = Math.max(left, map.get(s[i])?.let { it + 1 } ?: left)
+                left = Math.max(left, (map.get(s[i]) ?: left) + 1)
             }
             map.put(s[i], i)
             count = Math.max(count, i - left + 1)
         }
         return count
     }
+    
 }
 ```
 

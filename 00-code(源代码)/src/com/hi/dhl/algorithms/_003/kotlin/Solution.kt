@@ -42,7 +42,7 @@ class Solution {
         val map = mutableMapOf<Char, Int>()
         for (i in 0 until len) {
             if (map.containsKey(s[i])) {
-                left = Math.max(left, map.get(s[i])?.let { it + 1 } ?: left)
+                left = Math.max(left, (map.get(s[i]) ?: left) + 1)
             }
             map.put(s[i], i)
             count = Math.max(count, i - left + 1)

@@ -6,15 +6,15 @@
 
 ## 题目描述
 
-Given a binary tree, find its minimum depth.
+给定一个二叉树，找出其最小深度。
 
-The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
 
-**Note:** A leaf is a node with no children.
+**说明:** 叶子节点是指没有子节点的节点。
 
-**Example:**
+**示例:**
 
-Given binary tree [3,9,20,null,null,15,7],
+给定二叉树 [3,9,20,null,null,15,7],
 
 ```
     3
@@ -24,7 +24,7 @@ Given binary tree [3,9,20,null,null,15,7],
    15   7
 ```
 
-return its minimum depth = 2.
+返回它的最小深度  2.
 
 ## 思路:
 
@@ -50,7 +50,7 @@ minDepth(root) = Math.min(minDepth(root.left), minDepth(root.right)) + 1
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Java实现
+### Java 实现
 
 ```
 public int minDepth(TreeNode root) {
@@ -65,7 +65,7 @@ public int minDepth(TreeNode root) {
 }
 ```
 
-### Koltin尾递归实现
+### Koltin 实现
 
 ```
 tailrec fun minDepth(root: TreeNode?): Int {

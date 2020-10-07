@@ -1,25 +1,27 @@
 题目来源于 LeetCode 上第 102号（Binary Tree Level Order Traversal）问题：二叉树的层次遍历。题目难度为 Medium。
 
-[英文地址: https://leetcode.com/problems/binary-tree-level-order-traversal/](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-[中文地址: https://leetcode-cn.com/problems/binary-tree-level-order-traversal/](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+* [英文地址: https://leetcode.com/problems/binary-tree-level-order-traversal/](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+* [中文地址: https://leetcode-cn.com/problems/binary-tree-level-order-traversal/](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
 #### 题目描述
  
-Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
+给你一个二叉树，请你返回其按 层序遍历 得到的节点值。 （即逐层地，从左到右访问所有节点）。
 
-**Example:**
+**示例:**
+
+二叉树：[3,9,20,null,null,15,7]
 
 ```
-Given binary tree [3,9,20,null,null,15,7]
-
     3
    / \
   9  20
     /  \
    15   7
+```
 
-return its level order traversal as:
+返回其层次遍历结果：
 
+```
 [
   [3],
   [9,20],
@@ -79,7 +81,7 @@ element 与 peek 方法用于在队列的头部查询元素，如果队列为空
 * 时间复杂度：O(n)，n 是二叉树中的节点个数
 * 空间复杂度：O(n)，n 是二叉树中的节点个数，需要一个 list 存储访问的所有节点
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -110,7 +112,7 @@ class Solution {
 }
 ```
 
-### Kotlin实现
+### Kotlin 实现
 
 ```
 class Solution {
@@ -171,7 +173,7 @@ class Solution {
 }
 ```
 
-### Kotlin 尾递归
+### Kotlin 实现
 
 ```
 class Solution {

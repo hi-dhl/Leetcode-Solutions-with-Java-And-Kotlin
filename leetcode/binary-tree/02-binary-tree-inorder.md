@@ -5,20 +5,20 @@
 
 ## 题目描述
  
-Given a binary tree, return the inorder traversal of its nodes' values
+给定一个二叉树，返回它的中序 遍历。
  
-**Example:**
+**示例:**
   
- ```
- Input: [1,null,2,3]
+```
+输入: [1,null,2,3]
    1
     \
      2
     /
    3
 
-Output: [1,3,2]
- ```
+输出: [1,3,2]
+```
 
  **二叉树的中序遍历过程: 左节点 -> 根节点 -> 右节点，如下图所示：**
  ![](http://cdn.51git.cn/2020-04-18-二叉树.png)
@@ -36,7 +36,7 @@ Output: [1,3,2]
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -117,7 +117,7 @@ class Solution {
 }
 ```
 
-### kotlin 尾递归实现
+### kotlin 实现
 
 ```
 class Solution {

@@ -1,5 +1,8 @@
 package com.hi.dhl.algorithms._167.java;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * <pre>
  *     author: dhl
@@ -39,6 +42,27 @@ package com.hi.dhl.algorithms._167.java;
  * </pre>
  */
 public class Solution {
+
+
+    /**
+     * hash 算法
+     *
+     * @param numbers
+     * @param target
+     * @return
+     */
+    public int[] twoSum3(int[] numbers, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < numbers.length; i++) {
+            int value = target - numbers[i];
+            if (map.containsKey(value)) {
+                return new int[]{i + 1, map.get(value) + 1};
+            }
+            map.put(numbers[i], i);
+        }
+        return new int[2];
+    }
+
 
     /**
      * 解法一： 左右指针法
@@ -92,9 +116,13 @@ public class Solution {
         int height = numbers.length - 1;
         while (low <= height) {
             int mind = (low + height) >>> 1;
-            if (numbers[mind] == target) return mind;
-            if (numbers[mind] < target) low = mind + 1;
-            if (numbers[mind] > target) height = mind - 1;
+            if (numbers[mind] == target) {
+                return mind;
+            } else if (numbers[mind] < target) {
+                low = mind + 1;
+            } else {
+                height = mind - 1;
+            }
         }
         return -1;
     }

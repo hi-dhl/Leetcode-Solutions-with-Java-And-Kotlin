@@ -1,6 +1,6 @@
 题目来源于 2020 力扣杯！Code Your Future 春季全国编程大赛 01：拿硬币。题目难度为 Easy。
 
-* [中文地址：https://leetcode-cn.com/problems/na-ying-bi/](https://leetcode-cn.com/problems/na-ying-bi/)
+* [中文地址：https://leetcode-cn.com/problems/na-ying-bi](https://leetcode-cn.com/problems/na-ying-bi)
 
 ## 题目描述
 
@@ -43,7 +43,7 @@
 * 当coins[6]时，第一次拿两枚，第二次拿两枚，第三次拿两枚，至少3次
 * ......
 
-综合以上情况，可以发现当 i 为偶数时，至少次数 = i/2，当 i 为奇数时，至少次数 = i/2 + i%2，代码如下：
+综合以上情况，可以发现当 i 为偶数时，`至少次数 = i/2` ，当 i 为奇数时，`至少次数 = i/2 + i%2`
 
 **复杂度分析：**
 

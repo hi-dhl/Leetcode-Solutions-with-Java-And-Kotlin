@@ -1,14 +1,14 @@
 题目来源于 LeetCode 上第 144号（Binary Tree Preorder Traversal）问题：二叉树的前序遍历，题目难度为 Medium。
 
-[英文地址: https://leetcode.com/problems/binary-tree-preorder-traversal/](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+* [英文地址: https://leetcode.com/problems/binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)
 
-[中文地址：https://leetcode-cn.com/problems/binary-tree-preorder-traversal/](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+* [中文地址：https://leetcode-cn.com/problems/binary-tree-preorder-traversal](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)
 
 ## 题目描述
  
-Given a binary tree, return the preorder traversal of its nodes' values.
+给定一个二叉树，返回它的 前序 遍历。
 
-**Example:**
+**示例:**
 
 ```
 Input: [1,null,2,3]
@@ -38,10 +38,12 @@ Output: [1,2,3]
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
+    
+    // 方法一
     public List<Integer> preorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack();
         List<Integer> list = new LinkedList();
@@ -64,6 +66,7 @@ class Solution {
         return list;
     }
 
+    // 方法二
     public List<Integer> preorderTraversal2(TreeNode root) {
         List<Integer> output = new LinkedList<>();
         if (root == null) return output;
@@ -131,7 +134,7 @@ preorder(root) = preorder(root->left) + preorder(root->right)
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量，最坏情况下需要空间O(n)，平均情况为O(log2^n)
 
-### Java实现
+### Java 实现
 
 ```
 class Solution {
@@ -148,7 +151,7 @@ class Solution {
 }
 ```
 
-### Kotlin 尾递归实现
+### Kotlin 实现
 
 ```
 class Solution {

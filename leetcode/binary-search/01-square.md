@@ -5,24 +5,22 @@
 
 ## 题目描述
 
-Given a positive integer num, write a function which returns True if num is a perfect square else False.
+给定一个正整数 num，编写一个函数，如果 num 是一个完全平方数，则返回 True，否则返回 False。
 
-**Note:**
+**说明:** ：不要使用任何内置的库函数，如  sqrt。
 
-Do not use any built-in library function such as sqrt.
-
-**Example 1:**
+**示例 1:**
 
 ```
-Input: 16
-Output: true
+输入：16
+输出：True
 ```
 
-**Example 2:**
+**示例 2:**
 
 ```
-Input: 14
-Output: false
+输入：14
+输出：False
 ```
 
 ## 思路：二分查找
