@@ -8,7 +8,7 @@
     
     * [线程交替打印数字](/multi-thread/printThread.md)
  
- * 大厂面试题
+* 大厂面试题
 
     * [Uber-计算数组的乘积](/other/02-product-arrays.md)  
     * [阿里-反转栈](/other/01-reverse-stack.md)
