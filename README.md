@@ -3,7 +3,7 @@
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
 <p align="center">
-LeetCode 系列题解：<a href ="https://leetcode.hi-dhl.com">在线阅读</a> ，剑指 offer 及大厂面试题解：<a href ="https://offer.hi-dhl.com">在线阅读</a>
+剑指 offer 及大厂面试题解：<a href ="https://offer.hi-dhl.com">在线阅读</a>，LeetCode 系列题解：<a href ="https://leetcode.hi-dhl.com">在线阅读</a> 
 </p>
 
 <p align="center"> 做题进度：AC 124 题，每道题目都会用 Java 和 kotlin 去实现</p>
@@ -33,8 +33,8 @@ LeetCode 的题库庞大，每个分类都能筛选出数百道题，由于每�
 
 ![](http://cdn.51git.cn/2020-10-04-16017884626310.jpg)
 
-* LeetCode 系列题解：[在线阅读](https://leetcode.hi-dhl.com)
 * 剑指 offer 及国内外大厂面试题解：[在线阅读](https://offer.hi-dhl.com)
+* LeetCode 系列题解：[在线阅读](https://leetcode.hi-dhl.com)
 
 ## 工程目录结构介绍
 
