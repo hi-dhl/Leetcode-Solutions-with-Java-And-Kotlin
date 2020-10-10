@@ -2,7 +2,7 @@
 
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> 剑指 Offer 共 72 题，目前已经 AC 了 47 题，题解进度 25 题 </p>
+<p align="center"> 剑指 Offer 共 72 题，目前已经 AC 了 48 题，题解进度 28 题 </p>
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码 </p>
 
@@ -31,3 +31,4 @@ LeetCode 剑指 Offer 系列总共 72 题，待题解全部写完，我会按照
 * 公众号：ByteCode
 
 <img src='http://cdn.51git.cn/2020-10-03-wechat.png' width = 400px/>
+
