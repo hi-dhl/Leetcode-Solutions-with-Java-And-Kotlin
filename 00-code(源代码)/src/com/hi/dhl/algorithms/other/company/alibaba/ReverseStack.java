@@ -1,4 +1,4 @@
-package com.hi.dhl.algorithms.other;
+package com.hi.dhl.algorithms.other.company.alibaba;
 
 import java.util.Stack;
 
