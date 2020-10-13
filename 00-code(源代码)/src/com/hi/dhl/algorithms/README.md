@@ -8,7 +8,7 @@ com.hi.dhl.algorithms
 │   │   ├── java
 │   │   ├── kotlin
 │   ├── ......
-├── model               // 通用的 model
+├── model               // 通用的 model，用于测试
 ├── offer               // 存放剑指 offer 源代码
 │   ├── _03            
 │   ├── _04             // 名字和 剑指 offer 题号对应
