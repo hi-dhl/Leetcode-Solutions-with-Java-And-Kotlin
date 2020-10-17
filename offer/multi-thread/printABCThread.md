@@ -20,7 +20,7 @@ C
 * 使用 Lock 的 Condition 的 `await/signal/signalAll` 的消息通知机制
 * 通过 Semaphore（信号量） 实现
 
-在上一道题中 [线程交替打印数字](/multi-thread/printThread.md) 通过 `wait/notify/notifyAll` 来实现了线程交替打印，这道题我们通过另外一种方式   Semaphore（信号量） 来实现 三个线程交替打印 "ABC"
+在上一道题中 「 线程交替打印数字 」 通过 `wait/notify/notifyAll` 来实现了线程交替打印，这道题我们通过另外一种方式   Semaphore（信号量） 来实现 三个线程交替打印 "ABC"
 
 
 ### 知识储备

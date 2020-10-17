@@ -6,7 +6,8 @@
 
 * 多线程
      
-    * [线程交替打印数字](/multi-thread/printThread.md) 
+    * [阿里-线程交替打印数字](/multi-thread/printThread.md) 
+    * [头条-线程交替打印 ABC](/multi-thread/printABCThread.md) 
  
 * 大厂面试题
 
