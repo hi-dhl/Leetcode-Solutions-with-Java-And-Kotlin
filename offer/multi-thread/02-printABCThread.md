@@ -25,7 +25,7 @@ C
 
 ### 知识储备
 
-在 Java 中常用的线程同步就是 Lock 和 Synchronized，还可以通过 JUC 提供了一些并发工具类 `CountDownLatch` 、`CyclicBarrier` 、`Semaphore` 来实现，本文主要介绍 `Semaphore` ，而  `Semaphore` 内部类 Sync 通过继承 `AbstractQueuedSynchronizer` 来实现并发的，  `AbstractQueuedSynchronizer` 简称 AQS
+在 Java 中常用的线程同步就是 Lock 和 Synchronized，还可以通过 JUC 提供了一些并发工具类 `CountDownLatch` 、`CyclicBarrier` 、`Semaphore` 来实现并发，本文主要介绍 `Semaphore` ，而  `Semaphore` 内部类 Sync 通过继承 `AbstractQueuedSynchronizer` 来实现并发的，  `AbstractQueuedSynchronizer` 简称 AQS
 
 ```
 abstract static class Sync extends AbstractQueuedSynchronizer {

@@ -3,8 +3,10 @@
 ### 目录
 
 * 多线程
-    
-    * [线程交替打印数字](/multi-thread/printThread.md)
+     
+    * [阿里-线程交替打印数字](/multi-thread/01-printThread.md) 
+    * [头条-线程交替打印 ABC](/multi-thread/02-printABCThread.md) 
+    * [按序打印](/multi-thread/03-print-in-order.md) 
  
 * 大厂面试题
 
