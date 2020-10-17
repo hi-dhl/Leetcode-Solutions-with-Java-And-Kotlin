@@ -18,6 +18,7 @@
 
 * 使用 Object 的 `wait/notify/notifyAll` 的消息通知机制
 * 使用 Lock 的 Condition 的 `await/signal/signalAll` 的消息通知机制
+* 通过 Semaphore（信号量） 实现
 
 在这里我们主要来演示在多线程中如何使用 `wait/notify/notifyAll` 消息通知机制，这也是面试常问的知识点，我们先来了解 `wait/notify/notifyAll` 相关的 API
 
@@ -88,7 +89,6 @@ int a = list.remove(0)
 while(list.isEmpty()){
     obj.wait();
 }
-// 执行这里的时候会抛出异常，因为集合中只有一个元素，等待线程 1 已经移除了
 int a = list.remove(0) 
 ```
 
@@ -107,7 +107,7 @@ int a = list.remove(0)
 * `wait()` 是 Object 类的方法，调用 `wait()` 方法会释放当前线程的对象锁。调用对象的 `wait()` 方法会将当前线程暂停，将当前线程存入该方法所属的对象等待集中，只有调用 `notify/notifyAll` 方法才能唤醒线程
 
 
-### 代码实现
+## 代码实现
 
 ```
 public class PrintNumber {

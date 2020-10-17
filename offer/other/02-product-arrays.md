@@ -1,6 +1,8 @@
-题目来源于 `Uber` 的面试题：计算数组的乘积。
+题目来源于 `Uber` 的面试题：计算数组的乘积。题目难度为 Hard。
 
 ## 题目描述
+
+Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
 
 给定一个整数数组，返回一个新数组，使新数组下标 `i` 处的每个元素，都是原始数组中除第 `i` 处数字外的所有数字的乘积。
 

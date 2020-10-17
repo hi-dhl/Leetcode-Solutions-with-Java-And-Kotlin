@@ -70,7 +70,7 @@
 * 时间复杂度：O(n), 遍历每一个节点，重建二叉树
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Kotlin 尾递归实现
+### Kotlin 实现
 
 ```
 class Solution {
@@ -90,7 +90,7 @@ class Solution {
         }
 
         val index = getRootIndex(inorder, key)
-        if (index > 0 || index < preorder.size) {
+        if (index > 0 && index < preorder.size) {
             // 计算左子树，所以根节点除外，从下标1开始
             // 数组拷贝是左闭右开的区间
             var pre = Arrays.copyOfRange(preorder, 1, index + 1)
@@ -132,7 +132,7 @@ class Solution {
         }
 
         int index = getRootIndex(inorder, key);
-        if (index > 0 || index < preorder.length) {
+        if (index > 0 && index < preorder.length) {
             // 计算左子树，所以根节点除外，从下标1开始
             // 数组拷贝是左闭右开的区间
             int[] pre = Arrays.copyOfRange(preorder, 1, index + 1);

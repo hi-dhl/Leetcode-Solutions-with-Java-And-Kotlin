@@ -5,8 +5,8 @@
     * [常用模板](/base/03-template.md)-->
 
 * 多线程
-    
-    * [线程交替打印数字](/multi-thread/printThread.md)
+     
+    * [线程交替打印数字](/multi-thread/printThread.md) 
  
 * 大厂面试题
 
