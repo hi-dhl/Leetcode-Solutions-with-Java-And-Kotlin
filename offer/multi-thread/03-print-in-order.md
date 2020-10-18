@@ -81,6 +81,7 @@ Semaphore 有两个构造方法，分别指定了是采用公平锁还是非公�
 
 每次调用 `acquire()` 方法的时候，一定要保证 `release()` 方法的执行, 否则会导致资源一直无法释放，建议写在 finally 中，另外需要注意的是 `acquire()` 方法 和 `release()` 一定是成对出现的。
 
+Java 和 Kotlin 实现大体上一致，这里主要演示 Java 的写法。
 
 ### Java 实现
 
