@@ -7,22 +7,22 @@ package com.hi.dhl.algorithms.leetcode._009.kotlin
  * </pre>
  */
 
+
 class Solution {
     fun isPalindrome(x: Int): Boolean {
-        return x.palindrome()
+        if (x < 0 || (x % 10 == 0 && x > 0)) return false
+        return x.isPalindrome1()
     }
 
-    fun Int.palindrome(): Boolean {
-        val x = this;
-        if (x < Int.MIN_VALUE || x > Int.MAX_VALUE) return false
-        if (x < 0 || (x % 10 == 0 && x != 0)) return false
-        var sum = 0
-        var temp = x
+    fun Int.isPalindrome1(): Boolean {
+        var value = this
+        var reverse = 0
         do {
-            sum = sum * 10 + temp % 10
-            temp = temp / 10;
-        } while (temp > 0)
-        return if (sum == x) true else false
+            reverse = reverse * 10 + value % 10
+            value = value / 10
+        } while (value > reverse)
+
+        return value == reverse || value == reverse / 10
     }
 }
 

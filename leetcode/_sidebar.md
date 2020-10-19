@@ -51,4 +51,8 @@
     * [数组：两数之和2 - 输入数组有序](/arrays/01-two-sum-ii-input-array-is-sorted.md)
     * [数组：拿硬币](/2020code/01-na-ying-bi.md)
 
+* 数学
+    
+    * [回文数](/math/01-palindrome-number.md)
+
 

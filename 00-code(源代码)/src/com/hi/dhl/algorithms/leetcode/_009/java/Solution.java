@@ -6,28 +6,19 @@ package com.hi.dhl.algorithms.leetcode._009.java;
  *     desc  :
  * </pre>
  */
-public class Solution {
-
+class Solution {
     public boolean isPalindrome(int x) {
-        if (x > Integer.MAX_VALUE || x < Integer.MIN_VALUE)
-            return false;
+        if (x < 0 || (x % 10 == 0 && x > 0)) return false;
 
-        if (x < 0 || (x % 10 == 0 && x != 0))
-            return false;
-
-        int sum = 0;
-        int temp = x;
+        int reverse = 0;
         do {
-            sum = sum * 10 + temp % 10;
-            temp = temp / 10;
-        } while (temp > 0);
+            reverse = reverse * 10 + x % 10;
+            x = x / 10;
+        } while (x > reverse);
 
-        if (sum == x) {
-            return true;
-        } else {
-            return false;
-        }
+        return x == reverse || x == reverse / 10;
     }
+
 
     public static void main(String... args) {
         Solution palindromeNums = new Solution();
