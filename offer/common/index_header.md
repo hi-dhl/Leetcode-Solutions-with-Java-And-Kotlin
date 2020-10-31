@@ -30,5 +30,5 @@ LeetCode 剑指 Offer 系列总共 72 题，待题解全部写完，我会按照
 * 个人微信：hi-dhl
 * 公众号：ByteCode
 
-<img src='http://cdn.51git.cn/2020-10-03-wechat.png' width = 400px/>
+<img src='http://cdn.51git.cn/2020-10-20-151047.png' width = 350px/>
 
