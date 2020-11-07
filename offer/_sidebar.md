@@ -12,6 +12,7 @@
     * [多线程-交替打印FooBar](/multi-thread/04-print-alternately.md) 
     * [多线程-打印零与奇偶数](/multi-thread/05-print-zero-even-odd.md) 
     * [多线程-H2O 生成](/multi-thread/06-h20.md)
+    * [多线程-交替打印字符串](/multi-thread/07-fizz-buzz.md)
  
 * 大厂面试题
 
