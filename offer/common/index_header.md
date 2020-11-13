@@ -2,7 +2,7 @@
 
 <p align="center"> 仓库 <b>每周</b> 持续更新，如果对你有帮助，请在右上角 star 一下</p>
 
-<p align="center"> LeetCode 的题解进度，目前已经 AC 了 132 题</p>
+<p align="center"> LeetCode 的题解进度，目前已经 AC 了 133 题</p>
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码 </p>
 

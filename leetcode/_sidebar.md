@@ -55,4 +55,8 @@
     
     * [回文数](/math/01-palindrome-number.md)
 
+* 哈希表
+    
+    * [两个数组的交集](/hash/01-intersection-of-two-arrays.md)
+
 
