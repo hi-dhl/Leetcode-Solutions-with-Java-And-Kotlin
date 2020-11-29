@@ -50,4 +50,41 @@ class H2O {
 
         }
     }
+
+    public static void main(String... agrs) {
+        H2O h2o = new H2O();
+        Thread tha1 = new Thread(() -> {
+            try {
+                h2o.hydrogen(() -> {
+                    System.out.print("H");
+                });
+            } catch (Exception e) {
+
+            }
+        });
+        Thread tha2 = new Thread(() -> {
+            try {
+                h2o.hydrogen(() -> {
+                    System.out.print("H");
+                });
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                h2o.oxygen(() -> System.out.print("O"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        // 2个氢线程
+        tha1.start();
+        tha2.start();
+
+        // 1个氧线程
+        thb.start();
+    }
 }

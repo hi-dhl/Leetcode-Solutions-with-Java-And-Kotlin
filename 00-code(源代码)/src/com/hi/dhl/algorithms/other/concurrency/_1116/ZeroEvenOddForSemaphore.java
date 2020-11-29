@@ -22,19 +22,19 @@ class ZeroEvenOddForSemaphore {
 
     // printNumber.accept(x) outputs "x", where x is an integer.
     public void zero(IntConsumer printNumber) throws InterruptedException {
-        for(int i=1;i<=n;i++){
+        for (int i = 1; i <= n; i++) {
             szero.acquire();
             printNumber.accept(0);
-            if((i & 1) == 1){
+            if ((i & 1) == 1) {
                 sodd.release();
-            }else{
+            } else {
                 seven.release();
             }
         }
     }
 
     public void even(IntConsumer printNumber) throws InterruptedException {
-        for(int i = 2; i<=n; i+=2){
+        for (int i = 2; i <= n; i += 2) {
             seven.acquire();
             printNumber.accept(i);
             szero.release();
@@ -42,10 +42,40 @@ class ZeroEvenOddForSemaphore {
     }
 
     public void odd(IntConsumer printNumber) throws InterruptedException {
-        for(int i = 1; i<=n; i+=2){
+        for (int i = 1; i <= n; i += 2) {
             sodd.acquire();
             printNumber.accept(i);
             szero.release();
         }
+    }
+
+    public static void main(String... args) {
+        ZeroEvenOddForSemaphore semaphore = new ZeroEvenOddForSemaphore(10);
+        Thread tha = new Thread(() -> {
+            try {
+                semaphore.zero(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                semaphore.even(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thc = new Thread(() -> {
+            try {
+                semaphore.odd(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+        thc.start();
     }
 }

@@ -44,8 +44,9 @@
 * 时间复杂度 O(N)，N 为数组的长度
 * 空间复杂度 O(1), 占用额外常用空间大小
 
+<!-- tabs:start -->
 
-### Java实现
+### **Java实现**
 
 ```
 public class Solution {
@@ -66,7 +67,7 @@ public class Solution {
 }
 ```
 
-### Koltin实现
+### **Koltin实现**
 
 ```
 class Solution {
@@ -85,6 +86,8 @@ class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
 ## 思路二：哈希算法
 
 利用 Haset API 的特性，如果添加重复的元素会返回 false
@@ -94,7 +97,9 @@ class Solution {
 * 时间复杂度 O(N)，N 为数组的长度
 * 空间复杂度 O(N), 不重复的每个元素都可能存入集合，最坏的情况下，每个元素都不重复，所以空间复杂度为 O(N)
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java实现**
 
 ```
 public class Solution {
@@ -112,7 +117,7 @@ public class Solution {
 }
 ```
 
-### Koltin 实现
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -128,4 +133,6 @@ class Solution {
 
 }
 ```
+
+<!-- tabs:end -->
 

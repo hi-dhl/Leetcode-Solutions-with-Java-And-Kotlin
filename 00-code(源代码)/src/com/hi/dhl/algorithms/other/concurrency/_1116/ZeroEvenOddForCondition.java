@@ -13,7 +13,7 @@ import java.util.function.IntConsumer;
  * </pre>
  */
 
-class ZeroEvenOddForCondition {
+class ZeroEvenOdd {
     private int n;
     private Lock lock = new ReentrantLock();
     private Condition czero = lock.newCondition();
@@ -22,7 +22,7 @@ class ZeroEvenOddForCondition {
     private int value = 0;
     private boolean zero = true;
 
-    public ZeroEvenOddForCondition(int n) {
+    public ZeroEvenOdd(int n) {
         this.n = n;
     }
 
@@ -78,5 +78,35 @@ class ZeroEvenOddForCondition {
         } finally {
             lock.unlock();
         }
+    }
+
+    public static void main(String... args) {
+        ZeroEvenOdd condition = new ZeroEvenOdd(10);
+        Thread tha = new Thread(() -> {
+            try {
+                condition.zero(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                condition.even(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thc = new Thread(() -> {
+            try {
+                condition.odd(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+        thc.start();
     }
 }

@@ -40,4 +40,26 @@ class FooBar {
         }
 
     }
+
+    public static void main(String... args) {
+        FooBar fooBar = new FooBar(20);
+        Thread tha = new Thread(() -> {
+            try {
+                fooBar.foo(() -> System.out.print("foo"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                fooBar.bar(() -> System.out.print("bar"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        tha.start();
+        thb.start();
+    }
 }

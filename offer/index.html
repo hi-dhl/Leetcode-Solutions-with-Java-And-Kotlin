@@ -19,6 +19,11 @@
         font-weight: 600;
     }
 
+    :root {
+      --docsifytabs-border-color: #ededed;
+      --docsifytabs-tab-highlight-color: purple;
+    }
+
 </style>
 
 
@@ -66,6 +71,13 @@
       },
 
 
+    tabs: {
+      persist    : true,      // default
+      sync       : true,      // default
+      theme      : 'classic', // default
+      tabComments: true,      // default
+      tabHeadings: true       // default
+    },
 
     plugins: [
       function(hook, vm) {
@@ -150,16 +162,23 @@
   <!-- 表情 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113154452-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- tab https://jhildenbiddle.github.io/docsify-tabs -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
-  gtag('config', 'UA-113154452-4');
-</script>
+<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113154452-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113154452-4');
+  </script>
+
+<!-- more  https://docsify.js.org/#/awesome?id=plugins -->
 
 </body>
 </html>

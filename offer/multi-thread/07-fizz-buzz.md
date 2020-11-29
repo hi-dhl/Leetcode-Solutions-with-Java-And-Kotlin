@@ -60,7 +60,9 @@ class FizzBuzz {
 
 > Java 和 Kotlin 实现大体上一致，这里主要演示 Java 的写法。
 
-### await/signal/signalAll 实现
+<!-- tabs:start -->
+
+### **await/signal/signalAll 实现**
 
 ```
 class FizzBuzz {
@@ -185,7 +187,7 @@ class FizzBuzz {
 }
 ```
 
-### Semaphore 实现
+### **Semaphore 实现**
 
 ```
 class FizzBuzz {
@@ -290,4 +292,6 @@ class FizzBuzz {
     }
 }
 ```
+
+<!-- tabs:end -->
 

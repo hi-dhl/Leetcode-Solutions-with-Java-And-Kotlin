@@ -59,7 +59,9 @@ output[i] = [a, b, c] (3个整数)
 * 通过 ReentrantLock 实现
 * 通过 CAS 实现
 
-### CAS 实现
+<!-- tabs:start -->
+
+### **CAS 实现**
 
 CAS 是项乐观锁技术，当多个线程尝试使用 CAS 同时更新同一个变量时，只有其中一个线程能更新变量的值，而其它线程都失败，失败的线程并不会被挂起，而是被告知这次竞争中失败，并可以再次尝试。
 
@@ -102,7 +104,7 @@ class DiningPhilosophers {
 ```
 
 
-### ReentrantLock 实现
+### **ReentrantLock 实现**
 
 ```
 class DiningPhilosophers {
@@ -136,4 +138,6 @@ class DiningPhilosophers {
     }
 }
 ```
+
+<!-- tabs:end -->
 

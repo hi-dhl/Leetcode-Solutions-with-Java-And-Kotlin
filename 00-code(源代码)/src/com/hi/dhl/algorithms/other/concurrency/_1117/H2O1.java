@@ -31,4 +31,35 @@ class H2O1 {
         releaseOxygen.run();
         sh.release(2);
     }
+
+    public static void main(String... agrs) {
+        H2O1 h2o = new H2O1();
+        Thread th1 = new Thread(() -> {
+            try {
+                h2o.hydrogen(() -> System.out.print("H"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread th2 = new Thread(() -> {
+            try {
+                h2o.hydrogen(() -> System.out.print("H"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                h2o.oxygen(() -> System.out.print("O"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        th1.start();
+        th2.start();
+        thb.start();
+    }
 }

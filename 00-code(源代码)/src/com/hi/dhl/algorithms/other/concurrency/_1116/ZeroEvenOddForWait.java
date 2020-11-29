@@ -59,4 +59,34 @@ class ZeroEvenOddForWait {
             }
         }
     }
+
+    public static void main(String... args) {
+        ZeroEvenOddForWait wait = new ZeroEvenOddForWait(10);
+        Thread tha = new Thread(() -> {
+            try {
+                wait.zero(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                wait.even(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thc = new Thread(() -> {
+            try {
+                wait.odd(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+        thc.start();
+    }
 }

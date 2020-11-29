@@ -9,6 +9,7 @@ package com.hi.dhl.algorithms.leetcode._349.kotlin
  */
 
 class Solution {
+
     fun intersection(nums1: IntArray, nums2: IntArray): IntArray {
         val set1 = HashSet<Int>();
         for (value in nums1) {

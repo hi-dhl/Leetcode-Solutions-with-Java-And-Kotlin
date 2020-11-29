@@ -50,7 +50,9 @@ class ZeroEvenOdd {
 
 Java 和 Kotlin 实现大体上一致，这里主要演示 Java 的写法。
 
-### `await/signal/signalAll` 实现
+<!-- tabs:start -->
+
+### **await/signal/signalAll 实现**
 
 ```
 class ZeroEvenOdd {
@@ -119,10 +121,40 @@ class ZeroEvenOdd {
             lock.unlock();
         }
     }
+
+    public static void main(String... args) {
+        ZeroEvenOdd condition = new ZeroEvenOdd(10);
+        Thread tha = new Thread(() -> {
+            try {
+                condition.zero(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                condition.even(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thc = new Thread(() -> {
+            try {
+                condition.odd(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+        thc.start();
+    }
 }
 ```
 
-### wait/notify/notifyAll 实现
+### **wait/notify/notifyAll 实现**
 
 ```
 class ZeroEvenOdd {
@@ -175,10 +207,40 @@ class ZeroEvenOdd {
             }
         }
     }
+
+    public static void main(String... args) {
+        ZeroEvenOdd wait = new ZeroEvenOdd(10);
+        Thread tha = new Thread(() -> {
+            try {
+                wait.zero(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                wait.even(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thc = new Thread(() -> {
+            try {
+                wait.odd(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+        thc.start();
+    }
 }
 ```
 
-### Semaphore（信号量） 实现
+### **Semaphore（信号量） 实现**
 
 ```
 class ZeroEvenOdd {
@@ -193,19 +255,19 @@ class ZeroEvenOdd {
 
     // printNumber.accept(x) outputs "x", where x is an integer.
     public void zero(IntConsumer printNumber) throws InterruptedException {
-        for(int i=1;i<=n;i++){
+        for (int i = 1; i <= n; i++) {
             szero.acquire();
             printNumber.accept(0);
-            if((i & 1) == 1){
+            if ((i & 1) == 1) {
                 sodd.release();
-            }else{
+            } else {
                 seven.release();
             }
-        }    
+        }
     }
 
     public void even(IntConsumer printNumber) throws InterruptedException {
-        for(int i = 2; i<=n; i+=2){
+        for (int i = 2; i <= n; i += 2) {
             seven.acquire();
             printNumber.accept(i);
             szero.release();
@@ -213,13 +275,45 @@ class ZeroEvenOdd {
     }
 
     public void odd(IntConsumer printNumber) throws InterruptedException {
-        for(int i = 1; i<=n; i+=2){
+        for (int i = 1; i <= n; i += 2) {
             sodd.acquire();
             printNumber.accept(i);
             szero.release();
         }
     }
+
+    public static void main(String... args) {
+        ZeroEvenOdd semaphore = new ZeroEvenOdd(10);
+        Thread tha = new Thread(() -> {
+            try {
+                semaphore.zero(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                semaphore.even(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thc = new Thread(() -> {
+            try {
+                semaphore.odd(value -> System.out.print(value));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+        thc.start();
+    }
 }
 ```
 
+
+<!-- tabs:end -->
 

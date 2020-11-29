@@ -124,6 +124,41 @@ class Foo {
             sa.release();
         }
     }
+
+    // 测试
+    public static void main(String... args) {
+        Foo foo = new Foo();
+        Thread tha = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    foo.first(() -> System.out.print("first"));
+                } catch (Exception e) {
+
+                }
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                foo.second(() -> System.out.print("second"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thc = new Thread(() -> {
+            try {
+                foo.third(() -> System.out.print("third"));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
+        tha.start();
+        thb.start();
+        thc.start();
+    }
 }
 ```
 

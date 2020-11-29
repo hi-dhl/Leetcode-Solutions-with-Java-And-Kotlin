@@ -50,4 +50,25 @@ class FooBar2 {
 
         }
     }
+
+    public static void main(String... args) {
+        FooBar2 fooBar = new FooBar2(10);
+        Thread tha = new Thread(() -> {
+            try {
+                fooBar.foo(() -> System.out.print("foo"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                fooBar.bar(() -> System.out.print("bar"));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+    }
 }

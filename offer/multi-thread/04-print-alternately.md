@@ -52,7 +52,9 @@ class FooBar {
 
 Java 和 Kotlin 实现大体上一致，这里主要演示 Java 的写法。
 
-### Semaphore（信号量） 实现
+<!-- tabs:start -->
+
+### **Semaphore（信号量） 实现**
 
 ```
 class FooBar {
@@ -85,10 +87,32 @@ class FooBar {
         }
 
     }
+
+    public static void main(String... args) {
+        FooBar fooBar = new FooBar(20);
+        Thread tha = new Thread(() -> {
+            try {
+                fooBar.foo(() -> System.out.print("foo"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                fooBar.bar(() -> System.out.print("bar"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        tha.start();
+        thb.start();
+    }
 }
 ```
 
-### wait/notify/notifyAll 实现
+### **wait/notify/notifyAll 实现**
 
 ```
 class FooBar2 {
@@ -131,6 +155,29 @@ class FooBar2 {
 
         }
     }
+
+    public static void main(String... args) {
+        FooBar2 fooBar = new FooBar2(10);
+        Thread tha = new Thread(() -> {
+            try {
+                fooBar.foo(() -> System.out.print("foo"));
+            } catch (Exception e) {
+
+            }
+        });
+
+        Thread thb = new Thread(() -> {
+            try {
+                fooBar.bar(() -> System.out.print("bar"));
+            } catch (Exception e) {
+
+            }
+        });
+        tha.start();
+        thb.start();
+    }
 }
 ```
+
+<!-- tabs:end -->
 
