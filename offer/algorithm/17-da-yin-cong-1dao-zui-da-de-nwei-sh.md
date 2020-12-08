@@ -39,7 +39,9 @@ n 表示需要生成数字的位数
 * 时间复杂度：O(10^n) ，递归生成的数字的排列个数为 10^n
 * 空间复杂度：O(n)，字符串 num 使用线性排列
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -97,7 +99,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 public class Solution {
@@ -151,6 +153,8 @@ public class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
 ## 思路二：
 
 思路二比较简单，题目要求返回 int 类型数组，相当于默认所有数字都在 int32 整型取值范围内。
@@ -165,7 +169,9 @@ public class Solution {
     }
     ```
 
-### Kotlin
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -185,7 +191,7 @@ class Solution {
 }
 ```
 
-### Java
+### **Java 实现**
 
 ```
 public class Solution {
@@ -204,5 +210,7 @@ public class Solution {
 
 }
 ```
+
+<!-- tabs:end -->
 
 

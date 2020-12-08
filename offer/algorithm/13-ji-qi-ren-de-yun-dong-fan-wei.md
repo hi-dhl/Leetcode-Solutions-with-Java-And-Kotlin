@@ -25,7 +25,7 @@
 * 1 <= n,m <= 100
 * 0 <= k <= 20
 
-## 思路一：BFS 广度优先搜索（队列）
+## 思路一：BFS 广度优先搜索
 
 BFS: 通常利用队列实现广度优先遍历。
 
@@ -85,7 +85,9 @@ element 与 peek 方法用于在队列的头部查询元素，如果队列为空
 * element : 抛出 NoSuchElementException
 * peek : 返回 null
 
-### Koltin 实现
+<!-- tabs:start -->
+
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -119,7 +121,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -154,7 +156,9 @@ class Solution {
 }
 ```
 
-## 思路二：DFS 深度优先搜索(递归)
+<!-- tabs:end -->
+
+## 思路二：DFS 深度优先搜索
 
 **DFS:** 深度优先搜索算法（Depth-First-Search），是搜索算法的一种, 它沿着树的深度遍历树的节点，尽可能深的搜索树的分支。
 
@@ -186,7 +190,9 @@ class Solution {
 * 时间复杂度：`O(MN)`，矩阵中有 `M` 行 `N` 列，最差的情况下遍历完所有的单元格，所以时间复杂度为 `O(MN)`。
 * 空间复杂度：`O(MN)`，需要建立额外的数组记录当前单元格是否已经访问过了，最差的情况下访问了所有的单元格，故占用额外空间 `O(MN)`
 
-### Koltin 实现
+<!-- tabs:start -->
+
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -216,7 +222,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -247,4 +253,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

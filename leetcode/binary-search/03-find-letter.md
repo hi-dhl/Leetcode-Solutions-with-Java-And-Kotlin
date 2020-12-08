@@ -59,10 +59,11 @@ target = "k"
 
 但是这题目有个坑，就是题意给的不准确，笔者也提交几次才通过，总结规律如下：
 
-* 当 target < letters[0] 时，即 letters[0] 是比目标字母大的最小字母，返回 letters[0]
-* 当 target >= letters[height -1], 即返回 letters[0]
+当 `target < letters[0]` 或者 `target >= letters[height -1]` 时，即 letters[0] 是比目标字母大的最小字母，返回 letters[0]
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -83,7 +84,7 @@ class Solution {
 }
 ```
 
-### Koltin 实现
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -107,4 +108,6 @@ class Solution {
 
 }
 ```
+
+<!-- tabs:end -->
 

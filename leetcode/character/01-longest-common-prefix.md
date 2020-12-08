@@ -48,7 +48,9 @@
 * 时间复杂度：0(mn) ，m 是字符串的数量， n 是每个字符串的长度，最坏的情况下，每个字符都比较一遍
 * 空间复杂度：O(1)，使用了一些变量，占常数大小的空间
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -75,7 +77,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 public class Solution {
@@ -100,6 +102,8 @@ public class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 
 ## 思路二：
 

@@ -70,7 +70,9 @@
 * 时间复杂度：O(n), 遍历每一个节点，重建二叉树
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -116,7 +118,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -158,4 +160,5 @@ class Solution {
 }
 ```
 
+<!-- tabs:end -->
 

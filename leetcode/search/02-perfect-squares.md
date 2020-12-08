@@ -71,7 +71,9 @@ element 与 peek 方法用于在队列的头部查询元素，如果队列为空
 5. 重复执行 3、4
 6. 遍历结束时，层数即是能组成完全平方数的最少个数
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -110,7 +112,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -147,5 +149,7 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 
 

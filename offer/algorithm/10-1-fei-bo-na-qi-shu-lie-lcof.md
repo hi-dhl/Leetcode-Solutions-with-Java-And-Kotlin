@@ -51,7 +51,9 @@ PS: 需要注意的是，每次计算的结果需要取模
 * 时间复杂度：O(N)，当 F(N) 时需要循环 N 次，即时间复杂度为 O(N)
 * 空间复杂度：O(N)，需要额外的空间存储已有元素
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -73,7 +75,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 public class Solution {
@@ -91,6 +93,8 @@ public class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 
 ## 思路二：思路一的优化方案
 

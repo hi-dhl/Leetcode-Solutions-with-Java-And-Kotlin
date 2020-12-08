@@ -44,7 +44,9 @@
 * 时间复杂度：O(log2^N)，使用的二分查找算法，因此时间复杂度为 O(log2^N)
 * 空间复杂度：O(1)，只是使用了几个标示变量作为额外空间，可以忽略不计，因此空间复杂度 O(1)
 
-### Koltin 实现
+<!-- tabs:start -->
+
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -64,7 +66,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -89,4 +91,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

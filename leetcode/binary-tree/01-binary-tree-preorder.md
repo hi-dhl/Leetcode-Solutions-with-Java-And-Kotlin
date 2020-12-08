@@ -38,7 +38,9 @@ Output: [1,2,3]
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -85,7 +87,7 @@ class Solution {
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -104,6 +106,8 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 
 ## 思路二：递归
 
@@ -134,7 +138,10 @@ preorder(root) = preorder(root->left) + preorder(root->right)
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量，最坏情况下需要空间O(n)，平均情况为O(log2^n)
 
-### Java 实现
+<!-- tabs:start -->
+
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -151,7 +158,7 @@ class Solution {
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -171,4 +178,6 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 

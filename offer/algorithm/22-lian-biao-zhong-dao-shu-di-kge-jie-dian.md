@@ -35,7 +35,9 @@
 * 时间复杂度：O(N) ，N 为链表的长度
 * 空间复杂度：O(1)，快指针 fast 和 慢指针 slow 占用常数大小的空间
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -58,7 +60,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -80,4 +82,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

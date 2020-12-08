@@ -57,7 +57,9 @@
 * 时间复杂度：`O(N)`，长度为 N 的绳子，需要计算 [1,n] 累计的最大值，故时间复杂度为 `O(N)`
 * 空间复杂度：`O(N)`，需要建立长度为 N 的数组，存储每次计算的值，所以空间复杂度为 `O(N)`
 
-### Koltin 实现
+<!-- tabs:start -->
+
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -77,7 +79,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -100,5 +102,7 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 
 

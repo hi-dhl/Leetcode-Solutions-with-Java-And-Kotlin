@@ -48,7 +48,9 @@ minStack.getMin();   --> 返回 -2.
 * 时间复杂度：O(1) ，因为栈的插入、删除与读取操作都是 O(1)
 * 空间复杂度：O(N)，N 为总操作次数
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class MinStack() {
@@ -82,7 +84,7 @@ class MinStack() {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class MinStack {
@@ -120,4 +122,6 @@ class MinStack {
     }
 }
 ```
+
+<!-- tabs:end -->
 

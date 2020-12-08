@@ -82,7 +82,9 @@ inv() – 反向，等价于 Java ~
 * 时间复杂度：O(N) ，为数组 nums 长度 
 * 空间复杂度：O(1)，使用常数大小的空间
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -109,7 +111,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 public class Solution {
@@ -136,6 +138,8 @@ public class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
 ## 思路二：快慢指针 + 位运算
 
 **参数说明：**
@@ -157,7 +161,9 @@ public class Solution {
 * 时间复杂度：O(N) ，为数组 nums 长度 
 * 空间复杂度：O(1)，使用常数大小的空间
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -184,7 +190,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 public class Solution {
@@ -210,4 +216,6 @@ public class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 

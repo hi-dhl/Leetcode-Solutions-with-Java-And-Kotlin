@@ -46,7 +46,9 @@
 
 综合以上两种情况 x 的区间范围：[0, x / 4 + 1]，为了提高效率所以使用了位运算符，即 x/4 等价于 x >>> 2
 
-### Java实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -70,7 +72,7 @@ class Solution {
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -91,4 +93,6 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 

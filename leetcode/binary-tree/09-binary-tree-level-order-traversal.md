@@ -77,7 +77,9 @@ element 与 peek 方法用于在队列的头部查询元素，如果队列为空
 * 时间复杂度：O(n)，n 是二叉树中的节点个数
 * 空间复杂度：O(n)，n 是二叉树中的节点个数，需要一个 list 存储访问的所有节点
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -110,7 +112,7 @@ class Solution {
 }
 ```
 
-### Koltin 实现
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -137,6 +139,8 @@ class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
 ## 思路二：DFS
 
 DFS: 深度优先搜索算法（Depth-First-Search），是搜索算法的一种, 它沿着树的深度遍历树的节点，尽可能深的搜索树的分支。
@@ -146,7 +150,9 @@ DFS: 深度优先搜索算法（Depth-First-Search），是搜索算法的一种
 * 时间复杂度：O(n)，n 是二叉树中的节点个数
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -172,7 +178,7 @@ class Solution {
 }
 ```
 
-### Koltin 实现
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -198,4 +204,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

@@ -53,7 +53,9 @@
 * 时间复杂度：O(n)，n 是二叉树中的节点个数，使用自底向上的递归，每个节点的计算高度和判断是否平衡都只需要处理一次。
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 public boolean isBalanced(TreeNode root) {
@@ -76,7 +78,7 @@ public int maxDepth(TreeNode root) {
 }
 ```
 
-### Koltin 实现
+### **Koltin 实现**
 
 ```
 fun isBalanced(root: TreeNode?): Boolean {
@@ -93,4 +95,6 @@ tailrec fun maxDepth(root: TreeNode?): Int {
     return if (left == -1 || right == -1 || Math.abs(left - right) > 1) -1 else Math.max(left, right) + 1
 }
 ```
+
+<!-- tabs:end -->
 

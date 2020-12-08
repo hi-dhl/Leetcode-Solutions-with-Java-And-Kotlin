@@ -49,7 +49,9 @@ F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
 * 时间复杂度：O(n)，F(N) 需要循环 N 次，因此时间复杂度为 O(n)
 * 空间复杂度：O(1)，只是使用了几个标示变量作为额外空间，可以忽略不计，因此空间复杂度 O(1)
 
-### Koltin 实现
+<!-- tabs:start -->
+
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -70,7 +72,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -91,5 +93,7 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 
 

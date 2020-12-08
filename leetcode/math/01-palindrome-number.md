@@ -71,7 +71,9 @@
 * 时间复杂度：0(log^n) ，n 为数字的长度，只需要遍历 n / 2 次
 * 空间复杂度：O(1)，使用了一些变量，占常数大小的空间
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -94,7 +96,7 @@ class Solution {
 
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -111,4 +113,6 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 

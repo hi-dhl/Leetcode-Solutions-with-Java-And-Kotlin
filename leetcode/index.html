@@ -67,7 +67,13 @@
         target: 'h2, h3, h4, h5, h6'
       },
 
-
+    tabs: {
+      persist    : true,      // default
+      sync       : true,      // default
+      theme      : 'classic', // default
+      tabComments: true,      // default
+      tabHeadings: true       // default
+    },
 
     plugins: [
       function(hook, vm) {
@@ -151,6 +157,10 @@
 
   <!-- 表情 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113154452-3"></script>

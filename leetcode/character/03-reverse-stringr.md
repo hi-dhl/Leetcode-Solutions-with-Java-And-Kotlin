@@ -85,7 +85,9 @@ println("a = ${a} b = ${b}") // a = 2 b = 1
 * 时间复杂度：`0(n)` ，n 是数组的长度，至少需要遍历 `n/2` 次，在时间复杂度计算中，可以忽略常数项，故时间复杂度为 `0(n)`
 * 空间复杂度：`O(1)`，使用了几个变量，占常数大小的空间
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -101,7 +103,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -119,4 +121,6 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 

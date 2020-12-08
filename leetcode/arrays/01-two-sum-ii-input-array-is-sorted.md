@@ -56,7 +56,9 @@ public int[] twoSum(int[] numbers, int target) {
 2. 如果numbers[low] 和 numbers[height]的和sum小于target，则low++
 3. 如果numbers[low] 和 numbers[height]的和sum大于target，则height--
 
-### Java实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 public class Solution {
@@ -78,7 +80,7 @@ public class Solution {
 }
 ```
 
-### Kotlin实现
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -98,6 +100,8 @@ class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
 ## 思路三：二分法查找
 
 题目可知找两个数之和 a+b = taget，循环数组每一个元素a, 从剩余的元素里面用二分法查找另外一个元素 b= taget-a 即可，时间复杂度为o(nlogn)
@@ -106,7 +110,9 @@ class Solution {
 2. 从剩余元素用二分法查找元素b = taget-a，返回索引idnex,
 3. 如果index ==-1 ，则无结果返回，如果index!=-1，则直接返回a+1,index+1
 
-### Java实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 public class Solution {
@@ -136,7 +142,7 @@ public class Solution {
 }   
 ```
 
-### kotlin 实现
+### **kotlin 实现**
 
 ```
 class Solution {
@@ -167,4 +173,6 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 

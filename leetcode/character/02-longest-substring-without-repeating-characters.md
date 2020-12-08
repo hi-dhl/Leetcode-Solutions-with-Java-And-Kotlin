@@ -61,7 +61,9 @@
 * 时间复杂度：0(n) ，n 是字符串的长度，会将整个字符串遍历一次
 * 空间复杂度：O(∣Σ∣)，使用哈希集合来存储出现过的字符，∣Σ∣ 表示字符串中最多可以出现的字符的个数
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -121,7 +123,7 @@ class Solution {
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -168,4 +170,6 @@ class Solution {
     
 }
 ```
+
+<!-- tabs:end -->
 

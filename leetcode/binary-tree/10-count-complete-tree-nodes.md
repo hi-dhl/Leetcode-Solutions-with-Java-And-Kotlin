@@ -30,7 +30,9 @@
 
 假设每个节点都标记为1，空节点标记为0，将每个节点的和累加起来即可
 
-### Java实现
+<!--tabs:start-->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -45,7 +47,7 @@ class Solution {
 }
 ```
 
-### Koltin实现
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -60,11 +62,15 @@ class Solution {
 }
 ```
 
+<!--tabs:end-->
+
 ## 思路二：BFS
 
 假设每个节点都标记为1，空节点标记为0，根据前序、中序、后序、层次遍历访问每个节点，遇到不为空的节点+1，层次遍历算法如下，前序、中序、后序遍历原理相同
 
-### Java实现
+<!--tabs:start-->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -93,7 +99,7 @@ class Solution {
 }
 ```
 
-### Koltin实现
+### **Koltin 实现**
 
 ```
 class Solution {
@@ -119,6 +125,7 @@ class Solution {
 }
 ```
 
+<!--tabs:end-->
 
 ## 扩展题目
 

@@ -36,7 +36,9 @@
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -64,7 +66,7 @@ class Solution {
 }
 ```
 
-## kotlin 实现
+### **kotlin 实现**
 
 ```
 class Solution {
@@ -87,6 +89,8 @@ class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
 ## 思路二：递归
 
 中序遍历递归思路和前序遍历大概一致，根据递归的两个特点去思考
@@ -101,7 +105,9 @@ class Solution {
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(n)，n 为节点的数量，最坏情况下需要空间O(n)，平均情况为O(log2^n)
 
-### java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -117,7 +123,7 @@ class Solution {
 }
 ```
 
-### kotlin 实现
+### **kotlin 实现**
 
 ```
 class Solution {
@@ -138,4 +144,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

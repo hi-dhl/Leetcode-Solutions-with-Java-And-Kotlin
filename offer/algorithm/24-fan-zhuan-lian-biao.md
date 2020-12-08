@@ -19,7 +19,7 @@
 0 <= 节点个数 <= 5000
 ```
 
-## 思路：递归和非递归
+## 思路：原地逆置链表
 
 **算法流程如下：**
 
@@ -34,14 +34,13 @@
 * 时间复杂度：O(N) ，N 为链表的长度
 * 空间复杂度：O(1) ，指针 pre 占用常数大小的空间
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
 
-    /**
-     * 非递归
-     */
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
         while (head != null) {
@@ -53,28 +52,14 @@ class Solution {
         return pre;
     }
 
-    /**
-     * 递归
-     */
-    public ListNode reverseList2(ListNode head) {
-        if (head == null || head.next == null) return head;
-
-        ListNode cur = reverseList(head.next);
-        head.next.next = head;
-        head.next = null;
-        return cur;
-    }
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 class Solution {
 
-    /**
-     * 非递归
-     */
     fun reverseList(head: ListNode?): ListNode? {
         var pre: ListNode? = null
         var current = head
@@ -87,10 +72,70 @@ class Solution {
         return pre;
     }
 
-    /**
-     * 递归
-     */
-    fun reverseList2(head: ListNode?): ListNode? {
+}
+```
+
+
+<!-- tabs:end -->
+
+### 思路二： 递归
+
+1. 寻找递归结束条件：当链表只有一个节点，或者如果是空表的话，结束递归
+    
+    ```
+    head == null || head.next  == null
+    ``` 
+    
+2. 调用函数本身，传入下一个节点
+    
+    ```
+    reverseList(head.next);
+    ```
+    
+    我们把 2->3->4->5 递归成了 5->4->3->2, 对于1节点没有去更改，所以1的next节点指向的是2，如下所示
+    
+    ```
+    递归前:
+    1 -> 2 -> 3 -> 4 -> 5
+
+    递归后:
+    1 -> 2 <- 3 <- 4 <- 5
+         |
+         v
+        null
+    ```
+
+3. 最后将节点 2 的 next 指向 1，然后把 1 的 next 指向 null，如下所示
+
+    ```
+    null <- 1 <- 2 <- 3 <- 4 <- 5
+    ```
+
+
+<!-- tabs:start -->
+
+### **Java 实现**
+
+```
+class Solution {
+
+    public ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) return head;
+
+        ListNode cur = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return cur;
+    }
+}
+```
+
+### **Kotlin 实现**
+
+```
+class Solution {
+
+    fun reverseList(head: ListNode?): ListNode? {
         if (head == null || head.next == null) return head;
         val cur = reverseList(head.next);
         head.next.next = head;
@@ -100,4 +145,26 @@ class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
+### 思路三：头插入法逆值链表
+
+* 新建一个新链表, 新链表的头结点 newHead
+* 循环判断head是否为空，为空时结束循环
+* 如果不为空，依次取原链表中的每一个节点，作为第一个节点插入到新链表中
+
+```
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        ListNode newHead = new ListNode(0);
+        while (head!=null){
+            ListNode tempNode = new ListNode(head.val);
+            tempNode.next = newHead.next;
+            newHead.next = tempNode;
+            head = head.next;
+        }
+        return newHead.next;
+    }
+}
+```
 

@@ -54,7 +54,9 @@
 * 时间复杂度：插入操作 `appendTail()` 时间复杂度 O(1)，删除操作 `deleteHead()` 时间复杂度 O(N)，
 * 空间复杂度：O(N)，需要使用两个栈存储已有的元素
 
-### Koltin 实现
+<!-- tabs:start -->
+
+### **Koltin 实现**
 
 ```
 class CQueue() {
@@ -80,7 +82,7 @@ class CQueue() {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class CQueue {
@@ -111,4 +113,6 @@ class CQueue {
 }
 ```
 
+
+<!-- tabs:end -->
 

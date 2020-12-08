@@ -54,7 +54,9 @@
 * 时间复杂度 `O(N)` ，其中 `N` 为二叉树的节点数量
 * 空间复杂度 `O(N)` ， 最差情况下（当二叉树退化为链表）
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -95,7 +97,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -134,4 +136,6 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 

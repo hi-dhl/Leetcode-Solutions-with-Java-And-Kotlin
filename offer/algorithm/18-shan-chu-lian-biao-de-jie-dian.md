@@ -60,7 +60,9 @@ current.next = tmpNode.next
 * 时间复杂度：O(N) ，N 为链表长度，假设要删除的节点在末尾，即时间复杂度为 O(N)
 * 空间复杂度：O(1)，current 占用常数大小的空间，可以不用计算，即空间复杂度为 O(1)
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -82,7 +84,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -104,4 +106,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

@@ -40,7 +40,9 @@ maxDepth(root) = Math.max(maxDepth(root.left), maxDepth(root.right)) + 1
 * 时间复杂度：O(n)，n 为节点的数量
 * 空间复杂度：O(height)，height 为树的高度，递归函数需要栈空间，而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 public int maxDepth(TreeNode root) {
@@ -52,7 +54,7 @@ public int maxDepth(TreeNode root) {
 }
 ```
 
-### Koltin 实现
+### **Koltin 实现**
 
 ```
 tailrec fun maxDepth(root: TreeNode?): Int {
@@ -63,4 +65,6 @@ tailrec fun maxDepth(root: TreeNode?): Int {
 }
 ```
 
+
+<!-- tabs:end -->
 

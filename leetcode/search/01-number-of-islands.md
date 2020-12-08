@@ -84,7 +84,9 @@ element 与 peek 方法用于在队列的头部查询元素，如果队列为空
 * 时间复杂度：0(MN) ，M 是行数，N 是列数
 * 空间复杂度：O(MN)，最坏的情况深度达到第 M 行 N 列
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 
@@ -124,7 +126,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -165,6 +167,8 @@ class Solution {
 }
 ```
 
+<!-- tabs:end -->
+
 ## 思路二：深度优先搜索
 
 **DFS:** 深度优先搜索算法（Depth-First-Search），是搜索算法的一种, 它沿着树的深度遍历树的节点，尽可能深的搜索树的分支。
@@ -197,7 +201,9 @@ class Solution {
 * 时间复杂度：0(MN) ，M 是行数，N 是列数
 * 空间复杂度：O(MN)，最坏的情况深度达到第 M 行 N 列
 
-### Kotlin
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -234,7 +240,7 @@ class Solution {
 }
 ```
 
-### Java
+### **Java 实现**
 
 ```
 class Solution {
@@ -269,5 +275,7 @@ class Solution {
     }
 }
 ```
+
+<!-- tabs:end -->
 
 

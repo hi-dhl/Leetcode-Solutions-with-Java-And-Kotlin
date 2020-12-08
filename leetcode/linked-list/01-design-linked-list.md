@@ -1,4 +1,4 @@
-题目来源于 `LeetCode` 上 第 `707` 号问题：设计链表。题目难度为 `Medium`。
+1题目来源于 `LeetCode` 上 第 `707` 号问题：设计链表。题目难度为 `Medium`。
 
 * [英文地址：https://leetcode.com/problems/design-linked-list](https://leetcode.com/problems/design-linked-list) 
 * [中文地址：https://leetcode-cn.com/problems/design-linked-list](https://leetcode-cn.com/problems/design-linked-list) 
@@ -104,7 +104,9 @@ pre.next = pre.next.next;
     * addAtTail：`O(N)`，其中 `N` 指的是链表的元素个数。
 * 空间复杂度 `O(1)`：所有的操作都是 `O(1)`
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 public class ListNode {
@@ -189,7 +191,7 @@ public class MyLinkedList1 {
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 public class ListNode {
@@ -271,6 +273,8 @@ class MyLinkedList1() {
 
 }
 ```
+
+<!-- tabs:end -->
 
 ## 思路二：双向链表
 
@@ -359,7 +363,9 @@ succ.pre = pre;
     * get，addAtIndex，delete：`O(min(k,N−k))`，其中 `k` 指的是元素的索引
 * 空间复杂度 `O(1)`：所有的操作都是 `O(1)`
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 public class LinkedNode {
@@ -493,7 +499,7 @@ class MyLinkedList2 {
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 class MyLinkedList2() {
@@ -612,4 +618,5 @@ class MyLinkedList2() {
 }
 ```
 
+<!-- tabs:end -->
 

@@ -74,57 +74,10 @@ head == tail
 * 时间复杂度：O(1) ，数组存储都是按顺序存放的，具有随机访问的特点 
 * 空间复杂度：O(N)，N 为数组的长度
 
-### Kotlin 实现
+<!-- tabs:start -->
 
-```
-class MyCircularQueue(k: Int) {
 
-    var head = -1;
-    var tail = -1;
-    var data = IntArray(k);
-    val size = k;
-
-    fun enQueue(value: Int): Boolean {
-        if (isFull()) return false
-        if (isEmpty()) head = 0
-        tail = (tail + 1) % size
-        data[tail] = value
-        return true
-    }
-
-    fun deQueue(): Boolean {
-        if (isEmpty()) return false
-        if (head == tail) {
-            head = -1
-            tail = -1
-            return true
-        }
-        head = (head + 1) % size
-        return true
-    }
-
-    fun Front(): Int {
-        if (isEmpty()) return -1
-        return data[head]
-    }
-
-    fun Rear(): Int {
-        if (isEmpty()) return -1
-        return data[tail]
-    }
-
-    fun isEmpty(): Boolean {
-        return head == -1
-    }
-
-    fun isFull(): Boolean {
-        return (tail + 1) % size == head
-    }
-
-}
-```
-
-### Java 实现
+### **Java 实现**
 
 思路和 Kotlin 的实现不同，为了避免冲突循环数组中任何时刻一定至少有一个位置不存放有效元素，不过这种方法实现，更方便进行扩容，参考 `ArrayDeque` 源码实现
 
@@ -180,4 +133,57 @@ class MyCircularQueue {
 }
 ```
 
+### **Kotlin 实现**
+
+```
+class MyCircularQueue(k: Int) {
+
+    var head = -1;
+    var tail = -1;
+    var data = IntArray(k);
+    val size = k;
+
+    fun enQueue(value: Int): Boolean {
+        if (isFull()) return false
+        if (isEmpty()) head = 0
+        tail = (tail + 1) % size
+        data[tail] = value
+        return true
+    }
+
+    fun deQueue(): Boolean {
+        if (isEmpty()) return false
+        if (head == tail) {
+            head = -1
+            tail = -1
+            return true
+        }
+        head = (head + 1) % size
+        return true
+    }
+
+    fun Front(): Int {
+        if (isEmpty()) return -1
+        return data[head]
+    }
+
+    fun Rear(): Int {
+        if (isEmpty()) return -1
+        return data[tail]
+    }
+
+    fun isEmpty(): Boolean {
+        return head == -1
+    }
+
+    fun isFull(): Boolean {
+        return (tail + 1) % size == head
+    }
+
+}
+```
+
+
+
+<!-- tabs:end -->
 

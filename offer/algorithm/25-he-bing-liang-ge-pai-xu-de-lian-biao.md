@@ -37,7 +37,9 @@
 * 时间复杂度：O(N) ，N 为链表的长度
 * 空间复杂度：O(1) ，伪头节点 cur 和 head 占用常数大小的空间
 
-### Java 实现
+<!-- tabs:start -->
+
+### **Java 实现**
 
 ```
 class Solution {
@@ -61,7 +63,7 @@ class Solution {
 }
 ```
 
-### Kotlin 实现
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -88,4 +90,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

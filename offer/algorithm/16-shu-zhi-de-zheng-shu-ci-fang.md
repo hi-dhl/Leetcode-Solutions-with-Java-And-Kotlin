@@ -70,7 +70,9 @@ m 可以取到 -2147483648（整型负数的最小值），执行 `m *= -1;` 会
 * 时间复杂度：O(log2^n) ，2 分查找时间复杂度为对数级别
 * 空间复杂度：O(1)，需要几个变量，占常数大小的空间
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -94,7 +96,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -124,4 +126,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 

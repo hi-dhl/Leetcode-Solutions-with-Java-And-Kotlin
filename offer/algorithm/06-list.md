@@ -29,7 +29,9 @@
 * 时间复杂度：O(n)，第一次遍历计算链表的长度，第二次遍历添加进数组
 * 空间复杂度：O(n)，需要额外使用一个数组存储
 
-### Kotlin 实现
+<!-- tabs:start -->
+
+### **Kotlin 实现**
 
 ```
 class Solution {
@@ -53,7 +55,7 @@ class Solution {
 }
 ```
 
-### Java 实现
+### **Java 实现**
 
 ```
 class Solution {
@@ -79,4 +81,6 @@ class Solution {
 }
 ```
 
+
+<!-- tabs:end -->
 
