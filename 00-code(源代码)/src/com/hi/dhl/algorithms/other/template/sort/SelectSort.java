@@ -1,5 +1,7 @@
 package com.hi.dhl.algorithms.other.template.sort;
 
+import java.util.Queue;
+
 /**
  * <pre>
  *     author: dhl
@@ -26,6 +28,7 @@ public class SelectSort implements ISort {
                     min = j;
                 }
             }
+
             swap(nums, i, min);
         }
     }
