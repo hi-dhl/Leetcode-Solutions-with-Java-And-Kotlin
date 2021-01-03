@@ -45,4 +45,30 @@ class BoundedBlockingQueueSync {
     public int size() {
         return queue.size();
     }
+
+    public static void main(String... args){
+        BoundedBlockingQueueSync sync = new BoundedBlockingQueueSync(20);
+        for(int i = 0;i< 20;i++){
+            Thread tha = new Thread(() ->{
+                try{
+                    sync.enqueue(2);
+                }catch(Exception e){
+
+                }
+            });
+            tha.start();
+
+
+            Thread thb = new Thread(()->{
+               try{
+                   sync.dequeue();
+               } catch(Exception e){
+
+               }
+            });
+            thb.start();
+        }
+
+
+    }
 }

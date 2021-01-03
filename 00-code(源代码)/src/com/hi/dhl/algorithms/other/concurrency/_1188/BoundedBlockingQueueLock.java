@@ -56,4 +56,27 @@ class BoundedBlockingQueueLock {
     public int size() {
         return queue.size();
     }
+
+    public static void main(String... args){
+        BoundedBlockingQueueLock lock = new BoundedBlockingQueueLock(20);
+        for(int i = 1;i<30;i++){
+            Thread tha = new Thread(()->{
+               try{
+                   lock.enqueue(2);
+               } catch(Exception e){
+
+               }
+            });
+            tha.start();
+
+            Thread thb = new Thread(()->{
+               try{
+                   System.out.println(lock.dequeue());
+               } catch(Exception e){
+
+               }
+            });
+            thb.start();
+        }
+    }
 }
