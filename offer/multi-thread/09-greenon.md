@@ -78,7 +78,7 @@
 我们可以构建一个临界区，每次只允许在一条路上通过，设置一个布尔变量 road1GreenOn 
 
 * 当 `road1GreenOn == true` 表示 Road1 是路灯
-* 当 `road1GreenOn == true` 表示 Road2 是路灯
+* 当 `road1GreenOn == false` 表示 Road2 是路灯
 
 
 **这道题有多种实现方式：**

@@ -172,3 +172,112 @@ Thread-0 : 1
 Thread-1 : 2
 ```
 
+### **await/signal/signalAll 实现**
+
+```
+class PrintNumberLock {
+
+    private ReentrantLock lock = new ReentrantLock();
+    private Condition even = lock.newCondition();
+    private Condition odd = lock.newCondition();
+    private boolean runOdd = true;
+
+    private void printOdd() {
+        while (true) {
+            lock.lock();
+            try {
+                while (!runOdd) {
+                    odd.await();
+                }
+
+                System.out.println(1);
+                Thread.sleep(1000);
+                runOdd = false;
+                even.signalAll();
+            } catch (Exception e) {
+
+            } finally {
+                lock.unlock();
+            }
+        }
+    }
+
+    private void printEven() {
+        while (true) {
+            lock.lock();
+            try {
+                while (runOdd) {
+                    even.await();
+                }
+                System.out.println(2);
+                Thread.sleep(1000);
+                runOdd = true;
+                odd.signalAll();
+            } catch (Exception e) {
+
+            } finally {
+                lock.unlock();
+            }
+        }
+    }
+
+    public static void main(String... args) {
+        PrintNumberLock lock = new PrintNumberLock();
+        new Thread(() -> {
+            lock.printEven();
+        }).start();
+
+        new Thread(() -> {
+            lock.printOdd();
+        }).start();
+    }
+}
+```
+
+
+### Semaphore 的主要方法
+
+```
+class PrintNumberSemaphore {
+    private Semaphore semaphoreOdd = new Semaphore(1);
+    private Semaphore semaphoreEven = new Semaphore(0);
+
+    private void printOdd() {
+        while (true) {
+            try {
+                semaphoreOdd.acquire();
+                System.out.println(1);
+                Thread.sleep(1000);
+                semaphoreEven.release();
+            } catch (Exception e) {
+
+            }
+        }
+    }
+
+    private void printEven() {
+        while (true) {
+            try {
+                semaphoreEven.acquire();
+                System.out.println(2);
+                Thread.sleep(1000);
+                semaphoreOdd.release();
+            } catch (Exception e) {
+
+            }
+        }
+    }
+
+    public static void main(String... args) {
+        PrintNumberSemaphore lock = new PrintNumberSemaphore();
+        new Thread(() -> {
+            lock.printOdd();
+        }).start();
+
+        new Thread(() -> {
+            lock.printEven();
+        }).start();
+    }
+}
+```
+
