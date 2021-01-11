@@ -76,7 +76,7 @@ class Solution {
         int right = numbers.length - 1;
 
         while (left < right) {
-            int mid = (left + right) >>> 2;
+            int mid = (left + right) >>> 1;
             if (numbers[mid] < numbers[right]) {
                 right = mid;
             } else if (numbers[mid] > numbers[right]) {

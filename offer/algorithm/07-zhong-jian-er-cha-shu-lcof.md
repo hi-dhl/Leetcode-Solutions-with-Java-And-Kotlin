@@ -150,8 +150,8 @@ class Solution {
     }
 
     private final int getRootIndex(int[] inorder, int key) {
-        for (int i = 0; i < preorder.length; i++) {
-            if (preorder[i] == key) {
+        for (int i = 0; i < inorder.length; i++) {
+            if (inorder[i] == key) {
                 return i;
             }
         }

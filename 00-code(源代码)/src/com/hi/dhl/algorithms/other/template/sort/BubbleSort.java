@@ -7,6 +7,7 @@ package com.hi.dhl.algorithms.other.template.sort;
  *     desc  : 冒泡排序
  * </pre>
  */
+
 public class BubbleSort implements ISort {
 
     @Override
