@@ -219,3 +219,66 @@ public class Solution {
 
 <!-- tabs:end -->
 
+### 拓展题目
+
+在上面题目中增加一点难度，题目如下：
+
+输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有奇数位于数组的前半部分，所有偶数位于数组的后半部分，且相对位置不变
+
+**示例 1：**
+
+```
+输入：nums = [1, 6, 3, 2, 5, 4, 7, 8, 9]
+输出：[1, 3, 5, 7, 9, 6, 2, 4, 8] 
+```
+
+这道题目类似于插入排序，我们先看一下插入排序算法
+
+```
+void insertSort(int[] nums) {
+    for (int i = 1; i < nums.length; i++) {
+        int temp = nums[i];
+        int j = i - 1;
+        while (j >= 0 && nums[j] > temp) {
+            nums[j + 1] = nums[j];
+            j--;
+        }
+        nums[j + 1] = temp;
+    }
+}
+```
+
+这道题目重点在于「 奇数位于偶数前面，**且相对位置不变** 」，核心思路如下：
+
+* 遍历数组，记录第一次出现偶数的位置，记为 i
+* 接着从上一次偶数位置，继续遍历寻找奇数出现的位置，记录当前下标 j 和元素 temp
+* 移动数组 [i+1,j] 范围内的元素，统一向右移动 1 位
+* 将元素 temp 放到下标为 i 的位置上
+
+```
+public int[] exchange(int[] nums) {
+    for (int i = 0; i < nums.length; i++) {
+        if (nums[i] % 2 != 0) continue;
+
+        int temp = 0;
+        int evenIndex = -1;
+
+        for (int j = i + 1; j < nums.length; j++) {
+            if (nums[j] % 2 != 0) {
+                temp = nums[j];
+                evenIndex = j;
+                break;
+            }
+        }
+
+        for (int k = evenIndex; k > i; k--) {
+            nums[k] = nums[k - 1];
+        }
+
+        if (temp != 0)
+            nums[i] = temp;
+    }
+    return nums;
+}
+```
+

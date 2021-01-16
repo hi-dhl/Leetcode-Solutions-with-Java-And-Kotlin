@@ -50,12 +50,42 @@ public class Solution {
         return nums;
     }
 
+    /**
+     * 基数在前面，偶数在后面，且相对位置不变
+     *
+     * @return
+     */
+    public int[] exchange3(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] % 2 != 0) continue;
+
+            int temp = 0;
+            int evenIndex = -1;
+
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j] % 2 != 0) {
+                    temp = nums[j];
+                    evenIndex = j;
+                    break;
+                }
+            }
+
+            for (int k = evenIndex; k > i; k--) {
+                nums[k] = nums[k - 1];
+            }
+
+            if (temp != 0)
+                nums[i] = temp;
+        }
+        return nums;
+    }
+
     public static void main(String... agrs) {
         Solution sort = new Solution();
-        int[] nums = new int[]{1, 2, 5, 6};
-        sort.exchange(nums);
+        int[] nums = new int[]{1, 6, 3, 2, 5, 4, 7, 8, 9};
+        sort.exchange3(nums);
         for (int item : nums) {
-            System.out.println(item);
+            System.out.print(item + ", ");
         }
     }
 
