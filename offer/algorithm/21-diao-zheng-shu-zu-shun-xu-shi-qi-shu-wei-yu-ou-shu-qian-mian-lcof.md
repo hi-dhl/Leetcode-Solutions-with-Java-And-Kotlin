@@ -260,8 +260,8 @@ public int[] exchange(int[] nums) {
     for (int i = 0; i < nums.length; i++) {
         if (nums[i] % 2 != 0) continue;
 
-        int temp = 0;
-        int evenIndex = -1;
+        int temp = nums[i];
+        int evenIndex = i;
 
         for (int j = i + 1; j < nums.length; j++) {
             if (nums[j] % 2 != 0) {
@@ -275,8 +275,7 @@ public int[] exchange(int[] nums) {
             nums[k] = nums[k - 1];
         }
 
-        if (temp != 0)
-            nums[i] = temp;
+        nums[i] = temp; 
     }
     return nums;
 }

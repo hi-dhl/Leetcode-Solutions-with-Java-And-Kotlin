@@ -23,6 +23,7 @@ class Solution {
     fun isSame(a: TreeNode?, b: TreeNode?): Boolean {
         if (a == null && b == null) return true
         if (a == null || b == null || a.`val` != b.`val`) return false
+
         return return isSame(a.left, b.left) && isSame(a.right, b.right)
     }
 
