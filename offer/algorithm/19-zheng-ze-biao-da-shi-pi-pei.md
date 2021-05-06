@@ -162,7 +162,9 @@ class Solution {
     fun isMatch(s: String, p: String): Boolean {
         val row = s.length
         val colum = p.length
-        val dp = Array(row + 1) { BooleanArray(colum + 1) }
+        val dp = Array(row + 1) { BooleanArray(colum + 1) } 
+        
+        // 处理空字符串的情况
         dp[0][0] = true;
         for (i in 1..colum) {
             if (p[i - 1] == '*' && dp[0][i - 2]) {
@@ -174,16 +176,19 @@ class Solution {
             for (j in 1..colum) {
                 val ms = s[i - 1]
                 val mp = p[j - 1]
+                // s=abc p=a.c 或者 s=abc p=abc 当第 i 个字符相等，看前 i-1个字符是否相等
                 if (mp == ms || mp == '.') {
                     dp[i][j] = dp[i - 1][j - 1]
                 } else if (mp == '*') {
                     if (j < 2) continue
-
+                    // s=abc p=abc* 匹配到一个字符，需要去掉 p 中最后一个字符即 dp[i][j - 1]
+                    // s=abccc p= abc* 匹配到多个字符，需要去掉 s 中最后一个字符，即 dp[i - 1][j] 
                     val mpLast = p[j - 2]
                     if (ms == mpLast || mpLast == '.') {
                         dp[i][j] = dp[i - 1][j] || dp[i][j - 1]
                     }
 
+                    // s=abc p=abcd* 字符不相等 或者 s=abc p=abcc* 匹配到  0 个字符，需要去掉 p 中最后链两个字符串
                     dp[i][j] = dp[i][j] || dp[i][j - 2]
                 }
             }
@@ -205,6 +210,8 @@ class Solution {
         int row = s.length();
         int colum = p.length();
         boolean[][] dp = new boolean[row + 1][colum + 1];
+
+        // 处理空字符串的情况
         dp[0][0] = true;
         for (int j = 1; j <= colum; j++) {
             if (p.charAt(j - 1) == '*' && dp[0][j - 2]) {
@@ -217,11 +224,8 @@ class Solution {
                 char ms = s.charAt(i - 1);
                 char mp = p.charAt(j - 1);
 
-                /**
-                 *  两种情况 * 和 非*
-                 */
+                // s=abc p=a.c 或者 s=abc p=abc 当第 i 个字符相等，看前 i-1个字符是否相等
                 if (ms == mp || mp == '.') {
-                    // 非*
                     dp[i][j] = dp[i - 1][j - 1];
 
                 } else if (mp == '*') {
@@ -229,12 +233,14 @@ class Solution {
 
                     if (j < 2) continue;
 
+                    // s=abc p=abc* 匹配到一个字符，需要去掉 p 中最后一个字符即 dp[i][j - 1]
+                    // s=abccc p= abc* 匹配到多个字符，需要去掉 s 中最后一个字符，即 dp[i - 1][j] 
                     char mpLast = p.charAt(j - 2);
                     if (mpLast == ms || mpLast == '.') {
                         dp[i][j] = dp[i - 1][j] || dp[i][j - 1];
                     }
 
-                    // P[n−1] 是 0 个 c，P 最后两个字符废了
+                    // s=abc p=abcd* 字符不相等 或者 s=abc p=abcc* 匹配到  0 个字符，需要去掉 p 中最后链两个字符串
                     dp[i][j] = dp[i][j] || dp[i][j - 2];
 
                 }

@@ -1,8 +1,6 @@
 package com.hi.dhl.algorithms.leetcode._144.java;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * <pre>
@@ -83,4 +81,25 @@ class Solution {
         return list;
     }
 
+    // 方法二
+    public List<Integer> preorderTraversal3(TreeNode root) {
+        List<Integer> data = new LinkedList<>();
+        if (root == null) return data;
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        while (root != null || !stack.isEmpty()) {
+            if (root != null) {
+                stack.push(root);
+            }
+
+            if (!stack.isEmpty()) {
+                TreeNode node = stack.pop();
+                data.add(node.val);
+                if (node.right != null) {
+                    stack.push(node.right);
+                }
+                root = node.left;
+            }
+        }
+        return data;
+    }
 }
