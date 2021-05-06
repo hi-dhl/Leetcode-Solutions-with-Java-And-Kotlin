@@ -66,6 +66,34 @@ class Solution {
         return list;
     }
     
+    // 方法二
+    public List<Integer> postorderTraversal2(TreeNode root) {
+        List<Integer> data = new LinkedList<>();
+        if (root == null) return data;
+
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode pre = null;
+        while (root != null || !stack.isEmpty()) {
+            while (true) {
+                if (root != null) {
+                    stack.push(root);
+                    root = root.left;
+                } else {
+                    root = stack.peek();
+                    if (root.right != null && root.right != pre) {
+                        root = root.right;
+                    } else {
+                        break;
+                    }
+                }
+            }
+
+            pre = stack.pop();
+            data.add(pre.val);
+            root = null;
+        }
+        return data;
+    }
 }
 ```
 
