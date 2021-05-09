@@ -6,7 +6,7 @@
 剑指 offer 及大厂面试题解：<a href ="https://offer.hi-dhl.com">在线阅读</a>，LeetCode 系列题解：<a href ="https://leetcode.hi-dhl.com">在线阅读</a> 
 </p>
 
-<p align="center"> 做题进度：AC 133 题，每道题目都会用 Java 和 kotlin 去实现</p>
+<p align="center"> 做题进度：AC 216+ 题，每道题目都会用 Java 和 kotlin 去实现</p>
 
 <p align="center"> 每题都有解题思路、时间复杂度、空间复杂度、源代码</p>
 
@@ -18,7 +18,7 @@
 
 数据结构和算法是每个程序的都必须掌握的，也是面试的入门门槛之一，在大学期间经常参加一些比赛如蓝桥杯、ACM 等等，因此无论在面试还是工作都带来很多帮助。
 
-Google 这几年一直在强力推荐 Kotlin，自从用了 Kotlin 了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择 **Java、Kotlin**，目前已经 AC 了 70 题左右，题库会一点点去完善。
+Google 这几年一直在强力推荐 Kotlin，自从用了 Kotlin 了之后爱不释手，工作效率提高了很多，现在我打算重拾 LeetCode 之 Algorithm，语言选择 **Java、Kotlin**，题库会一点点去完善。
 
 LeetCode 我现在正式从国际版切换到国内版，因为国内版本现在越做越好了，题库也更加完善，除了基本的算法、数据库、Shell、多线程之外，还有程序员面试宝典、剑指 offer 系列题目。
 

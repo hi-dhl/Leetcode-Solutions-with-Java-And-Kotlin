@@ -8,7 +8,7 @@
 <img src="http://cdn.51git.cn/2020-10-04-16017893774760.jpg" width = 400px/>
 
 
-LeetCode 的题解进度，目前累计 AC 了 131 题，累计题解 58 题
+LeetCode 的题解进度，目前累计 AC 了 216+
 
 
 如果你同我一样喜欢算法、LeetCode，可以关注我 GitHub 上的 LeetCode 题解
