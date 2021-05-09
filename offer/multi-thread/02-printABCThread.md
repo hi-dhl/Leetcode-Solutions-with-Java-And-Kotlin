@@ -51,6 +51,7 @@ AQS 支持两种同步模式：独占式获取同步状态（同时只有一个�
 
 具体是那种模式需要看 AQS 的子类的实现方案，`Semaphore` 内部类 Sync 实现了   `tryAcquireShared(int arg)` 和 `tryReleaseShared(int arg)` 方法，使用的是共享式获取同步状态。
 
+
 #### Semaphore 的主要方法
 
 **构造方法：**
@@ -83,7 +84,9 @@ Semaphore 有两个构造方法，分别指定了是采用公平锁还是非公�
 
 对于这道题来说，基本知识了解到这里就足够了，我们来看一下代码如何实现， Java 和 Kotlin 实现大体上一致，这里主要演示 Java 的写法。
 
-## 代码实现
+<!-- tabs:start -->
+
+### **Semaphore 实现**
 
 ```
 
@@ -342,3 +345,4 @@ class PrintABCSync {
 }
 ```
 
+<!-- tabs:end -->
