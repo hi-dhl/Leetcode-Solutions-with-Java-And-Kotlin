@@ -4,6 +4,10 @@
     * [常用算法](/base/02-algorithm.md)
     * [常用模板](/base/03-template.md)-->
 
+* 开篇
+    
+    * [LeetCode 从 0 到 200 学到了什么](https://mp.weixin.qq.com/s/kUuenko_x7QSe-13PqgNpw)
+    
 * 链表
 
     * [链表：设计链表](/linked-list/01-design-linked-list.md)

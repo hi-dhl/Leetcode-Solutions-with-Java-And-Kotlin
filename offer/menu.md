@@ -2,6 +2,10 @@
 
 ### 目录
 
+* 开篇
+    
+    * [LeetCode 从 0 到 200 学到了什么](https://mp.weixin.qq.com/s/kUuenko_x7QSe-13PqgNpw)
+    
 * 多线程
      
     <!--* [阿里-线程交替打印数字](/multi-thread/01-printThread.md) 
