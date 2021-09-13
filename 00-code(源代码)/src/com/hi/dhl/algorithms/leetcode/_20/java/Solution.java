@@ -1,6 +1,7 @@
 package com.hi.dhl.algorithms.leetcode._20.java;
 
 import java.util.ArrayDeque;
+import java.util.Deque;
 
 /**
  * <pre>
@@ -63,8 +64,8 @@ import java.util.ArrayDeque;
 
 class Solution {
     public boolean isValid(String s) {
-        ArrayDeque<Character> stack = new ArrayDeque<Character>();
-        // 遍历字符串
+        Deque<Character> stack = new ArrayDeque<Character>();
+        // 开始遍历字符串
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             // 遇到左括号，则将其对应的右括号压入栈中
@@ -75,17 +76,13 @@ class Solution {
             } else if (c == '{') {
                 stack.push('}');
             } else {
-                // 当前栈为空，直接返回 false
-                if (stack.isEmpty()) {
-                    return false;
-                }
-                // 当前右括号，与栈顶元素不相等，不相等直接返回 false
-                char tmp = stack.poll();
-                if (c != tmp) {
+                // 遇到右括号，判断当前元素是否和栈顶元素相等，不相等提前返回，结束循环
+                if (stack.isEmpty() || stack.poll() != c) {
                     return false;
                 }
             }
         }
+        // 通过判断栈是否为空，来检查是否是有效的括号
         return stack.isEmpty();
     }
 }

@@ -13,23 +13,23 @@ import java.util.*
 class Solution {
     fun isValid(s: String): Boolean {
         val stack = ArrayDeque<Char>()
-        // 遍历字符串
+        // 开始遍历字符串
         for (c in s) {
             when (c) {
-                // 遇到左括号，则将其对应的右括号压入栈中
+                // 遇到左括号，将对应的右括号压入栈中
                 '(' -> stack.push(')')
                 '[' -> stack.push(']')
                 '{' -> stack.push('}')
                 else -> {
-                    // 当前右括号，与栈顶元素不相等，不相等直接返回 false
-                    val tmp = stack.poll()
-                    if (c != tmp) {
-                        return false;
+                    // 遇到右括号，判断当前元素是否和栈顶元素相等，不相等提前返回，结束循环
+                    if (stack.isEmpty() || stack.poll() != c) {
+                        return false
                     }
                 }
             }
         }
-        return stack.isEmpty();
+        // 通过判断栈是否为空，来检查是否是有效的括号
+        return stack.isEmpty()
     }
 }
 

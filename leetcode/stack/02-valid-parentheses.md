@@ -36,15 +36,24 @@ Example 5:
     Output: true
 ```
 
-### 题目解析
+### 算法流程
 
-1. 遍历字符串
-2. 遇到左括号，则将其对应的右括号压入栈中
-3. 如果遇到右括号：
-    * 当前栈为空，直接返回false;
-    * 当前右括号对应的左括号，与栈顶元素不相等，直接返回false
-4. 重复执行 步骤 2 和步骤 3
-5. 循环结束之后，判断栈是否为空，不为空返回false
+![](http://img.hi-dhl.com/16315437955394.gif)
+
+1. 如果遇到左括号，将对应的右括号压入栈中
+2. 如果遇到右括号
+    * 判断当前栈是否为空
+    * 如果不为空，判断当前元素是否和栈顶元素相等
+    * 如果不相等，发现了不符合的括号，提前返回 `false`，结束循环
+3. 重复执行「步骤 1」 和「步骤 2」
+4. 循环结束之后，通过判断栈是否为空，来检查是否是有效的括号
+
+**复杂度分析**
+
+假设字符串的长度为 `N` 则：
+
+* 时间复杂度：`O(N)`。正确有效的括号需要遍历了一次字符串，所需要的时间复杂度为 `O(N)`。
+* 空间复杂度：`O(N)`。如果输入字符串全是左括号，例如 `(((((((`，栈的大小即为输入字符串的长度，所需要的空间复杂度为 `O(N)`
 
 <!-- tabs:start -->
 
@@ -54,23 +63,23 @@ Example 5:
 class Solution {
     fun isValid(s: String): Boolean {
         val stack = ArrayDeque<Char>()
-        // 遍历字符串
+        // 开始遍历字符串
         for (c in s) {
             when (c) {
-                // 遇到左括号，则将其对应的右括号压入栈中
+                // 遇到左括号，将对应的右括号压入栈中
                 '(' -> stack.push(')')
                 '[' -> stack.push(']')
                 '{' -> stack.push('}')
                 else -> {
-                    // 当前右括号，与栈顶元素不相等，不相等直接返回 false
-                    val tmp = stack.poll()
-                    if (c != tmp) {
-                        return false;
+                    // 遇到右括号，判断当前元素是否和栈顶元素相等，不相等提前返回，结束循环
+                    if (stack.isEmpty() || stack.poll() != c) {
+                        return false
                     }
                 }
             }
         }
-        return stack.isEmpty();
+        // 通过判断栈是否为空，来检查是否是有效的括号
+        return stack.isEmpty()
     }
 }
 ```
@@ -80,8 +89,8 @@ class Solution {
 ```
 class Solution {
     public boolean isValid(String s) {
-        ArrayDeque<Character> stack = new ArrayDeque<Character>();
-        // 遍历字符串
+        Deque<Character> stack = new ArrayDeque<Character>();
+        // 开始遍历字符串
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             // 遇到左括号，则将其对应的右括号压入栈中
@@ -92,17 +101,13 @@ class Solution {
             } else if (c == '{') {
                 stack.push('}');
             } else {
-                // 当前栈为空，直接返回 false
-                if (stack.isEmpty()) {
-                    return false;
-                }
-                // 当前右括号，与栈顶元素不相等，不相等直接返回 false
-                char tmp = stack.poll();
-                if (c != tmp) {
+                // 遇到右括号，判断当前元素是否和栈顶元素相等，不相等提前返回，结束循环
+                if (stack.isEmpty() || stack.poll() != c) {
                     return false;
                 }
             }
         }
+        // 通过判断栈是否为空，来检查是否是有效的括号
         return stack.isEmpty();
     }
 }
