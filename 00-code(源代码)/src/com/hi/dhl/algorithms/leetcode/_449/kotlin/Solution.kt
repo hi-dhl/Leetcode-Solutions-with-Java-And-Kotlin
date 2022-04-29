@@ -24,7 +24,7 @@ class Solution {
         var p2 = reverse(l2)
         var head: ListNode? = null;
         var carry = 0;
-        while(p1 != null || p2 != null){
+        while(p1 != null || p2 != null || carry > 0){
             val a = p1?.`val` ?:0
             val b = p2?.`val` ?:0
             val sum = a +b + carry
@@ -34,12 +34,6 @@ class Solution {
             head = node
             p1 = p1?.next
             p2 = p2?.next
-        }
-
-        if(carry != 0){
-            val node = ListNode(carry)
-            node.next = head
-            head = node
         }
         return head
     }
