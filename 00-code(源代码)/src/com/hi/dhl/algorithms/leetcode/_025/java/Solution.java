@@ -12,10 +12,10 @@ import com.hi.dhl.algorithms.model.ListNode;
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         int len = getListLength(head);
-        ListNode dumpNode = new ListNode(0);
-        dumpNode.next = head;
-        ListNode p = dumpNode;
-        ListNode q = dumpNode.next;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode p = dummy;
+        ListNode q = dummy.next;
         int index = 0;
         while (q != null) {
             if (len - index < k) {
@@ -32,7 +32,7 @@ class Solution {
             p = q;
             q = q.next;
         }
-        return dumpNode.next;
+        return dummy.next;
     }
 
     private int getListLength(ListNode head) {

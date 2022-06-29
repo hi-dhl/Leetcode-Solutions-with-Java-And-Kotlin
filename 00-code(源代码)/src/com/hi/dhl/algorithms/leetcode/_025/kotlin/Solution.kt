@@ -16,14 +16,14 @@ class Solution {
             return head
         }
         val len = getListLength(head)
-        val dumpHead = ListNode(0)
-        dumpHead.next = head
-        var p = dumpHead
-        var q = dumpHead.next
+        val dummy = ListNode(0)
+        dummy.next = head
+        var p = dummy
+        var q = dummy.next
         var index = 0
         while (q != null) {
             if (len - index < k) {
-                return dumpHead.next
+                return dummy.next
             }
             index = index + k
             var m = k;
@@ -36,7 +36,7 @@ class Solution {
             p = q
             q = q.next
         }
-        return dumpHead.next
+        return dummy.next
     }
 
     private fun getListLength(head: ListNode?): Int {
